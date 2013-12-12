@@ -1,3 +1,0 @@
-INDEX VERSION 1.126+C:\eoeschool\sources\eoeGeekCamp-201312\iceskysl\.metadata\.plugins\org.eclipse.jdt.core
-4168296896.index
-2619848663.index
