@@ -5,11 +5,11 @@ public class Test06{
 	public static void main(String[] args)
     {
 		Scanner scanner=new Scanner(System.in);
-	    System.out.println("ÇëÊäÈë·ÖÊı");
+	    System.out.println("è¯·è¾“å…¥åˆ†æ•°");
 		int score=scanner.nextInt();
 		if(score>=60){
-	    System.out.println("¼°¸ñ");
+	    System.out.println("åŠæ ¼");
 	}else{
-            System.out.println("²»¼°¸ñ");           }
+            System.out.println("ä¸åŠæ ¼");           }
     }
                    }

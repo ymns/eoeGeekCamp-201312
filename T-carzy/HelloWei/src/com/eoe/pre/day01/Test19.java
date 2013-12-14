@@ -5,7 +5,7 @@ public class Test19{
 		int i=1;
 		while(true)
 	{
-	    System.out.println("·£×ö¸©ÎÔ³Å"+i+"´Î");
+	    System.out.println("ç½šåšä¿¯å§æ’‘"+i+"æ¬¡");
 		i++;
 	}
     }

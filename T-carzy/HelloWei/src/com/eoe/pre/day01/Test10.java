@@ -13,11 +13,11 @@ public class Test10{
 	    System.out.println("project=");
 		int project=scanner.nextInt();
 		if(java>=90 && android>=90 && sql>=90 && project>=90)
-	   {System.out.println("¹§Ï²£¬Äú±»±¾¹«Ë¾Â¼ÓÃ£¬ÔÂĞ½8K");
+	   {System.out.println("æ­å–œï¼Œæ‚¨è¢«æœ¬å…¬å¸å½•ç”¨ï¼Œæœˆè–ª8K");
 	  }else if(java>=90 && android>=90 && sql>=90 || project>=90 )
-	   {System.out.println("¹§Ï²£¬Äú±»±¾¹«Ë¾Â¼ÓÃ£¬ÔÂĞ½5K");
+	   {System.out.println("æ­å–œï¼Œæ‚¨è¢«æœ¬å…¬å¸å½•ç”¨ï¼Œæœˆè–ª5K");
 	  }else if(java>=90 || android>=90 || sql>=90 || project>=90)
-	   {System.out.println("¹§Ï²£¬Äú±¾±¾¹«Ë¾Â¼ÓÃ£¬ÔÂĞ½3K");
-	  }else{System.out.println("µÈÍ¨Öª°É");}
+	   {System.out.println("æ­å–œï¼Œæ‚¨æœ¬æœ¬å…¬å¸å½•ç”¨ï¼Œæœˆè–ª3K");
+	  }else{System.out.println("ç­‰é€šçŸ¥å§");}
     }
      		   }

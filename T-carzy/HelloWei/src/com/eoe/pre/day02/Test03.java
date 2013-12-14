@@ -14,7 +14,7 @@ public class Test03 {
 		System.out.println(Arrays.toString(scores));
 		double avg=total/scores.length;
 		System.out.println();
-		System.out.println("Æ½¾ù·ÖµÈÓÚ"+avg);
+		System.out.println("å¹³å‡åˆ†"+avg);
 //		for (int i = 0; i < scores.length; i++) {
 //			if(scores[i]>=avg){
 //				System.out.println(scores[i]);

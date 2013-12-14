@@ -2,12 +2,12 @@ package com.eoe.pre.day02;
 
 public class Test04 {
 	public static void main(String[]args){
-		String a="ÕÅ·É";
-		String b=new String("ÕÅ·É");
+		String a="å¼ é£";
+		String b=new String("å¼ é£");
 		if(a.equals(b)){
-			System.out.println("Á½¸ö×Ö·û´®ÏàÍ¬");
+			System.out.println("ä¸¤ä¸ªå­—ç¬¦ä¸²ç›¸åŒ");
 		}else{
-			System.out.println("Á½¸ö×Ö·û´®²»ÏàÍ¬");
+			System.out.println("ä¸¤ä¸ªå­—ç¬¦ä¸²ä¸åŒ");
 		}
 	}
 

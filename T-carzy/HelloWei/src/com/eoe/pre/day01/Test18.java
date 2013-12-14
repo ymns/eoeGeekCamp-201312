@@ -5,15 +5,15 @@ public class Test18{
 		for(int i=1;;i++){
 		if(i<=20)
 	{
-	    System.out.println("·£×ö¸©ÎÔ³Å"+i+"´Î");
+	    System.out.println("ç½šåšä¿¯å§æ’‘"+i+"æ¬¡");
 	    continue;
 	}
 		 if(i<=100)
 	  { 
-	    System.out.println("ºôßê...ºôßê"+i+"´Î");
+	    System.out.println("å‘¼å“§...å‘¼å“§"+i+"æ¬¡");
 	    continue;
 	  }
-	    System.out.println("ÌåÁ¦²»Ö§£¬×îÖÕOver");
+	    System.out.println("ä½“åŠ›ä¸æ”¯ï¼Œæœ€ç»ˆOver");
 				  }
     }
 		   }

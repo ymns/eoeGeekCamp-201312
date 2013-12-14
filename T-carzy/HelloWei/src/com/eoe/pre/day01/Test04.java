@@ -2,11 +2,11 @@ package com.eoe.pre.day01;
 public class Test04{
 	public static void main(String[] args)
     {
-		String name="Íõ¶àÓ¢";
-		String xiaoming="Íõ¶à¾§";
-		char sex='¹«';
+		String name="ç‹å¤šè‹±";
+		String xiaoming="å˜Ÿå˜Ÿ";
+		char sex='å…¬';
 		int age=38;
 		double height=1.11;
-    	    System.out.println("ÎÒ½Ğ"+name+"ÎÒ½ñÄê"+age+"Ëê£¬ÎÒµÄĞ¡ÃûÊÇ"+xiaoming+"ÎÒÊÇ"+sex+"µÄ£¬ÎÒÉí¸ß"+height+"Ã×");
+    	    System.out.println("æˆ‘å«"+name+"æˆ‘ä»Šå¹´"+age+"å²ï¼Œæˆ‘çš„å°åæ˜¯"+xiaoming+"æˆ‘æ˜¯"+sex+"çš„ï¼Œæˆ‘èº«é«˜"+height+"ç±³");
     }                   
                    }

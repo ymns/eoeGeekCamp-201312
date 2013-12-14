@@ -5,9 +5,9 @@ public class Test02{
 	public static void main(String[] args)
     {
 	    System.out.println(Arrays.toString(args));
-		String[] grades={"²»¼°¸ñ","²»¼°¸ñ","¼°¸ñ","Á¼","ÓÅ"};
+		String[] grades={"ä¸åŠæ ¼","ä¸åŠæ ¼","åŠæ ¼","è‰¯","ä¼˜"};
 	    	Scanner scanner=new Scanner(System.in);
-	    System.out.println("ÊäÈëÎå·ÖÖÆµÄ·ÖÊı");
+	    System.out.println("è¾“å…¥äº”åˆ†åˆ¶çš„åˆ†æ•°");
 		int score=scanner.nextInt();
 	    System.out.println(grades[score]);
 

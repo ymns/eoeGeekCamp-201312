@@ -4,9 +4,9 @@ public class Test11{
 	public static void main(String[] args)
     {
 		Scanner scanner=new Scanner(System.in);
-	    System.out.println("ÊäÈë¿¼ÊÔ·ÖÊý£º");
+	    System.out.println("è¾“å…¥è€ƒè¯•åˆ†æ•°ï¼š");
 		int score=scanner.nextInt();
 		boolean pass=score>=60;
-	    System.out.println("³É¼¨¼°¸ñ:"+(score>=60));
+	    System.out.println("æˆç»©åŠæ ¼:"+(score>=60));
     }
 		   }

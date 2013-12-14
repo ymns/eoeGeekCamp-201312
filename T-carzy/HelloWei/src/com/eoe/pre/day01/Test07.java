@@ -12,6 +12,6 @@ public class Test07{
 		int age=scanner.nextInt();
 	    System.out.println("height:");
 		double height=scanner.nextDouble();
-	    System.out.println("´ó¼ÒºÃ£¬ÎÒ½Ğ"+name+"ÎÒ½ñÄê"+age+"Ëê£¬ÎÒÊÇ¸ö"+sex+"µÄ£¬ÎÒÉí¸ß"+height+"Ã×");
+	    System.out.println("å¤§å®¶å¥½ï¼Œæˆ‘å«"+name+"æˆ‘ä»Šå¹´"+age+"å²ï¼Œæˆ‘æ˜¯ä¸ª"+sex+"çš„ï¼Œæˆ‘èº«é«˜"+height+"ç±³");
     }
 		   }

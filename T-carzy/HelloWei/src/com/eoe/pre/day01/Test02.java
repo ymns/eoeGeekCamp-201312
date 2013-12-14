@@ -1,14 +1,14 @@
 package com.eoe.pre.day01;
-public class Test02{
-	public static void main(String[] args)
-    {
-        	System.out.println("5+3="+(5+3));
-		System.out.println("5-3="+(5-3));
-		System.out.println("5*3="+5*3);
-		System.out.println("5/3="+5/3);
-		System.out.println("-9µÄ¾ø¶ÔÖµÊÇ£º"+Math.abs(-9));
-		System.out.println("9µÄÆ½·½¸ùÊÇ£º"+Math.sqrt(9));
-		System.out.println("(99+99.9)/2µÄËÄÉáÎåÈëÊÇ£º"+Math.round((99+99.9)/2));
-		System.out.println("99µÄ9´Î·½ÊÇ£º"+Math.pow(99,9));   
-    }
-                   }
+
+public class Test02 {
+	public static void main(String[] args) {
+		System.out.println("5+3=" + (5 + 3));
+		System.out.println("5-3=" + (5 - 3));
+		System.out.println("5*3=" + 5 * 3);
+		System.out.println("5/3=" + 5 / 3);
+		System.out.println("-9çš„ç»å¯¹å€¼æ˜¯ï¼š"+Math.abs(-9));
+		System.out.println("9çš„å¹³æ–¹æ ¹æ˜¯ï¼š"+Math.sqrt(9));
+		System.out.println("(99+99.9)/2çš„å››èˆäº”å…¥æ˜¯ï¼š"+Math.round((99+99.9)/2));
+		System.out.println("99çš„9æ¬¡æ–¹æ˜¯ï¼š"+Math.pow(99,9));
+	}
+}
