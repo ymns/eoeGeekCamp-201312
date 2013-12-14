@@ -2,6 +2,7 @@
 /**/*.apk
 /**/*.ap_
 /**/*.jar
+Childboys/Homework/libs/android-support-v4.jar
 
 # files for the dex VM
 *.dex
@@ -20,6 +21,8 @@ local.properties
 .classpath
 .project
 .metadata 
+project.properties
+
 /**/.settings/
 /**/.metadata/
 /**/.DS_Store
