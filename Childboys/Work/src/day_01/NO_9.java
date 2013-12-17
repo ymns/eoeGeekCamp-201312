@@ -3,11 +3,10 @@ package day_01;
 public class NO_9 {
 
 	/**
-	 * ±àĞ´³ÌĞò£¬ÎÄ¼şÃû£ºExercise07.java£¬
-	 * ¼ÆËãËÄ¸ö×Ö½Ú£¬¼´32Î»µÄ¶ş½øÖÆÊı×î´óÖµ¡£
+	 * ç¼–å†™ç¨‹åºï¼Œæ–‡ä»¶åï¼šExercise07.javaï¼Œè®¡ç®—å››ä¸ªå­—èŠ‚ï¼Œå³32ä½çš„äºŒè¿›åˆ¶æ•°æœ€å¤§å€¼ã€‚
 	 */
 	public static void main(String[] args) {
-		System.out.println("32Î»µÄ¶ş½øÖÆÊıµÄ×î´óÖµ(10)£º"+(Math.pow(2,32)-1));
+		System.out.println("2ä½çš„äºŒè¿›åˆ¶æ•°æœ€å¤§å€¼(10)="+(Math.pow(2,32)-1));
 
 	}
 

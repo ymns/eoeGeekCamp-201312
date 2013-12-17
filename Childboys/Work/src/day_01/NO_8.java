@@ -3,7 +3,7 @@ package day_01;
 public class NO_8 {
 
 	/**
-	 * ±à³ÌÕÒÈı¸öÊı3£¬4£¬5µÄÖĞ¼äÊı¡£ÒªÇó²»ÄÜÊ¹ÓÃif¡¢switchµÈÅĞ¶ÏÓï¾ä¡£
+	 * ç¼–ç¨‹æ‰¾ä¸‰ä¸ªæ•°3ï¼Œ4ï¼Œ5çš„ä¸­é—´æ•°ã€‚è¦æ±‚ä¸èƒ½ä½¿ç”¨ifã€switchç­‰åˆ¤æ–­è¯­å¥ã€‚
 	 */
 	public static void main(String[] args) {
 		int a=3;
@@ -12,7 +12,7 @@ public class NO_8 {
         int min=a<b?a:b;
         int man=b<c?b:c;
         int m=min>man?min:man;
-        System.out.println("ÖĞ¼äÖµ£º"+m);
+        System.out.println("ä¸­é—´æ•°æ˜¯"+m);
 	}
 
 }

@@ -3,13 +3,14 @@ package day_01;
 public class NO_5 {
 
 	/**
-	 * ±àĞ´Exercise04Àà£¬¼ÆËãÒÔÏÂ¹«Ê½£¬ÒªÇó±£ÁôĞ¡Êıµãºó2Î»£¬
-	 * ¶ÔĞ¡ÊıµãºóµÚÈıÎ»ËÄÉáÎåÈë¡£
+	 * ç¼–å†™Exercise04ç±»ï¼Œè®¡ç®—ä»¥ä¸‹å…¬å¼ï¼Œè¦æ±‚ä¿ç•™å°æ•°ç‚¹å2ä½ï¼Œå¯¹å°æ•°ç‚¹åç¬¬ä¸‰ä½å››èˆäº”å…¥ã€‚
 	 * (sqrt(20)+sqrt(10)/(sqrt(20)-sqrt(10))
 	 */
 	public static void main(String[] args) {
-		double a=(Math.sqrt(20)+Math.sqrt(10))/(Math.sqrt(20)-Math.sqrt(10));
-		System.out.println("(sqrt(20)+sqrt(10)/(sqrt(20)-sqrt(10))="+(double)Math.round(a*100)/100.0);
+		double a = (Math.sqrt(20) + Math.sqrt(10))
+				/ (Math.sqrt(20) - Math.sqrt(10));
+		System.out.println("(sqrt(20)+sqrt(10)/(sqrt(20)-sqrt(10))="
+				+ (double) Math.round(a * 100) / 100.0);
 	}
 
 }

@@ -3,11 +3,10 @@ package day_01;
 public class NO_3 {
 
 	/**
-	 * ±àĞ´Exercise02Àà£¬(576)8×ª»»ÎªÊ®½øÖÆÊı
+	 * ç¼–å†™Exercise02ç±»ï¼Œ(576)8è½¬æ¢ä¸ºåè¿›åˆ¶æ•°
 	 */
 	public static void main(String[] args) {
 		System.out.println("(576)8="+(5*Math.pow(8, 2)+7*Math.pow(8, 1)+6*Math.pow(8, 0)));
- //³öÏÖ´íÎó£ººöÂÔÀ¨ºÅ
 	}
 
 }

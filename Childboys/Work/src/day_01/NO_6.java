@@ -3,17 +3,17 @@ package day_01;
 public class NO_6 {
 
 	/**
-	 * ±àĞ´Exercise05Àà£¬¼ÆËã46ÌìÊÇ¼¸ÖÜÁã¼¸Ìì¡£
+	 * ç¼–å†™Exercise05ç±»ï¼Œè®¡ç®—46å¤©æ˜¯å‡ å‘¨é›¶å‡ å¤©ã€‚
 	 */
 	public static void main(String[] args) {
-		int a;//ÖÜ
-		int b;//ÈÕ
+		int a;//ï¿½ï¿½
+		int b;//ï¿½ï¿½
 		float c;
 		int n=46;
 		c=n/7;
 		a=(int)c;
 		b=n-a*7;
-		System.out.println("46ÌìÓĞ"+a+"ÖÜ"+b+"ÈÕ");
+		System.out.println("46ï¿½ï¿½ï¿½ï¿½"+a+"ï¿½ï¿½"+b+"ï¿½ï¿½");
 
 	}
 
