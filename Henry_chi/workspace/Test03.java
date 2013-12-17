@@ -1,24 +1,15 @@
-package com.eoe.day01;
+package com.eoe.java.school;
 
 public class Test03 {
+
 	/**
-	 * Test03:ÑİÊ¾³£ÓÃµÄÊıÑ§ÔËËã£¬°üÀ¨£º
-	 * ¼Ó¡¢¼õ¡¢³Ë¡¢³ı
-	 * mµÄn´ÎÃİ
-	 * Æ½·½¸ù
-	 * ¾ø¶ÔÖµ
-	 * ËÄÉáÎåÈë
-	 * È¡Õû
+	 * å˜é‡çš„ä½œç”¨åŸŸç¤ºä¾‹:åŒä¸€ä½œç”¨åŸŸå†…å˜é‡ä¸èƒ½é‡å¤å®šä¹‰ã€‚
+	 * 
 	 */
-	public static void main(String[] args){
-		System.out.println("53+50="+(53+50));
-		System.out.println("53-50="+(53-50));
-		System.out.println("53*50="+(53*50));
-		System.out.println("53/50="+(53/50));
-		System.out.println("5µÄ8´Î·½="+Math.pow(5, 8));
-		System.out.println("4µÄÆ½·½¸ù="+Math.sqrt(4));
-		System.out.println("|-15|="+Math.abs(-15));
-		System.out.println("13/5="+Math.round(13.0/5));
-		System.out.println("7/3="+Math.floor(7/3));
+	public static void main(String[] args) {
+		String name="å¼ ä¸‰";
+		//è€å¸ˆå°±è¿™ä¹ˆæ‰“çš„ï¼Œæˆ‘ä»¬é‡æ‰“è€å¸ˆçš„ä¾‹é¢˜äº†
+
 	}
+
 }

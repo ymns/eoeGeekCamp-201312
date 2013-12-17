@@ -1,18 +1,18 @@
-package com.eoe.day01;
+package com.eoe.java.school;
 
 public class Test04 {
-	
-	public static void main(String[] args){
-		  System.out.print("(11111111)2=");
-	      System.out.println(Math.pow(2, 7)+
-	    		             Math.pow(2, 6)+
-	    		             Math.pow(2, 5)+
-	    		             Math.pow(2, 4)+
-	    		             Math.pow(2, 3)+
-	    		             Math.pow(2, 2)+
-	    		             Math.pow(2, 1)+
-	    		             Math.pow(2, 0));
-	      System.out.println(Math.pow(2, 8)-1);
+
+	/**
+	 * 变量的作用域示例(2)
+	 */
+	public static void main(String[] args) {
+		{//语句块一
+			String name="王多英";
+			System.out.println(name);
+		}//语句块一结束
+		    String name="王多英";
+		    System.out.println(name);
+
 	}
-      
+
 }

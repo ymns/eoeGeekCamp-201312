@@ -1,11 +1,17 @@
-package com.eoe.day01;
+package com.eoe.java.school;
 
 public class Test05 {
+
 	/**
-	 * ½«Ê®Áù½øÖÆÊı15A×ª»»Îª10½øÖÆÊı¡£
+	 * å˜é‡çš„ä½œç”¨åŸŸç¤ºä¾‹(3)
 	 */
-	public static void main(String[] args){
-		System.out.print("(15A)16=");
-		System.out.println(Math.pow(16, 2)+5*Math.pow(16, 1)+10);
+	public static void main(String[] args) {
+		String name="ç‹å¤šè‹±";
+		System.out.println(name);
+		{
+			System.out.println(name);
+		}
+
 	}
+
 }
