@@ -20,6 +20,5 @@ public class Test04 {
 						   Math.pow(2, 0));
 		//ºÚ±„º∆À„∑®
 		System.out.println(Math.pow(2, 8)-1);
-		
 	}
 }

@@ -11,7 +11,6 @@ public class Test03 {
 		double sqrt10=Math.sqrt(10);
 		double sqrt20=Math.sqrt(20);
 		double result=(sqrt20+sqrt10)/(sqrt20-sqrt10);
-		result = Math.round(result*100)/result;
 		System.out.println("(sqrt(20)+sqrt(10))/(sqrt(20)-sqrt(10))="+result);
 		
 	}
