@@ -2,7 +2,7 @@
 
 public class Text {
 
-	/**substring:´Ó×Ö·û´®ÖÐÈ¡³öÖ¸¶¨·¶Î§µÄ×Ó´®
+	/**substring:ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½È¡ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½Î§ï¿½ï¿½ï¿½Ó´ï¿½
 	 * substring(start);
 	 * substring(start,end);
 	 * 12345
