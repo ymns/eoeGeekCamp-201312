@@ -2,7 +2,7 @@
 
 public class Text {
 
-	/**substring:���ַ���ȡ��ָ����Χ���Ӵ�
+	/*
 	 * substring(start);
 	 * substring(start,end);
 	 * 12345
