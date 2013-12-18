@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persons>
+	<person id="23">
+		<name> 张飞 </name>
+		<age>25</age>
+	</person>
+
+	<person id="22">
+		<name>王菲 </name>
+		<age>20</age>
+	</person>
+
+	<person id="20">
+		<name> 刘亦菲 </name>
+		<age>22</age>
+	</person>
+</persons>
