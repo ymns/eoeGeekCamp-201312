@@ -3,21 +3,21 @@ package com.eoe.basic.day02.Exercise;
 public class Exercise05 {
 	
 	public static void main(String[] args) {
-		String name="ÕÅ·É";
-		char sex= 'ÄĞ';
+		String name="å¼ é£";
+		char sex= 'ç”·';
 		int age=25;
 		double height=1.8;
 		boolean isMerry=false;
-		System.out.println("àË£¡£¬´ó¼ÒºÃ£¬ÎÒ½Ğ"+name+
-				" ,  ÎÒÊÇÒ»¸ö"+sex+"Ê¿£¬½ñÄê"+age+
-				"Ëê£¬ Éí¸ß"+height+",\tÒÑ»é "+isMerry);
-		name="ÎÄ·å";
-		sex='Å®';
+		System.out.println("å—¨ï¼ï¼Œå¤§å®¶å¥½ï¼Œæˆ‘å«"+name+
+				" ,  æˆ‘æ˜¯ä¸€ä¸ª"+sex+"å£«ï¼Œä»Šå¹´"+age+
+				"å²ï¼Œ èº«é«˜"+height+",\tå·²å©š "+isMerry);
+		name="æ–‡å³°";
+		sex='å¥³';
 		age=28;
 		height=27;
 		isMerry=true;
-		System.out.println("àË£¡£¬´ó¼ÒºÃ£¬ÎÒ½Ğ"+name+",  ÎÒÊÇÒ»¸ö"+sex+ 
-				"Ê¿,   ½ñÄê"+age+"Ëê,  Éí¸ß"+height+",\tÒÑ»é"+isMerry
+		System.out.println("å—¨ï¼ï¼Œå¤§å®¶å¥½ï¼Œæˆ‘å«"+name+",  æˆ‘æ˜¯ä¸€ä¸ª"+sex+ 
+				"å£«,   ä»Šå¹´"+age+"å²,  èº«é«˜"+height+",\tå·²å©š"+isMerry
 				);
 		 
 			

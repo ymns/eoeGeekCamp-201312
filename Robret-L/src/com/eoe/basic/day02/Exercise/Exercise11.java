@@ -3,11 +3,11 @@ package com.eoe.basic.day02.Exercise;
 public class Exercise11 {
 	public static void main(String[] args) {
 		//String path="d:/a/b/c";
-		//\n´ú±í»Ø³µ¡¢»»ĞĞ£»
-		//\t´ú±íÏòÓÒÍËÊ®¸ö¿Õ¸ñ£»
-		//\ ÊÇ×ªÒå·û£»
-		System.out.println("ÎÒ½ĞÍõĞ¡");
-		System.out.println("System.out.println(\"ÎÒ½ĞÍõĞ¡\");");
+		//\nä»£è¡¨å›è½¦ã€æ¢è¡Œï¼›
+		//\tä»£è¡¨å‘å³é€€åä¸ªç©ºæ ¼ï¼›
+		//\ æ˜¯è½¬ä¹‰ç¬¦ï¼›
+		System.out.println("æˆ‘å«ç‹å°");
+		System.out.println("System.out.println(\"æˆ‘å«ç‹å°\");");
 	
 	}
 

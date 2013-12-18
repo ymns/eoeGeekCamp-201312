@@ -2,9 +2,9 @@ package com.eoe.basic.day02.Exercise;
 
 public class Exercise24 {
 public static void main(String[] args) {
-	System.out.println("\t°³ÊÇµÚ11¸öÎ»ÖÃ¿ªÊ¼ÏÔÊ¾µÄßº£¡");
-	System.out.println("ÏÂÒ»¸öÊä³öºÍÎÒ²»ÔÙÍ¬Ò»ĞĞ\n");
-	System.out.println("\"Ë«ÒıºÅºÍ°³Ò»ÆğÊä³öÀ²!\"");
-	System.out.println("Êä³öÒ»¸öÂ·¾¶£º d:\\java\\basic\\system");
+	System.out.println("\tä¿ºæ˜¯ç¬¬11ä¸ªä½ç½®å¼€å§‹æ˜¾ç¤ºçš„å†ï¼");
+	System.out.println("ä¸‹ä¸€ä¸ªè¾“å‡ºå’Œæˆ‘ä¸å†åŒä¸€è¡Œ\n");
+	System.out.println("\"åŒå¼•å·å’Œä¿ºä¸€èµ·è¾“å‡ºå•¦!\"");
+	System.out.println("è¾“å‡ºä¸€ä¸ªè·¯å¾„ï¼š d:\\java\\basic\\system");
 }
 }

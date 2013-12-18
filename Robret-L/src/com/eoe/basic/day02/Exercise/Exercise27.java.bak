@@ -2,7 +2,7 @@ package com.eoe.basic.day02.Exercise;
 
 public class Exercise27 {
 	/**
-	 * ç¤ºä¾‹ï¼šè‡ªå¢ã€è‡ªå‡
+	 * Ê¾Àı£º×ÔÔö¡¢×Ô¼õ
 	 */
 	public static void main(String[] args) {
 		int i=100;

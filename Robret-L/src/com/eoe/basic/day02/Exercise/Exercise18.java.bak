@@ -2,11 +2,11 @@ package com.eoe.basic.day02.Exercise;
 
 public class Exercise18 {
 	/**
-	 * ç¤ºä¾‹ï¼šintç±»å‹è½¬åŒ–æˆbyteç±»å‹
+	 * Ê¾Àı£ºintÀàĞÍ×ª»¯³ÉbyteÀàĞÍ
 	 */
 public static void main(String[] args) {
 	byte b=5;
-	b=(byte) (b+5);//å¼ºåˆ¶ç±»å‹è½¬æ¢ï¼›
+	b=(byte) (b+5);//Ç¿ÖÆÀàĞÍ×ª»»£»
 	System.out.println(b);
 }
 }

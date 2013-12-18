@@ -2,11 +2,11 @@ package com.eoe.basic.day02.Exercise;
 
 public class Exercise06 {
 	/**
-	 * å˜é‡ä½œç”¨åŸŸçš„ç¤ºä¾‹ï¼šåŒä¸€ä½œç”¨åŸŸå†…å˜é‡ä¸èƒ½é‡å¤å®šä¹‰ã€‚
+	 * ±äÁ¿×÷ÓÃÓòµÄÊ¾Àı£ºÍ¬Ò»×÷ÓÃÓòÄÚ±äÁ¿²»ÄÜÖØ¸´¶¨Òå¡£
 	 */
 	public static void main(String[] args) {
-		String name ="å¼ é£";
-		//string name ="å¼ é£";
+		String name ="ÕÅ·É";
+		//string name ="ÕÅ·É";
 		System.out.println(name);
 	}
 

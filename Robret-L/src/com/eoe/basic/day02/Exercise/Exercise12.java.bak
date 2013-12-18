@@ -2,10 +2,10 @@ package com.eoe.basic.day02.Exercise;
 
 public class Exercise12 {
 public static void main(String[] args) {
-	boolean pass=true;//è¡¨ç¤ºè€ƒè¯•é€šè¿‡ï¼›
-	System.out.println("è€ƒè¯•åˆæ ¼ï¼š"+pass);
+	boolean pass=true;//±íÊ¾¿¼ÊÔÍ¨¹ı£»
+	System.out.println("¿¼ÊÔºÏ¸ñ£º"+pass);
 	int score=59;
     pass=score>=60;
-    System.out.println("è€ƒè¯•åˆæ ¼ï¼š"+pass);
+    System.out.println("¿¼ÊÔºÏ¸ñ£º"+pass);
 }
 }

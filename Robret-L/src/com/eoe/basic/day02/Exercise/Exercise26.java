@@ -4,25 +4,25 @@ import java.util.Scanner;
 
 public class Exercise26 {
 	/**
-	 * Í¨¹ı¿ØÖÆÌ¨ÊäÈëÒ»¸öÈËµÄĞÕÃû¡¢ĞÔ±ğ¡¢ÄêÁä¡¢Éí¸ß¡¢ºÍ¸öĞÔ
-	 * È»ºóÈÃ¸ÃÈË¸ú´ó¼Ò×ÔÎÒ½éÉÜ
+	 * é€šè¿‡æ§åˆ¶å°è¾“å…¥ä¸€ä¸ªäººçš„å§“åã€æ€§åˆ«ã€å¹´é¾„ã€èº«é«˜ã€å’Œä¸ªæ€§
+	 * ç„¶åè®©è¯¥äººè·Ÿå¤§å®¶è‡ªæˆ‘ä»‹ç»
 	 */
 	public static void main(String[] args) {
 	Scanner scanner=new Scanner(System.in);
-	System.out.println("ĞÕÃû£º");
+	System.out.println("å§“åï¼š");
 	 String name=scanner.next();
-	 System.out.println("ĞÔ±ğ£º");
+	 System.out.println("æ€§åˆ«ï¼š");
 	 char sex=scanner.next().charAt(0);
-	 System.out.println("ÄêÁä£º");
+	 System.out.println("å¹´é¾„ï¼š");
 	 int age=scanner.nextInt();
-	 System.out.println("Éí¸ß£º");
+	 System.out.println("èº«é«˜ï¼š");
 	 double height=scanner.nextDouble();
-	 System.out.println("ĞÔ¸ñ£º");
+	 System.out.println("æ€§æ ¼ï¼š");
 	 String type=scanner.next();
-	 System.out.println("àË£¡£¬´ó¼ÒºÃ£¬ÎÒ½Ğ"+name);
-	 System.out.println("ÎÒÊÇÒ»¸ö"+type+sex+"Ê¿");
-	 System.out.println("½ñÄê"+age+"Ëê");
-	 System.out.println("Éí¸ß"+height);
+	 System.out.println("å—¨ï¼ï¼Œå¤§å®¶å¥½ï¼Œæˆ‘å«"+name);
+	 System.out.println("æˆ‘æ˜¯ä¸€ä¸ª"+type+sex+"å£«");
+	 System.out.println("ä»Šå¹´"+age+"å²");
+	 System.out.println("èº«é«˜"+height);
 	 	
 	}
 }

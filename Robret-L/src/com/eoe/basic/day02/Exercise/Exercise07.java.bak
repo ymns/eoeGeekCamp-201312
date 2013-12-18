@@ -2,16 +2,16 @@ package com.eoe.basic.day02.Exercise;
 
 public class Exercise07 {
 	/**
-	 * å˜é‡ä½œç”¨åŸŸçš„ç¤ºä¾‹ã€‚
+	 * ±äÁ¿×÷ÓÃÓòµÄÊ¾Àı¡£
 	 * 
 	 */
 	public static void main(String[] args) {
-		{//è¯­å¥å—(1)
-		String name ="å¼ é£";
+		{//Óï¾ä¿é(1)
+		String name ="ÕÅ·É";
 		System.out.println(name);
-		}//è¯­å¥å—(1)ç»“æŸ
+		}//Óï¾ä¿é(1)½áÊø
 		{
-			String name ="å¼ é£";
+			String name ="ÕÅ·É";
 			System.out.println(name);
 		}
 	}

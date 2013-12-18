@@ -2,7 +2,7 @@ package com.eoe.basic.day02.Exercise;
 import java.util.Scanner;
 
 public class Exercise01 {
-	//åªèƒ½æ­£æ•°å®ç”¨ï¼›
+	//Ö»ÄÜÕıÊıÊµÓÃ£»
  public static void main(String[] args) {
 		@SuppressWarnings("resource")
 		Scanner scanner=new Scanner(System.in);

@@ -1,23 +1,21 @@
 package com.eoe.basic.day02.Exercise;
+
 import java.util.Scanner;
 
-public class Exercise01 {
-	//åªèƒ½æ­£æ•°å®ç”¨ï¼›
- public static void main(String[] args) {
-		@SuppressWarnings("resource")
+public class Exercise29 {
+	/**
+	 * ²»½èÖúµÚÈı¸ö±äÁ¿£¬Ö±½Ó½»»»Á½¸ö±äÁ¿µÄÖµ£¬´òÓ¡³ö½»»»Ç°¡¢
+	 * ½»»»ºóÁ½¸ö±äÁ¿µÄÖµ¡£
+	 */
+	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
 		System.out.print("a=");
 		int a=scanner.nextInt();
 		System.out.print("b=");
 		int b=scanner.nextInt();
+		a=a+b;
+		b=a-b;
 		a=a-b;
-		b=a+b;
-		a=b-a;
-		System.out.println("a="+a+"b=");
-		   
-		   
-  
-   
-    
-}
+		System.out.println("a="+a+"\tb="+b);
+		}
 }

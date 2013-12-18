@@ -2,13 +2,13 @@ package com.eoe.basic.day02.Exercise;
 
 public class Exercise08 {
 /**
- * å˜é‡ä½œç”¨åŸŸç¤ºä¾‹(3).
+ * ±äÁ¿×÷ÓÃÓòÊ¾Àı(3).
  */
 	public static void main(String[] args) {
-		String name="å¼ é£";
+		String name="ÕÅ·É";
 		System.out.println(name);
 		{
-	 //String name ="å¼ é£";
+	 //String name ="ÕÅ·É";
 	 System.out.println(name);
 		}
 	}
