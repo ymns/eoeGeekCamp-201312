@@ -11,10 +11,10 @@ public class Test16 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.out.println("\t°³ÔÚµÚÊ®Ò»¸öÎ»ÖÃ¿ªÊ¼ÏÔÊ¾¿©");
-System.out.println("ÏÂÒ»¸öÊä³öºÍÎÒ²»ÔÚÍ¬Ò»ĞĞ\n");
-System.out.println("\"Ë«ÒıºÅºÍÎÒÒ»ÆğÊä³ö°¡\"");//\×ªÒå·ûºÅ£¬Ê¹""Ò²Êä³ö
-System.out.println("ÏÔÊ¾Ò»¸öÂ·¾¶£ºd:\\java\\basic\\day01");
+System.out.println("\tä¿ºåœ¨ç¬¬åä¸€ä¸ªä½ç½®å¼€å§‹æ˜¾ç¤ºå’¯");
+System.out.println("ä¸‹ä¸€ä¸ªè¾“å‡ºå’Œæˆ‘ä¸åœ¨åŒä¸€è¡Œ\n");
+System.out.println("\"åŒå¼•å·å’Œæˆ‘ä¸€èµ·è¾“å‡ºå•Š\"");//\è½¬ä¹‰ç¬¦å·ï¼Œä½¿""ä¹Ÿè¾“å‡º
+System.out.println("æ˜¾ç¤ºä¸€ä¸ªè·¯å¾„ï¼šd:\\java\\basic\\day01");
 	}
 
 }
