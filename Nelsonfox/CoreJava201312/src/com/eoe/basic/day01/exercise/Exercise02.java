@@ -2,7 +2,7 @@ package com.eoe.basic.day01.exercise;
 
 public class Exercise02 {
 	/**
-	 * ±àĞ´Test07Àà£¬(576)8×ª»»ÎªÊ®½øÖÆÊı¡£
+	 * ç¼–å†™Test07ç±»ï¼Œ(576)8è½¬æ¢ä¸ºåè¿›åˆ¶æ•°ã€‚
 	 */
 	public static void main(String[] args) {
 		System.out.println("(576)8="+(5*Math.pow(8, 2)+7*8+6));

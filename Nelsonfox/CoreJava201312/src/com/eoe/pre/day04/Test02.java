@@ -17,7 +17,7 @@ public class Test02 {
 		}finally{			
 			//f.close();
 		}
-		System.out.println("俺能被执行到");
+		System.out.println("淇鸿兘琚墽琛屽埌");
 	}
 
 }

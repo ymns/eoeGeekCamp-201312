@@ -5,10 +5,10 @@ public class Test03 {
 		System.out.println(Integer.MAX_VALUE);
 		System.out.println(Integer.MIN_VALUE);
 		//System.out.println(Math.pow(2, 32));
-		//Èç¹û±£´æÒ»¸öÎÄ¼şµÄ³¤¶È£¬ÒÔ×Ö½ÚÎªµ¥Î»£¬Ó¦¸ÃÓÃÄÄÖÖÊı¾İÀàĞÍ
+		//å¦‚æœä¿å­˜ä¸€ä¸ªæ–‡ä»¶çš„é•¿åº¦ï¼Œä»¥å­—èŠ‚ä¸ºå•ä½ï¼Œåº”è¯¥ç”¨å“ªç§æ•°æ®ç±»å‹
 		//short,int,long,byte
 		long fileSize;
-		//2µÄ31´Î·½=2G
+		//2çš„31æ¬¡æ–¹=2G
 		double i=Double.parseDouble("18.5");
 		System.out.println(i+10);
 		System.out.println(Integer.toBinaryString(127));

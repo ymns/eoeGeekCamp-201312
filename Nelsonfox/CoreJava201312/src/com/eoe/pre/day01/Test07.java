@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Test07 {
 
-	/** ÕÅ·É
-	 * @param argsÄĞ
+	/** å¼ é£
+	 * @param argsç”·
 	 */
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
@@ -17,8 +17,8 @@ public class Test07 {
 		int age=scanner.nextInt();
 		System.out.println("height=");
 		double height=scanner.nextDouble();
-		System.out.println("àË£¬´ó¼ÒºÃ,°³½Ğ"+name+
-			",½ñÄê"+age+"Ëê,Éí¸ß"+height+"Ã×£¬°³ÊÇÒ»¸ö"+sex+"Ê¿");
+		System.out.println("å—¨ï¼Œå¤§å®¶å¥½,ä¿ºå«"+name+
+			",ä»Šå¹´"+age+"å²,èº«é«˜"+height+"ç±³ï¼Œä¿ºæ˜¯ä¸€ä¸ª"+sex+"å£«");
 		
 	}
 

@@ -12,7 +12,7 @@ public class Test03 {
 			System.out.println("main thread:"+i);
 		}
 	}
-	//自定义了一个线程类
+	//鑷畾涔変簡涓�涓嚎绋嬬被
 	static class MyThread extends Thread{
 		@Override
 		public void run() {

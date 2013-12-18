@@ -5,23 +5,23 @@ import java.util.Scanner;
 public class Test08 {
 
 	/**
-	 * ÊäÈë5·ÖÖÆµÄ·ÖÊý£¬¸ø³öÆÀ¼Û¡£ ctrl+shif+f:×éºÏ¼ü
+	 * è¾“å…¥5åˆ†åˆ¶çš„åˆ†æ•°ï¼Œç»™å‡ºè¯„ä»·ã€‚ ctrl+shif+f:ç»„åˆé”®
 	 */
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÊäÈë5·ÖÖÆµÄ·ÖÊý:");
+		System.out.println("è¾“å…¥5åˆ†åˆ¶çš„åˆ†æ•°:");
 		int score = scanner.nextInt();
 		//true  false
 		if (score == 5) {
-			System.out.println("ÓÅ");
+			System.out.println("ä¼˜");
 		} else if (score == 4) {
-			System.out.println("Á¼");
+			System.out.println("è‰¯");
 		} else if (score == 3) {
-			System.out.println("¼°¸ñ");
+			System.out.println("åŠæ ¼");
 		} else if (score >= 0 && score <= 2) {
-			System.out.println("²»¼°¸ñ");
+			System.out.println("ä¸åŠæ ¼");
 		} else {
-			System.out.println("ÊäÈë´íÎó!");
+			System.out.println("è¾“å…¥é”™è¯¯!");
 		}
 	}
 

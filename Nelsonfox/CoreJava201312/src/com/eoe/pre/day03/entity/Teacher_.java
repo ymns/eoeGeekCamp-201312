@@ -23,19 +23,19 @@ public class Teacher_ extends Person_{
 	public void say() {
 		// TODO Auto-generated method stub
 		super.say();
-		System.out.println("°³ÔÚ"+inSchool+"ÈÎ"+worker);
+		System.out.println("ä¿ºåœ¨"+inSchool+"ä»»"+worker);
 	}
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Teacher_ t=new Teacher_("ÕÅ´ó·É", 'ÄĞ', 35, 1.89, "ÎÈÖØµÄ", "eoe¼´¿É¹¤×÷·»", "½²Ê¦");
+		Teacher_ t=new Teacher_("å¼ å¤§é£", 'ç”·', 35, 1.89, "ç¨³é‡çš„", "eoeå³å¯å·¥ä½œåŠ", "è®²å¸ˆ");
 		t.say();
 		
 	}
 	@Override
 	public void doing() {
-		System.out.println(this.getName()+"ÕıÔÚĞ´½Ì°¸....");
+		System.out.println(this.getName()+"æ­£åœ¨å†™æ•™æ¡ˆ....");
 	}
 
 }

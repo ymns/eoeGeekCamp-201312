@@ -1,16 +1,16 @@
 package com.eoe.basic.day02_;
 /**
- * ÓÃ±äÁ¿´æ´¢²»Í¬ÀàĞÍµÄÊı¾İ°¸Àı¡£
+ * ç”¨å˜é‡å­˜å‚¨ä¸åŒç±»å‹çš„æ•°æ®æ¡ˆä¾‹ã€‚
  * @author yw
  */
 public class Test01 {
 	public static void main(String[] args) {
-		//¶¨Òå×Ö·û´®±äÁ¿±íÊ¾ĞÕÃû
-		String name="ÕÅ·É";
-		char sex='ÄĞ';
+		//å®šä¹‰å­—ç¬¦ä¸²å˜é‡è¡¨ç¤ºå§“å
+		String name="å¼ é£";
+		char sex='ç”·';
 		int age=35;
 		float height=1.99f;
-		boolean isMarry=true;//±íÊ¾»é·ñ
-		System.out.println("àË£¬´ó¼ÒºÃ£¬°³½Ğ"+name+",½ñÄê"+age+"Ëê,Éí¸ß"+height+"Ã×");
+		boolean isMarry=true;//è¡¨ç¤ºå©šå¦
+		System.out.println("å—¨ï¼Œå¤§å®¶å¥½ï¼Œä¿ºå«"+name+",ä»Šå¹´"+age+"å²,èº«é«˜"+height+"ç±³");
 	}
 }

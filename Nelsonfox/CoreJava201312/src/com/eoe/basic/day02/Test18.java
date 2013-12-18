@@ -2,11 +2,11 @@ package com.eoe.basic.day02;
 
 public class Test18 {
 	/**
-	 * intÀàĞÍÓëcharÀàĞÍµÄÊı¾İÔÚ¸³ÖµÊ±¿É×Ô¶¯×ª»»¡£
+	 * intç±»å‹ä¸charç±»å‹çš„æ•°æ®åœ¨èµ‹å€¼æ—¶å¯è‡ªåŠ¨è½¬æ¢ã€‚
 	 */
 	public static void main(String[] args) {
-		char c=65;//intÀàĞÍµÄÊı¾İ×Ô¶¯×ª»»ÎªcharÀàĞÍ
-		int i='B';//charÀàĞÍµÄÊı¾İ×Ô¶¯×ª»»ÎªintÀàĞÍ
+		char c=65;//intç±»å‹çš„æ•°æ®è‡ªåŠ¨è½¬æ¢ä¸ºcharç±»å‹
+		int i='B';//charç±»å‹çš„æ•°æ®è‡ªåŠ¨è½¬æ¢ä¸ºintç±»å‹
 		System.out.println(c);
 		System.out.println(i);
 	}

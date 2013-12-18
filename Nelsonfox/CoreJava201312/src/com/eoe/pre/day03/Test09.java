@@ -11,9 +11,9 @@ public class Test09 {
 	 */
 	public static void main(String[] args) {
 		ArrayList<String> names=new ArrayList<String>();
-		names.add("ÕÅ·É");
-		names.add("Íõ·Æ");
-		names.add("ÁõÒà·Æ");
+		names.add("å¼ é£");
+		names.add("ç‹è²");
+		names.add("åˆ˜äº¦è²");
 		for(int i=0;i<names.size();i++){
 			System.out.println(names.get(i));
 		}
@@ -25,7 +25,7 @@ public class Test09 {
 		System.out.println("*****************");
 		names.remove(0);
 		System.out.println(names);
-		names.add(1, "ÕÅ·É");
+		names.add(1, "å¼ é£");
 		System.out.println("*****************");
 		System.out.println(names);
 		

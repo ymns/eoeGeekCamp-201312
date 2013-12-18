@@ -11,20 +11,20 @@ public class Test02 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-String name="Ğ¡Ã÷";
-char sex='ÄĞ';
+String name="å°æ˜";
+char sex='ç”·';
 int age=23;
 double height=1.2;
 boolean isMarry=false;
-System.out.println("àË£¬´ó¼ÒºÃ£¬ÎÒ½Ğ"+name+",½ñÄê"+age+"Ëê£¬Éí¸ß"+height
-		+"Ã×\tÒÑ»é£º"+isMarry);
-name="Ğ¡ºì";
-sex='ÄĞ';
+System.out.println("å—¨ï¼Œå¤§å®¶å¥½ï¼Œæˆ‘å«"+name+",ä»Šå¹´"+age+"å²ï¼Œèº«é«˜"+height
+		+"ç±³\tå·²å©šï¼š"+isMarry);
+name="å°çº¢";
+sex='ç”·';
 age=26;
 height=2.1;
 isMarry=true;
-System.out.println("àË£¬´ó¼ÒºÃ£¬ÎÒ½Ğ"+name+",½ñÄê"+age+"Ëê£¬Éí¸ß"+height
-		+"Ã×\tÒÑ»é£º"+isMarry);
+System.out.println("å—¨ï¼Œå¤§å®¶å¥½ï¼Œæˆ‘å«"+name+",ä»Šå¹´"+age+"å²ï¼Œèº«é«˜"+height
+		+"ç±³\tå·²å©šï¼š"+isMarry);
 	}
 
 }

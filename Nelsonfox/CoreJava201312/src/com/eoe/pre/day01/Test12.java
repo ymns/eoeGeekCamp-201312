@@ -15,10 +15,10 @@ public class Test12 {
 	 * '9':57
 	 * 
 	 * ctrl+d
-	 * @param args:unicode±àÂë£¬asciiÂë
+	 * @param args:unicodeç¼–ç ï¼Œasciiç 
 	 */
 	public static void main(String[] args) {
-		//whileÑ­»·
+		//whileå¾ªç¯
 		int i=1;
 		while(i<=127){
 			System.out.println((char)i+":"+i);

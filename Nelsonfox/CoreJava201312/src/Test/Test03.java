@@ -11,7 +11,7 @@ public class Test03 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-    String brandName="Ğ¡Ã×";
+    String brandName="å°ç±³";
     String osName="android";
     int cpuNumber=2;
     double price=1999;

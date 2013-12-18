@@ -7,9 +7,9 @@ public class Teacher {
 	public double height;
 	public String type;
 	public String inSchool;
-	public String worker;//Ö°Îñ
+	public String worker;//èŒåŠ¡
 
-	// ctrl+f6:¿ìËÙÇĞ»»ÖÁÉÏÒ»¸öÀà
+	// ctrl+f6:å¿«é€Ÿåˆ‡æ¢è‡³ä¸Šä¸€ä¸ªç±»
 	public Teacher(String name, char sex, int age, double height, String type,
 			String inSchool, String worker) {
 		this.name = name;
@@ -24,20 +24,20 @@ public class Teacher {
 		
 	}
 
-	// Ëµ»°
+	// è¯´è¯
 	public void say() {
-		System.out.println("àË£¬´ó¼ÒºÃ£¡°³½Ğ" + name + ",½ñÄê" + age + "Ëê,Éí¸ß" + height
-				+ "Ã×,°³ÊÇÒ»¸ö" + type + sex + "Ê¿");
-		System.out.println("°³ÔÚ" + inSchool + "ÈÎ"+worker);
+		System.out.println("å—¨ï¼Œå¤§å®¶å¥½ï¼ä¿ºå«" + name + ",ä»Šå¹´" + age + "å²,èº«é«˜" + height
+				+ "ç±³,ä¿ºæ˜¯ä¸€ä¸ª" + type + sex + "å£«");
+		System.out.println("ä¿ºåœ¨" + inSchool + "ä»»"+worker);
 	}
 
-	// ±í´ï¸ĞÇé
+	// è¡¨è¾¾æ„Ÿæƒ…
 	public void feeling(String cause, String content) {
 		System.out.println(cause);
 		System.out.println(content);
 	}
 
-	// ¼ÆËãn£¡
+	// è®¡ç®—nï¼
 	public double fact(int n) {
 		double result = 1;
 		for (int i = 1; i <= n; i++) {
@@ -50,10 +50,10 @@ public class Teacher {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Teacher teacher = new Teacher("ÕÅ´ó·É",'ÄĞ',
-			33,1.89,"¿ñ·ÅµÄ","eoe¼«¿Í¹¤×÷·»","½²Ê¦");
+		Teacher teacher = new Teacher("å¼ å¤§é£",'ç”·',
+			33,1.89,"ç‹‚æ”¾çš„","eoeæå®¢å·¥ä½œåŠ","è®²å¸ˆ");
 		teacher.say();
-		teacher.feeling("°³µÄÑ§ÉúÕÒµ½ºÃ¹¤×÷À²","ÔÂĞ½8k");
+		teacher.feeling("ä¿ºçš„å­¦ç”Ÿæ‰¾åˆ°å¥½å·¥ä½œå•¦","æœˆè–ª8k");
 	}
 
 }

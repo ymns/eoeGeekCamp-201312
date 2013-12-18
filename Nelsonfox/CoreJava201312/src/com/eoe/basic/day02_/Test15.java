@@ -1,6 +1,6 @@
 package com.eoe.basic.day02_;
 /**
- * 键盘输入两个int类型的数据，计算两数之和
+ * 閿洏杈撳叆涓や釜int绫诲瀷鐨勬暟鎹紝璁＄畻涓ゆ暟涔嬪拰
  * @author yw
  *
  */

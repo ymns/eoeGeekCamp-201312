@@ -3,15 +3,15 @@ package com.eoe.pre.day02;
 public class Test04 {
 
 	/**
-	 * StringÀà£ºequals()£º±È½ÏÁ½¸ö×Ö·û´®ÊÇ·ñÏàµÈ
+	 * Stringç±»ï¼šequals()ï¼šæ¯”è¾ƒä¸¤ä¸ªå­—ç¬¦ä¸²æ˜¯å¦ç›¸ç­‰
 	 */
 	public static void main(String[] args) {
-		String a="ÕÅ·É";
-		String b=new String("ÕÅ·É");
+		String a="å¼ é£";
+		String b=new String("å¼ é£");
 		if(a.equals(b)){
-			System.out.println("Á½¸ö×Ö·û´®ÏàÍ¬");
+			System.out.println("ä¸¤ä¸ªå­—ç¬¦ä¸²ç›¸åŒ");
 		}else{
-			System.out.println("Á½¸ö×Ö·û´®²»ÏàÍ¬");
+			System.out.println("ä¸¤ä¸ªå­—ç¬¦ä¸²ä¸ç›¸åŒ");
 		}
 	}
 

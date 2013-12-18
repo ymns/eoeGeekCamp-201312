@@ -2,15 +2,15 @@ package com.eoe.basic.day02;
 
 public class Test01 {
 	/*
-	 * ¼ÆËã(sqrt(20)+sqrt(10)/(sqrt(20)-sqrt(10))=
-	 * ÒªÇó£ºÏÔÊ¾½á¹û±£ÁôĞ¡Êıµãºó1Î»£¬¼´¶ÔĞ¡ÊıµãºóµÚ2Î»ËÄÉáÎåÈë¡£
+	 * è®¡ç®—(sqrt(20)+sqrt(10)/(sqrt(20)-sqrt(10))=
+	 * è¦æ±‚ï¼šæ˜¾ç¤ºç»“æœä¿ç•™å°æ•°ç‚¹å1ä½ï¼Œå³å¯¹å°æ•°ç‚¹åç¬¬2ä½å››èˆäº”å…¥ã€‚
 	 */
 	public static void main(String[] args) {
-		//½«20µÄÆ½·½¸ù±£´æÔÚ±äÁ¿sqrt20
+		//å°†20çš„å¹³æ–¹æ ¹ä¿å­˜åœ¨å˜é‡sqrt20
 		double sqrt20=Math.sqrt(20);
-		//½«10µÄÆ½·½¸ù±£´æÔÚ±äÁ¿sqrt10
+		//å°†10çš„å¹³æ–¹æ ¹ä¿å­˜åœ¨å˜é‡sqrt10
 		double sqrt10=Math.sqrt(10);
-		//ÓÃsqrt20ºÍsqrt10½øĞĞ¼ÆËã
+		//ç”¨sqrt20å’Œsqrt10è¿›è¡Œè®¡ç®—
 		double result=(sqrt20+sqrt10)/(sqrt20-sqrt10);
 		System.out.println(result);
 		System.out.println(Math.round(result*10)/10d) ;		

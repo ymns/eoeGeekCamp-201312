@@ -2,7 +2,7 @@ package com.eoe.basic.day01;
 
 public class Test05 {
 	/**
-	 * ½«Ê®Áù½øÖÆÊı15A×ª»»Îª10½øÖÆÊı¡£
+	 * å°†åå…­è¿›åˆ¶æ•°15Aè½¬æ¢ä¸º10è¿›åˆ¶æ•°ã€‚
 	 */
 	public static void main(String[] args) {
 		System.out.print("(15A)16=");

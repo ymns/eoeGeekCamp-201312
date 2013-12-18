@@ -3,11 +3,11 @@ package com.eoe.pre.day01;
 public class Test22 {
 
 	/**
-	 * ¼ÆËã:(¦²8+¦²5)/(¦²8-¦²5)+5!-3!
+	 * è®¡ç®—:(Î£8+Î£5)/(Î£8-Î£5)+5!-3!
 	 */
 	public static void main(String[] args) {
-//		feeling("°³¼ñÁËÎå°ÙÍòÀ²","¹ş¹ş....");
-//		feeling("°³Ê§ÁµÀ²", "ÎØÎØ...");
+//		feeling("ä¿ºæ¡äº†äº”ç™¾ä¸‡å•¦","å“ˆå“ˆ....");
+//		feeling("ä¿ºå¤±æ‹å•¦", "å‘œå‘œ...");
 //		int result=add(5,3);
 //		System.out.println(result);
 		
@@ -15,7 +15,7 @@ public class Test22 {
 		System.out.println(result);
 	}
 	
-	//¼ÆËãn£¡  ½á¹¹(Ä£¿é)»¯³ÌĞòÉè¼ÆÔ­Àí£º»ıÄ¾Ê½
+	//è®¡ç®—nï¼  ç»“æ„(æ¨¡å—)åŒ–ç¨‹åºè®¾è®¡åŸç†ï¼šç§¯æœ¨å¼
 	static double fact(int n){
 		double result=1;
 		for(int i=1;i<=n;i++){
@@ -23,7 +23,7 @@ public class Test22 {
 		}
 		return result;
 	}
-	//¼ÆËã¦²n
+	//è®¡ç®—Î£n
 	static int add(int n){
 		int result=0;
 		for(int i=1;i<=n;i++){
@@ -32,7 +32,7 @@ public class Test22 {
 		return result;
 	}
 	
-//	//¸´ÓÃĞÔ
+//	//å¤ç”¨æ€§
 //	static void feeling(String cause,String content){
 //		System.out.print(cause);
 //		System.out.println(content);

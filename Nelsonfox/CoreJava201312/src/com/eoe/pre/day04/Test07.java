@@ -9,29 +9,29 @@ public class Test07 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		//´´½¨Ò»¸ö¼Æ»®ÈÎÎñ¶ÔÏó
+		//åˆ›å»ºä¸€ä¸ªè®¡åˆ’ä»»åŠ¡å¯¹è±¡
 		final Timer timer=new Timer();
-		//»ñÈ¡ÏµÍ³µ±Ç°Ê±¼ä£¬µ¥Î»£ººÁÃë
+		//è·å–ç³»ç»Ÿå½“å‰æ—¶é—´ï¼Œå•ä½ï¼šæ¯«ç§’
 		long start=System.currentTimeMillis();
-		final long end=start+1000*10;//60ÃëÒÔºóµÄÊ±¼ä
+		final long end=start+1000*10;//60ç§’ä»¥åçš„æ—¶é—´
 		
 		timer.schedule(new TimerTask() {
 			long minute,second;
 			@Override
 			public void run() {
-				//¼ÆËãÊ£ÓàÊ±¼ä
+				//è®¡ç®—å‰©ä½™æ—¶é—´
 				long leftTime=end-System.currentTimeMillis();
-				minute=leftTime/1000/60;//¼ÆËã·ÖÖÓ
-				second=leftTime/1000%60;//¼ÆËãÃë
+				minute=leftTime/1000/60;//è®¡ç®—åˆ†é’Ÿ
+				second=leftTime/1000%60;//è®¡ç®—ç§’
 				System.out.println(minute+":"+second);
 			}
 		}, 0,1000);
-		//ÉèÖÃµÚ¶ş¸ö¼Æ»®ÈÎÎñ£¬10ÃëºóÍ£Ö¹ËùÓĞ¼Æ»®ÈÎÎñ
+		//è®¾ç½®ç¬¬äºŒä¸ªè®¡åˆ’ä»»åŠ¡ï¼Œ10ç§’ååœæ­¢æ‰€æœ‰è®¡åˆ’ä»»åŠ¡
 		timer.schedule(new TimerTask() {
 			
 			@Override
 			public void run() {
-				System.out.println("·¢Éä!");
+				System.out.println("å‘å°„!");
 				timer.cancel();
 			}
 		}, 10*1000);

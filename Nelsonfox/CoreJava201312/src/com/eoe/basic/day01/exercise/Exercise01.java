@@ -2,7 +2,7 @@ package com.eoe.basic.day01.exercise;
 
 public class Exercise01 {
 	/**
-	 *±àÐ´Test06Àà£¬¼ÆËã
+	 *ç¼–å†™Test06ç±»ï¼Œè®¡ç®—
 		1KB=?Byte
 		1MB=?Byte
 		1GB=?Byte

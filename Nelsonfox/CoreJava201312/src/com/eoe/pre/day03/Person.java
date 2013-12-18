@@ -1,12 +1,12 @@
 package com.eoe.pre.day03;
 
 public class Person {
-	public String name;//ĞÕÃû
-	public char sex;//ĞÔ±ğ
+	public String name;//å§“å
+	public char sex;//æ€§åˆ«
 	public int age;
 	public double height;
-	public String type;//ĞÔ¸ñ
-	//¶¨Òå´ø²Î¹¹Ôì(Æ÷)·½·¨
+	public String type;//æ€§æ ¼
+	//å®šä¹‰å¸¦å‚æ„é€ (å™¨)æ–¹æ³•
 	public Person(String name,char sex,int age,
 		double height,String type){
 		this.name=name;
@@ -15,47 +15,47 @@ public class Person {
 		this.height=height;
 		this.type=type;
 	}
-	//·½·¨ÃûÏàÍ¬£¬²ÎÊı²»Í¬£¬³ÆÎª·½·¨µÄÖØÔØ¡£
+	//æ–¹æ³•åç›¸åŒï¼Œå‚æ•°ä¸åŒï¼Œç§°ä¸ºæ–¹æ³•çš„é‡è½½ã€‚
 	public Person(){
 		
 	}
-	//Ëµ»°
+	//è¯´è¯
 	public void say(){
-		System.out.println("àË£¬´ó¼ÒºÃ£¡°³½Ğ"+
-			name+",½ñÄê"+age+"Ëê,Éí¸ß"+height+
-			"Ã×,°³ÊÇÒ»¸ö"+type+sex+"Ê¿");
+		System.out.println("å—¨ï¼Œå¤§å®¶å¥½ï¼ä¿ºå«"+
+			name+",ä»Šå¹´"+age+"å²,èº«é«˜"+height+
+			"ç±³,ä¿ºæ˜¯ä¸€ä¸ª"+type+sex+"å£«");
 	}
-	//±í´ï¸ĞÇé
+	//è¡¨è¾¾æ„Ÿæƒ…
 	public void feeling(String cause,String content){
 		System.out.println(cause);
 		System.out.println(content);
 	}
 	public static void main(String[] args) {
-		Person p1=new Person("ÕÅ·É",'ÄĞ',33,1.99,"ºÀ·ÅµÄ");
-//		p1.name="ÕÅ·É";
-//		p1.sex='ÄĞ';
+		Person p1=new Person("å¼ é£",'ç”·',33,1.99,"è±ªæ”¾çš„");
+//		p1.name="å¼ é£";
+//		p1.sex='ç”·';
 //		p1.age=33;
 //		p1.height=1.99;
-//		p1.type="ºÀ·ÅµÄ";
+//		p1.type="è±ªæ”¾çš„";
 		p1.say();
-		p1.feeling("°³ÖĞÁËÎå°ÙÍò", "¹ş¹ş.....");
+		p1.feeling("ä¿ºä¸­äº†äº”ç™¾ä¸‡", "å“ˆå“ˆ.....");
 		
 		Person p2=new Person();
-		p2.name="Íõ·Æ";
-		p2.sex='Å®';
+		p2.name="ç‹è²";
+		p2.sex='å¥³';
 		p2.age=30;
 		p2.height=1.69;
-		p2.type="ÎÂÈáµÄ";
+		p2.type="æ¸©æŸ”çš„";
 		p2.say();
-		p2.feeling("°³±»ÆÀÎª¸èºóÀ²!", "ºÙºÙ.....");
+		p2.feeling("ä¿ºè¢«è¯„ä¸ºæ­Œåå•¦!", "å˜¿å˜¿.....");
 		
 		p1=new Person();
-		p1.name="ÁõÒà·Æ";
-		p1.sex='Å®';
+		p1.name="åˆ˜äº¦è²";
+		p1.sex='å¥³';
 		p1.age=28;
 		p1.height=1.7;
-		p1.type="ÎÄ¾²µÄ";
+		p1.type="æ–‡é™çš„";
 		p1.say();
-		p1.feeling("°³±»ÆÀÎªÓ°ºóÁË", "ºÇºÇ.....");
+		p1.feeling("ä¿ºè¢«è¯„ä¸ºå½±åäº†", "å‘µå‘µ.....");
 	}
 }

@@ -10,7 +10,7 @@ public class Test02 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String data="1001:’≈∑…:1234:13010381038:zhangfei@eoemobile.com.cn";
+		String data="1001:Âº†È£û:1234:13010381038:zhangfei@eoemobile.com.cn";
 		User user=new User();
 		String[] strUser=data.split(":");
 		System.out.println(Arrays.toString(strUser));

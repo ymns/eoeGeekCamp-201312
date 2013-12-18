@@ -11,7 +11,7 @@ public class Test04 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-      String name="ÕÅÈý";
+      String name="å¼ ä¸‰";
       System.out.println(name);
 	}
 

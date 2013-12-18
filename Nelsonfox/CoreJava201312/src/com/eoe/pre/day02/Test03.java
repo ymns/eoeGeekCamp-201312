@@ -6,12 +6,12 @@ import java.util.Random;
 public class Test03 {
 
 	/**
-	 * Ëæ»ú²úÉú10¸ö·ÖÊı£¬Í³¼ÆÆ½¾ù·ÖºÍ³¬¹ıÆ½¾ù·ÖµÄ·ÖÊı
+	 * éšæœºäº§ç”Ÿ10ä¸ªåˆ†æ•°ï¼Œç»Ÿè®¡å¹³å‡åˆ†å’Œè¶…è¿‡å¹³å‡åˆ†çš„åˆ†æ•°
 	 */
 	public static void main(String[] args) {
 		int[] scores=new int[10];
 		Random random=new Random();
-		int total=0;//±£´æ×Ü·Ö
+		int total=0;//ä¿å­˜æ€»åˆ†
 		for (int i = 0; i < scores.length; i++) {
 			scores[i]=random.nextInt(41)+60;//[0,101)
 			//System.out.print(scores[i]+"  ");
@@ -20,7 +20,7 @@ public class Test03 {
 		System.out.println(Arrays.toString(scores));
 		double avg=total/scores.length;
 		System.out.println();
-		System.out.println("Æ½¾ù·Ö"+avg);
+		System.out.println("å¹³å‡åˆ†"+avg);
 //		for (int i = 0; i < scores.length; i++) {
 //			if(scores[i]>=avg){
 //				System.out.println(scores[i]);

@@ -1,26 +1,26 @@
 package com.eoe.basic.day02;
 
 /**
- * ±¾ÀıÑİÊ¾ 
- * 1¡¢Êı¾İÀàĞÍµÄ¶àÑù£¬Ôì³É±äÁ¿µÄÀàĞÍµÄ¶àÑù
- * 2¡¢±äÁ¿ÖĞµÄÊı¾İ¿ÉÒÔ¸Ä±ä¡£
+ * æœ¬ä¾‹æ¼”ç¤º 
+ * 1ã€æ•°æ®ç±»å‹çš„å¤šæ ·ï¼Œé€ æˆå˜é‡çš„ç±»å‹çš„å¤šæ ·
+ * 2ã€å˜é‡ä¸­çš„æ•°æ®å¯ä»¥æ”¹å˜ã€‚
  */
 public class Test02 {
 	public static void main(String[] args) {
-		String name = "±«Ğ¡ĞÉ";
-		char sex = 'ÄĞ';
+		String name = "é²å°çŒ©";
+		
 		int age = 23;
 		double height = 1.2;
-		boolean isMarry = false;// Î´»é£¬true:ÒÑ»é
-		System.out.println("àË£¬´ó¼ÒºÃ£¬°³½Ğ" + name + ",½ñÄê" + age + "Ëê£¬Éí¸ß£º" + height
-				+ "Ã×\tÒÑ»é£º"+isMarry);
-		//ÒÔÏÂÑİÊ¾±äÁ¿´æ·ÅÁËĞÂµÄÊı¾İ£¬Ô­À´µÄÊı¾İ¶ªÊ§ÁË¡£
-		name = "²Ü´óË§";
-		sex = 'ÄĞ';
+		boolean isMarry = false;// æœªå©šï¼Œtrue:å·²å©š
+		System.out.println("å—¨ï¼Œå¤§å®¶å¥½ï¼Œä¿ºå«" + name + ",ä»Šå¹´" + age + "å²ï¼Œèº«é«˜ï¼š" + height
+				+ "ç±³\tå·²å©šï¼š"+isMarry);
+		//ä»¥ä¸‹æ¼”ç¤ºå˜é‡å­˜æ”¾äº†æ–°çš„æ•°æ®ï¼ŒåŸæ¥çš„æ•°æ®ä¸¢å¤±äº†ã€‚
+		name = "æ›¹å¤§å¸…";
+		//sex = 'ç”·';
 		age = 26;
 		height = 2.1;
-		isMarry = true;// Î´»é£¬true:ÒÑ»é
-		System.out.println("àË£¬´ó¼ÒºÃ£¬°³½Ğ" + name + ",½ñÄê" + age + "Ëê£¬Éí¸ß£º" + height
-				+ "Ã×\tÒÑ»é£º"+isMarry);
+		isMarry = true;// æœªå©šï¼Œtrue:å·²å©š
+		System.out.println("å—¨ï¼Œå¤§å®¶å¥½ï¼Œä¿ºå«" + name + ",ä»Šå¹´" + age + "å²ï¼Œèº«é«˜ï¼š" + height
+				+ "ç±³\tå·²å©šï¼š"+isMarry);
 	}
 }

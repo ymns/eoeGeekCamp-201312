@@ -3,12 +3,12 @@ package com.eoe.basic.day02;
 public class Test03 {
 
 	/**
-	 * ±äÁ¿µÄ×÷ÓÃÓòÊ¾Àı:Í¬Ò»×÷ÓÃÓòÄÚ±äÁ¿²»ÄÜÖØ¸´¶¨Òå¡£
+	 * å˜é‡çš„ä½œç”¨åŸŸç¤ºä¾‹:åŒä¸€ä½œç”¨åŸŸå†…å˜é‡ä¸èƒ½é‡å¤å®šä¹‰ã€‚
 	 */
 	public static void main(String[] args) {
 		{
-			String name="ÕÅÈı";
-			//String name="ÕÅÈı";
+			String name="å¼ ä¸‰";
+			//String name="å¼ ä¸‰";
 		}
 	}
 }

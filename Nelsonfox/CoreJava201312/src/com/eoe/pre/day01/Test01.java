@@ -3,14 +3,14 @@ package com.eoe.pre.day01;
 public class Test01 {
 
 	/** 2013.12.09
-	 * ÕâÊÇ°³µÄJava´¦Å®×÷
+	 * è¿™æ˜¯ä¿ºçš„Javaå¤„å¥³ä½œ
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		System.out.println("Hello Java!");
 	}
 	//alt+/
-	//ctrl+m:×î´ó»¯/»¹Ô­ÇĞ»»¼ü
-	//ÔËĞĞ³ÌĞò ctrl+f11£º·Çµ÷ÊÔÔËĞĞ  f11:µ÷ÊÔÔËĞĞ
+	//ctrl+m:æœ€å¤§åŒ–/è¿˜åŸåˆ‡æ¢é”®
+	//è¿è¡Œç¨‹åº ctrl+f11ï¼šéè°ƒè¯•è¿è¡Œ  f11:è°ƒè¯•è¿è¡Œ
 
 }

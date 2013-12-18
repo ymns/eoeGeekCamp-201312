@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Test25 {
 	/**
-	 * ²»½èÖúµÚÈı¸ö±äÁ¿£¬Ö±½Ó½»»»Á½¸ö±äÁ¿µÄÖµ£¬´òÓ¡³ö½»»»Ç°¡¢
-	 * ½»»»ºóÁ½¸ö±äÁ¿µÄÖµ¡£
+	 * ä¸å€ŸåŠ©ç¬¬ä¸‰ä¸ªå˜é‡ï¼Œç›´æ¥äº¤æ¢ä¸¤ä¸ªå˜é‡çš„å€¼ï¼Œæ‰“å°å‡ºäº¤æ¢å‰ã€
+	 * äº¤æ¢åä¸¤ä¸ªå˜é‡çš„å€¼ã€‚
 	 */
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);

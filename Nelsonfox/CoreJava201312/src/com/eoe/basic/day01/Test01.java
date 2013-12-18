@@ -1,14 +1,14 @@
-package com.eoe.basic.day01;//°üÃû
+package com.eoe.basic.day01;//åŒ…å
 
-public class Test01 { // ÉùÃ÷Àà-ÀàÃû:Test1
+public class Test01 { // å£°æ˜ç±»-ç±»å:Test1
 	/**
-	 * 2012.12.02 ÕâÊÇ°³µÄµÚÒ»¸öJava³ÌĞò
+	 * 2012.12.02 è¿™æ˜¯ä¿ºçš„ç¬¬ä¸€ä¸ªJavaç¨‹åº
 	 */
-	public static void main(String[] args) { // ÀàµÄÈë¿Ú
-		// ¿ØÖÆÌ¨Êä³öHelloºÍÊäÈëµÄ×Ö·û´®
+	public static void main(String[] args) { // ç±»çš„å…¥å£
+		// æ§åˆ¶å°è¾“å‡ºHelloå’Œè¾“å…¥çš„å­—ç¬¦ä¸²
 		System.out.println("Hello  Java");
 
-	} // main()´úÂë½áÊø
+	} // main()ä»£ç ç»“æŸ
 
-} // Test1Àà½áÊø
+} // Test1ç±»ç»“æŸ
 

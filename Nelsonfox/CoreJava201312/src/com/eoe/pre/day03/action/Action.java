@@ -1,10 +1,10 @@
 package com.eoe.pre.day03.action;
 
 public interface Action {
-	public static final String COMPUTER="¼ÆËã»ú";
-	public static final String COMPANY="¹«Ë¾";
-	public static final String PLAYER="ÔË¶¯Ô±";
-	public static final String CAR="Æû³µ";
+	public static final String COMPUTER="è®¡ç®—æœº";
+	public static final String COMPANY="å…¬å¸";
+	public static final String PLAYER="è¿åŠ¨å‘˜";
+	public static final String CAR="æ±½è½¦";
 	
 	void run();
 }

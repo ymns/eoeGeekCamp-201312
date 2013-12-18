@@ -5,19 +5,19 @@ import java.util.Scanner;
 public class Test10 {
 
 	/**
-	 * &&£ºÓëÔËËã
-	 * ¹ØÏµÔËËã1 && ¹ØÏµÔËËã2  µ±Á½¸ö¹ØÏµÔËËã¶¼ÊÇtrueÊ±£¬
-	 * ÓëÔËËã½á¹ûÊÇtrue
+	 * &&ï¼šä¸è¿ç®—
+	 * å…³ç³»è¿ç®—1 && å…³ç³»è¿ç®—2  å½“ä¸¤ä¸ªå…³ç³»è¿ç®—éƒ½æ˜¯trueæ—¶ï¼Œ
+	 * ä¸è¿ç®—ç»“æœæ˜¯true
 	 * 
-	 *  ||:»òÔËËã
-	 *  ¹ØÏµÔËËã1 || ¹ØÏµÔËËã2 
-	 *  µ±Á½¸ö¹ØÏµÔËËãµÄ½á¹ûÓĞÒ»¸öÊÇtrueÊ±£¬
-	 *  »òÔËËãµÄ½á¹ûÊÇtrue¡£
-	 *  ·ÇÔËËã£º£¡¹ØÏµÔËËã£º¹ØÏµÔËËãÏà·´½á¹û
-	 *  javaºËĞÄÓï·¨  java
+	 *  ||:æˆ–è¿ç®—
+	 *  å…³ç³»è¿ç®—1 || å…³ç³»è¿ç®—2 
+	 *  å½“ä¸¤ä¸ªå…³ç³»è¿ç®—çš„ç»“æœæœ‰ä¸€ä¸ªæ˜¯trueæ—¶ï¼Œ
+	 *  æˆ–è¿ç®—çš„ç»“æœæ˜¯trueã€‚
+	 *  éè¿ç®—ï¼šï¼å…³ç³»è¿ç®—ï¼šå…³ç³»è¿ç®—ç›¸åç»“æœ
+	 *  javaæ ¸å¿ƒè¯­æ³•  java
 	 *  android     android
-	 *  Êı¾İ¿â            sql
-	 *  ÏîÄ¿               project
+	 *  æ•°æ®åº“            sql
+	 *  é¡¹ç›®               project
 	 */
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
@@ -30,13 +30,13 @@ public class Test10 {
 		System.out.println("project=");
 		int project=scanner.nextInt();
 		if(java>=90 && android>=90 && sql>=90 && project>=90){
-			System.out.println("¹§Ï²£¬Äú±»±¾¹«Ë¾Â¼ÓÃ£¬ÔÂĞ½5k");
+			System.out.println("æ­å–œï¼Œæ‚¨è¢«æœ¬å…¬å¸å½•ç”¨ï¼Œæœˆè–ª5k");
 		}else if(java>=90 && android>=90 &&(sql>=90 || project>=90)){
-			System.out.println("¹§Ï²£¬Äú±»±¾¹«Ë¾Â¼ÓÃ£¬ÔÂĞ½4k");
+			System.out.println("æ­å–œï¼Œæ‚¨è¢«æœ¬å…¬å¸å½•ç”¨ï¼Œæœˆè–ª4k");
 		}else if(java>=90 || android>=90 || sql>=90 || project>=90){
-			System.out.println("¹§Ï²£¬Äú±»±¾¹«Ë¾Â¼ÓÃ£¬ÔÂĞ½3k");
+			System.out.println("æ­å–œï¼Œæ‚¨è¢«æœ¬å…¬å¸å½•ç”¨ï¼Œæœˆè–ª3k");
 		}else{
-			System.out.println("µÈÍ¨Öª°É");
+			System.out.println("ç­‰é€šçŸ¥å§");
 		}
 	}
 

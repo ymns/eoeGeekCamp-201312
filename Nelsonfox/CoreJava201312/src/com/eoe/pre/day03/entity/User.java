@@ -1,13 +1,13 @@
 package com.eoe.pre.day03.entity;
 
-//Êı¾İÀà
+//æ•°æ®ç±»
 public class User {
-	public int id;//±àºÅ
+	public int id;//ç¼–å·
 	public String name;
 	public String password;
 	public String phone;
 	public String email;
-	//Object;//JDKÀàµÄ¸ùÀà
+	//Object;//JDKç±»çš„æ ¹ç±»
 	@Override
 	public String toString() {
 		return "id=" + id + ", name=" + name + ", password=" + password

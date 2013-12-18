@@ -13,12 +13,12 @@ public class Test08 {
 		// TODO Auto-generated method stub
     boolean pass;
     pass=true;
-    System.out.println("¿¼ÊÔÍ¨¹ı£º"+pass);
+    System.out.println("è€ƒè¯•é€šè¿‡ï¼š"+pass);
     pass=false;
-    System.out.println("¿¼ÊÔÍ¨¹ı£º"+pass);
+    System.out.println("è€ƒè¯•é€šè¿‡ï¼š"+pass);
     int score=65;
     pass=score>=60;
-    System.out.println("¿¼ÊÔÍ¨¹ı£º"+pass);
+    System.out.println("è€ƒè¯•é€šè¿‡ï¼š"+pass);
 	}
 
 }

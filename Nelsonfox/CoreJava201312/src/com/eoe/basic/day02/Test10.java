@@ -2,13 +2,13 @@ package com.eoe.basic.day02;
 
 public class Test10 {
 	public static void main(String[] args) {
-		boolean  pass;//±íÊ¾ÊÇ·ñÍ¨¹ı¿¼ÊÔ
-		pass=true;//±íÊ¾Í¨¹ı¿¼ÊÔ
-		System.out.println("¿¼ÊÔÍ¨¹ı:"+pass);
-		pass=false;//±íÊ¾Ã»Í¨¹ı¿¼ÊÔ
-		System.out.println("¿¼ÊÔÍ¨¹ı:"+pass);
-		int score=65;//ÉèÖÃ¿¼ÊÔ·ÖÊı
-		pass=score>=60;//½«score>=60µÄ½á¹û±£´æÔÚpass±äÁ¿ÖĞ
-		System.out.println("¿¼ÊÔÍ¨¹ı:"+pass);
+		boolean  pass;//è¡¨ç¤ºæ˜¯å¦é€šè¿‡è€ƒè¯•
+		pass=true;//è¡¨ç¤ºé€šè¿‡è€ƒè¯•
+		System.out.println("è€ƒè¯•é€šè¿‡:"+pass);
+		pass=false;//è¡¨ç¤ºæ²¡é€šè¿‡è€ƒè¯•
+		System.out.println("è€ƒè¯•é€šè¿‡:"+pass);
+		int score=65;//è®¾ç½®è€ƒè¯•åˆ†æ•°
+		pass=score>=60;//å°†score>=60çš„ç»“æœä¿å­˜åœ¨passå˜é‡ä¸­
+		System.out.println("è€ƒè¯•é€šè¿‡:"+pass);
 	}
 }

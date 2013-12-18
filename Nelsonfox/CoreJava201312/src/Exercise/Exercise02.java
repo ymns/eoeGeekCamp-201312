@@ -8,10 +8,10 @@ public class Exercise02 {
 		// TODO Auto-generated constructor stub
 	}
 
-	/**��д���㻪��ת��Ϊ�����¶ȵĳ��򣬹�ʽ�� �����¶�ֵ=�������¶�ֵ-32����5��9
-            Ҫ��
-   	 (1)������ʩ�¶��ɼ������롣
-     (2)����С�����1λ��
+	/**编写计算华氏转换为摄氏温度的程序，公式： 摄氏温度值=（华氏温度值-32）×5÷9
+   要求：
+   	 (1)华氏设施温度由键盘输入。
+     (2)保留小数点后1位。
 	 * @param args
 	 */
 	public static void main(String[] args) {

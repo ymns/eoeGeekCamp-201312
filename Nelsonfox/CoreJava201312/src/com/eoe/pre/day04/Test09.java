@@ -11,9 +11,9 @@ public class Test09 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		//Ô´ÎÄ¼şµÄÂ·¾¶
+		//æºæ–‡ä»¶çš„è·¯å¾„
 		String src="f:/java_test/src/cocos2d_x.zip";
-		//Ä¿±êÎÄ¼şµÄÂ·¾¶
+		//ç›®æ ‡æ–‡ä»¶çš„è·¯å¾„
 		String dest="f:/java_test/dest/cocos2d_x.zip";
 		FileInputStream fis=null;
 		FileOutputStream fos=null;
@@ -23,14 +23,14 @@ public class Test09 {
 			fos=new FileOutputStream(dest);
 			byte[] buffer=new byte[1024*100];
 			int len;
-			//¼ÆËãÎÄ¼ş¸´ÖÆ¿ªÊ¼µÄÏµÍ³Ê±¼ä
+			//è®¡ç®—æ–‡ä»¶å¤åˆ¶å¼€å§‹çš„ç³»ç»Ÿæ—¶é—´
 			long start=System.currentTimeMillis();
 			while((len=fis.read(buffer))!=-1){
 				fos.write(buffer, 0, len);
 			}
-			//¼ÆËãÎÄ¼ş¸´ÖÆ½áÊøµÄÏµÍ³Ê±¼ä
+			//è®¡ç®—æ–‡ä»¶å¤åˆ¶ç»“æŸçš„ç³»ç»Ÿæ—¶é—´
 			long end=System.currentTimeMillis();
-			System.out.println("cost time="+(end-start)/1000+"Ãë");
+			System.out.println("cost time="+(end-start)/1000+"ç§’");
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

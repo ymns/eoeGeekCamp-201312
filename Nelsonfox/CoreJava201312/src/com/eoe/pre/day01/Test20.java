@@ -3,7 +3,7 @@ package com.eoe.pre.day01;
 public class Test20 {
 
 	/**
-	 * º∆À„n£°=1*2*3*...*n
+	 * 
 	 */
 	public static void main(String[] args) {
 		double result=1;

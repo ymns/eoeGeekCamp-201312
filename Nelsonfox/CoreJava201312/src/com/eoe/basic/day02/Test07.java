@@ -3,11 +3,11 @@ package com.eoe.basic.day02;
 public class Test07 {
 
 	/**
-	 * intÀàĞÍ×ª»»ÎªbyteÀàĞÍÊ¾Àı
+	 * intç±»å‹è½¬æ¢ä¸ºbyteç±»å‹ç¤ºä¾‹
 	 */
 	public static void main(String[] args) {
 		byte b1=5;
-		byte b2=(byte)(b1+3);//±àÒë³ö´í£¬´óÀàĞÍµÄÊı¾İ²»ÄÜ´æ·ÅÔÚĞ¡ÀàĞÍµÄ±äÁ¿ÖĞ
+		byte b2=(byte)(b1+3);//ç¼–è¯‘å‡ºé”™ï¼Œå¤§ç±»å‹çš„æ•°æ®ä¸èƒ½å­˜æ”¾åœ¨å°ç±»å‹çš„å˜é‡ä¸­
 	}
 
 }

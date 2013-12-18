@@ -4,23 +4,23 @@ import java.util.Scanner;
 
 public class Test22 {
 	/**
-	 * Ê¾Àı£ºÍ¨¹ı¿ØÖÆÌ¨ÊäÈëÒ»¸öÈËµÄĞÕÃû¡¢ĞÔ±ğ¡¢ÄêÁä¡¢Éí¸ßºÍĞÔ¸ñ
-	 * È»ºó£¬ÈÃ¸ÃÈËºÍ´ó¼Ò×ö×ÔÎÒ½éÉÜ¡£
+	 * ç¤ºä¾‹ï¼šé€šè¿‡æ§åˆ¶å°è¾“å…¥ä¸€ä¸ªäººçš„å§“åã€æ€§åˆ«ã€å¹´é¾„ã€èº«é«˜å’Œæ€§æ ¼
+	 * ç„¶åï¼Œè®©è¯¥äººå’Œå¤§å®¶åšè‡ªæˆ‘ä»‹ç»ã€‚
 	 */
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
-		System.out.println("ĞÕÃû£º");
+		System.out.println("å§“åï¼š");
 		String name=scanner.next();
-		System.out.println("ĞÔ±ğ£º");
+		System.out.println("æ€§åˆ«ï¼š");
 		char sex=scanner.next().charAt(0);
-		System.out.println("ÄêÁä£º");
+		System.out.println("å¹´é¾„ï¼š");
 		int age=scanner.nextInt();
-		System.out.println("Éí¸ß£º");
+		System.out.println("èº«é«˜ï¼š");
 		double height=scanner.nextDouble();
-		System.out.println("ĞÔ¸ñ£º");
+		System.out.println("æ€§æ ¼ï¼š");
 		String type=scanner.next();
-		System.out.print("àË£¬´ó¼ÒºÃ£¬°³½Ğ"+name);
-		System.out.print("£¬½ñÄê"+age+"Ëê");
-		System.out.print("£¬°³ÊÇÒ»¸ö"+type+"µÄ"+sex+"Éú");
+		System.out.print("å—¨ï¼Œå¤§å®¶å¥½ï¼Œä¿ºå«"+name);
+		System.out.print("ï¼Œä»Šå¹´"+age+"å²");
+		System.out.print("ï¼Œä¿ºæ˜¯ä¸€ä¸ª"+type+"çš„"+sex+"ç”Ÿ");
 	}
 }

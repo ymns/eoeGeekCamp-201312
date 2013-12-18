@@ -2,10 +2,10 @@ package com.eoe.basic.day02;
 
 public class Test14 {
 	/**
-	 * Ê¾Àı£ºintÀàĞÍ×ª»»ÎªbyteÀàĞÍ¡£
+	 * ç¤ºä¾‹ï¼šintç±»å‹è½¬æ¢ä¸ºbyteç±»å‹ã€‚
 	 */
 	public static void main(String[] args) {
 		byte b=5;
-		b=(byte) (b+5);//Ç¿ÖÆÀàĞÍ×ª»»
+		b=(byte) (b+5);//å¼ºåˆ¶ç±»å‹è½¬æ¢
 	}
 }

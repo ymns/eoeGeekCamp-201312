@@ -7,7 +7,7 @@ public class Test05 {
 		int b=5;
 		b=(byte) (b+123);//b=127
 		System.out.println(b);
-		//10000000=1*2µÄ7´Î·½
+		//10000000=1*2çš„7æ¬¡æ–¹
 		//10000000
 	}
 }

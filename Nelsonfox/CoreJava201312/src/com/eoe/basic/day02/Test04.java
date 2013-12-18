@@ -2,14 +2,14 @@ package com.eoe.basic.day02;
 
 public class Test04 {
 	/**
-	 * ±äÁ¿µÄ×÷ÓÃÓòÊ¾Àı(2)
+	 * å˜é‡çš„ä½œç”¨åŸŸç¤ºä¾‹(2)
 	 */
 	public static void main(String[] args) {
-		{ //Óï¾ä¿é(1)
-			String name="ÕÅÈı";
+		{ //è¯­å¥å—(1)
+			String name="å¼ ä¸‰";
 			System.out.println(name);
-		}//Óï¾ä¿é(1)½áÊø
-		String name="ÕÅÈı";
+		}//è¯­å¥å—(1)ç»“æŸ
+		String name="å¼ ä¸‰";
 		System.out.println(name);
 	}
 }

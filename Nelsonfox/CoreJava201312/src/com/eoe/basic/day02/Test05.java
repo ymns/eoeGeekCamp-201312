@@ -3,13 +3,13 @@ package com.eoe.basic.day02;
 public class Test05 {
 
 	/**
-	 * 变量的作用域示例(3)
+	 * 鍙橀噺鐨勪綔鐢ㄥ煙绀轰緥(3)
 	 */
 	public static void main(String[] args) {
-		String name="张三";
+		String name="寮犱笁";
 		System.out.println(name);
 		{
-			//String name="张三";
+			//String name="寮犱笁";
 			System.out.println(name);
 		}
 	}

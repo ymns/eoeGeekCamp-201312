@@ -7,7 +7,7 @@ public class Test04 {
 	 */
 	public static void main(String[] args) {
 //		Person_ p=new Person_();
-//		p.setName("’≈∑…");
+//		p.setName("Âº†È£û");
 //		p.setSex('a');
 //		p.setAge(-100);
 //		p.say();

@@ -17,21 +17,21 @@ public class Test10 {
 	public static void main(String[] args) {
 		InputStream in=null;
 		FileOutputStream fos=null;
-		//步骤1、创建URL对象
+		//姝ラ1銆佸垱寤篣RL瀵硅薄
 		try {
 			URL url=new URL("http://127.0.0.1/users.xml");
-			//步骤2、创建URLConnection对象
+			//姝ラ2銆佸垱寤篣RLConnection瀵硅薄
 			URLConnection connection=url.openConnection();
-			//步骤3、连接服务端，获取InputStream对象
+			//姝ラ3銆佽繛鎺ユ湇鍔＄锛岃幏鍙朓nputStream瀵硅薄
 			in=connection.getInputStream();
-			//步骤4、创建FileOuputStream对象
+			//姝ラ4銆佸垱寤篎ileOuputStream瀵硅薄
 			fos=new FileOutputStream("f:/java_test/dest/users.xml");
 			byte[] buffer=new byte[1024];
 			int len;
 			while((len=in.read(buffer))!=-1){
 				fos.write(buffer,0,len);
 			}
-			System.out.println("下载成功!");
+			System.out.println("涓嬭浇鎴愬姛!");
 		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

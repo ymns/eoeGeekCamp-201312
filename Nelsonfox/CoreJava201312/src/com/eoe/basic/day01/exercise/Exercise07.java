@@ -1,6 +1,6 @@
 package com.eoe.basic.day01.exercise;
 /**
- * ÕÒÈı¸öÊıÖĞµÄÖĞ¼äÊı¡£
+ * æ‰¾ä¸‰ä¸ªæ•°ä¸­çš„ä¸­é—´æ•°ã€‚
  * @author yw
  */
 public class Exercise07 {

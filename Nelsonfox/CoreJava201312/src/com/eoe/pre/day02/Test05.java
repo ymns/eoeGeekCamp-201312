@@ -2,7 +2,7 @@ package com.eoe.pre.day02;
 
 public class Test05 {
 
-	/**substring:从字符串中取出指定范围的子串
+	/**substring:浠庡瓧绗︿覆涓彇鍑烘寚瀹氳寖鍥寸殑瀛愪覆
 	 * substring(start);
 	 * substring(start,end);
 	 * 12345

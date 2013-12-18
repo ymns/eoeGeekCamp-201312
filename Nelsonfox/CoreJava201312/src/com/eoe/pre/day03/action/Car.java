@@ -1,10 +1,10 @@
 package com.eoe.pre.day03.action;
 
-public class Car implements Action{
-
-	@Override
-	public void run() {
-		System.out.println(Action.CAR+"ÕıÔÚĞĞÊ»...");
-	}
-
+public interface Car {
+	public static final String COMPUTER="è®¡ç®—æœº";
+	public static final String COMPANY="å…¬å¸";
+	public static final String PLAYER="è¿åŠ¨å‘˜";
+	public static final String CAR="æ±½è½¦";
+	
+	void run();
 }

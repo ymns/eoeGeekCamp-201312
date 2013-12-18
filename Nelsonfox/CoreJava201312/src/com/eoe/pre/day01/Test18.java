@@ -3,21 +3,21 @@ package com.eoe.pre.day01;
 public class Test18 {
 
 	/**
-	 * continue;Ìø¹ı±¾´ÎÑ­»·Ö®ºóµÄÃüÁî£¬Ö´ĞĞÏÂÒ»Ñ­»·ÄÚÈİ
+	 * continue;è·³è¿‡æœ¬æ¬¡å¾ªç¯ä¹‹åçš„å‘½ä»¤ï¼Œæ‰§è¡Œä¸‹ä¸€å¾ªç¯å†…å®¹
 	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		for (int i = 1;; i++) {
 			if (i <= 20) {
-				System.out.println("·£×ö¸©ÎÔ³Å" + i + "´Î");
+				System.out.println("ç½šåšä¿¯å§æ’‘" + i + "æ¬¡");
 				continue;
 			}
 			if (i <= 100) {
-				System.out.println("ºôßê..ºôßê..." + i + "´Î");
+				System.out.println("å‘¼å“§..å‘¼å“§..." + i + "æ¬¡");
 				continue;
 			}
-			System.out.println("ÌåÁ¦²»Ö§£¬×îÖÕOver!");
+			System.out.println("ä½“åŠ›ä¸æ”¯ï¼Œæœ€ç»ˆOver!");
 			break;
 		}
 	}

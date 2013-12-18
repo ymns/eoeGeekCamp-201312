@@ -2,9 +2,9 @@ package com.eoe.basic.day01.exercise;
 
 public class Exercise04 {
 	/**
-	 *  ±àĞ´³ÌĞò£¬ÎÄ¼şÃû£ºJ08.java£¬¼ÆËã²¢ÏÔÊ¾ÒÔÏÂ±í´ïÊ½µÄÖµ
+	 *  ç¼–å†™ç¨‹åºï¼Œæ–‡ä»¶åï¼šJ08.javaï¼Œè®¡ç®—å¹¶æ˜¾ç¤ºä»¥ä¸‹è¡¨è¾¾å¼çš„å€¼
    		  (sqrt(20)+sqrt(10)/(sqrt(20)-sqrt(10))=
-   		  ÒªÇó£º±£ÁôĞ¡Êıµãºó2Î»¡£
+   		  è¦æ±‚ï¼šä¿ç•™å°æ•°ç‚¹å2ä½ã€‚
 	 * 
 	 */
 	public static void main(String[] args) {

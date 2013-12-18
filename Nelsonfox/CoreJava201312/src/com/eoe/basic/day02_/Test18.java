@@ -5,8 +5,8 @@ public class Test18 {
 		int a=5;
 		int b=50;
 		System.out.println("a="+a+"  b="+b);
-		int c=a;//½«aµÄÖµ±£´æÔÚcÖĞ
-		a=b;//a»ñÈ¡bµÄÖµ£¬  a=50 b=50 c=5
+		int c=a;//å°†açš„å€¼ä¿å­˜åœ¨cä¸­
+		a=b;//aè·å–bçš„å€¼ï¼Œ  a=50 b=50 c=5
 		b=c;//b=5;
 		System.out.println("a="+a+"  b="+b);
 	}

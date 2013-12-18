@@ -5,33 +5,33 @@ import java.util.Scanner;
 public class Test09 {
 
 	/**
-	 * switch()£º¿ª¹ØÓï¾ä
-	 * Ö»ÄÜ´¦Àíint»òcharÀàĞÍµÄ±äÁ¿µÄ¶àÖÖ¿ÉÄÜÖµ.jdk1.6
-	 * jdk1.7:switchÄÜ´¦ÀíStringÀàĞÍ¡£
+	 * switch()ï¼šå¼€å…³è¯­å¥
+	 * åªèƒ½å¤„ç†intæˆ–charç±»å‹çš„å˜é‡çš„å¤šç§å¯èƒ½å€¼.jdk1.6
+	 * jdk1.7:switchèƒ½å¤„ç†Stringç±»å‹ã€‚
 	 */
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
-		System.out.println("ÊäÈë5·ÖÖÆµÄ·ÖÊı:");
+		System.out.println("è¾“å…¥5åˆ†åˆ¶çš„åˆ†æ•°:");
 		int score=scanner.nextInt();
 		switch (score) {
 		case 5:
-			System.out.println("ÓÅ");
+			System.out.println("ä¼˜");
 			break;
 		case 4:
-			System.out.println("Á¼");
+			System.out.println("è‰¯");
 			break;
 		case 3:
-			System.out.println("¼°¸ñ");
+			System.out.println("åŠæ ¼");
 			break;
 		case 2:
 		case 1:
 		case 0:
-			System.out.println("²»¼°¸ñ");
+			System.out.println("ä¸åŠæ ¼");
 			break;
 		default:
-			System.out.println("ÊäÈë´íÎó!");
+			System.out.println("è¾“å…¥é”™è¯¯!");
 			break;
 		}
 	}
-	//siwtch»áÃæµÄÃüÁî
+	//siwtchä¼šé¢çš„å‘½ä»¤
 }

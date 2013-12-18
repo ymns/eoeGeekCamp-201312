@@ -2,26 +2,26 @@ package com.eoe.basic.day01;
 
 public class Test03 {
 	/**
-	 * Test03:ÑİÊ¾³£ÓÃµÄÊıÑ§ÔËËã£¬°üÀ¨£º
-	 * ¼Ó¡¢¼õ¡¢³Ë¡¢³ı
-	 * mµÄn´ÎÃİ
-	 * Æ½·½¸ù
-	 * ¾ø¶ÔÖµ
-	 * ËÄÉáÎåÈë
-	 * È¡Õû
+	 * Test03:æ¼”ç¤ºå¸¸ç”¨çš„æ•°å­¦è¿ç®—ï¼ŒåŒ…æ‹¬ï¼š
+	 * åŠ ã€å‡ã€ä¹˜ã€é™¤
+	 * mçš„næ¬¡å¹‚
+	 * å¹³æ–¹æ ¹
+	 * ç»å¯¹å€¼
+	 * å››èˆäº”å…¥
+	 * å–æ•´
 	 */
 	public static void main(String[] args) {
-		System.out.print("àË£¬´ó¼ÒºÃ£¬°³½ĞÕÅÈı£¬ÏÖÔÚ´ïÄÚÑ§Ï°ITÈí¼ş¿ª·¢");
-		System.out.println("ÒÔÏÂÓÃJava½øÊıÑ§ÔËËã");
+		System.out.print("å—¨ï¼Œå¤§å®¶å¥½ï¼Œä¿ºå«å¼ ä¸‰ï¼Œç°åœ¨è¾¾å†…å­¦ä¹ ITè½¯ä»¶å¼€å‘");
+		System.out.println("ä»¥ä¸‹ç”¨Javaè¿›æ•°å­¦è¿ç®—");
 		System.out.println("100+15="+(100+15));
 		System.out.println("100-15="+(100-15));
 		System.out.println("100*15="+100*15);
 		System.out.println("100/15="+100/15);
 		System.out.println("100%15="+100%15);
-		System.out.println("2µÄ4´Î·½="+Math.pow(2, 4));
-		System.out.println("120µÄÆ½·½¸ù="+Math.sqrt(120));
+		System.out.println("2çš„4æ¬¡æ–¹="+Math.pow(2, 4));
+		System.out.println("120çš„å¹³æ–¹æ ¹="+Math.sqrt(120));
 		System.out.println("|-15|="+Math.abs(-15));
-		System.out.println("5/3£½"+Math.round(5.0/3));
+		System.out.println("5/3ï¼"+Math.round(5.0/3));
 		System.out.println("5/3="+Math.floor(5.0/3));
 	}
 }

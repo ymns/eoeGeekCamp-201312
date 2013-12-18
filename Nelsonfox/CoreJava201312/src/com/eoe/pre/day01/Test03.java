@@ -2,11 +2,11 @@ package com.eoe.pre.day01;
 
 public class Test03 {
 
-	/** ±äÁ¿£º¼ÆËã»úÖĞÓÃÓÚ´æ´¢Êı¾İµÄµ¥ÔªµÄ±íÊ¾¡£
+	/** å˜é‡ï¼šè®¡ç®—æœºä¸­ç”¨äºå­˜å‚¨æ•°æ®çš„å•å…ƒçš„è¡¨ç¤ºã€‚
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		//20µÄÆ½·½¸ù+10µÄÆ½·½¸ù£¬ÔÙ³ıÒÔ(20µÄÆ½·½¸ù-10µÄÆ½·½¸ù)		
+		//20çš„å¹³æ–¹æ ¹+10çš„å¹³æ–¹æ ¹ï¼Œå†é™¤ä»¥(20çš„å¹³æ–¹æ ¹-10çš„å¹³æ–¹æ ¹)		
 		System.out.println("(sqrt(20)+sqrt(10))/(sqrt(20)-sqrt(10))="+(Math.sqrt(20)+Math.sqrt(10))/(Math.sqrt(20)-Math.sqrt(10)));
 		double sqrt10=Math.sqrt(10);
 		double sqrt20=Math.sqrt(20);

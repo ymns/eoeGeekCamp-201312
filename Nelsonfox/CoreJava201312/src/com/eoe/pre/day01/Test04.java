@@ -6,13 +6,13 @@ public class Test04 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String name="ÁõÒà·Æ";
-		char sex='Å®';
+		String name="åˆ˜äº¦è²";
+		char sex='å¥³';
 		int age=28;
 		double height=1.69;
-		String type="»îÆÃµÄ";
-		System.out.println("àË£¬´ó¼ÒºÃ£¬°³½Ğ"+name+",½ñÄê"+age+"Ëê,Éí¸ß"+height+"Ã×");
-		System.out.println("°³ÊÇÒ»¸ö"+type+sex+"Ê¿");
+		String type="æ´»æ³¼çš„";
+		System.out.println("å—¨ï¼Œå¤§å®¶å¥½ï¼Œä¿ºå«"+name+",ä»Šå¹´"+age+"å²,èº«é«˜"+height+"ç±³");
+		System.out.println("ä¿ºæ˜¯ä¸€ä¸ª"+type+sex+"å£«");
 	}
 
 }

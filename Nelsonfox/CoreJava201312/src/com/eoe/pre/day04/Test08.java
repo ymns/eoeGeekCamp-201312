@@ -15,7 +15,7 @@ public class Test08 {
 		try {
 			fis=new FileInputStream(fileName);
 			byte[] buffer=new byte[100];
-			int len;//保存读取的字节数
+			int len;//淇濆瓨璇诲彇鐨勫瓧鑺傛暟
 			while((len=fis.read(buffer))!=-1){
 				String s=new String(buffer);
 				System.out.print(s);

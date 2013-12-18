@@ -2,12 +2,12 @@ package com.eoe.basic.day02;
 
 public class Test19 {
 	/**
-	 * Ê¾Àı£ºJava¶ÔcharÀàĞÍµÄÊı¾İÔÚµ×²ãÊÇ°´intÀàĞÍÀ´´¦ÀíµÄ¡£
+	 * ç¤ºä¾‹ï¼šJavaå¯¹charç±»å‹çš„æ•°æ®åœ¨åº•å±‚æ˜¯æŒ‰intç±»å‹æ¥å¤„ç†çš„ã€‚
 	 */
 	public static void main(String[] args) {
 		char ca='a';
-		int i=ca+1;//ca°´intĞÍ´¦ÀíÊÇ97+1=98
-		char cb=(char) (ca+1);//×ª»»³ÉĞ¡Ğ´×ÖÄ¸b
+		int i=ca+1;//caæŒ‰intå‹å¤„ç†æ˜¯97+1=98
+		char cb=(char) (ca+1);//è½¬æ¢æˆå°å†™å­—æ¯b
 		System.out.println(cb+":"+i);
 	}
 }

@@ -13,16 +13,16 @@ public class Test10 {
 	 */
 	public static void main(String[] args) {
 		ArrayList<Person_> people = new ArrayList<Person_>();
-		people.add(new Student_("ÕÅĞ¡·É", 'ÄĞ', 22, 1.79, "ºÀ·ÅµÄ", "eoe",
-				"eoe210312°à"));
-		people.add(new Teacher_("ÕÅ´ó·É", 'ÄĞ', 32, 1.79, "ºÀ·ÅµÄ", "eoe", "½²Ê¦"));
-		people.add(new Student_("ÍõĞ¡·É", 'Å®', 22, 1.79, "ºÀ·ÅµÄ", "eoe",
-				"eoe210312°à"));
-		people.add(new Person_("ÁõÒà·Æ",'Å®',28,1.69,"ÎÂÈáµÄ") {
+		people.add(new Student_("å¼ å°é£", 'ç”·', 22, 1.79, "è±ªæ”¾çš„", "eoe",
+				"eoe210312ç­"));
+		people.add(new Teacher_("å¼ å¤§é£", 'ç”·', 32, 1.79, "è±ªæ”¾çš„", "eoe", "è®²å¸ˆ"));
+		people.add(new Student_("ç‹å°é£", 'å¥³', 22, 1.79, "è±ªæ”¾çš„", "eoe",
+				"eoe210312ç­"));
+		people.add(new Person_("åˆ˜äº¦è²",'å¥³',28,1.69,"æ¸©æŸ”çš„") {
 
 			@Override
 			public void doing() {
-				System.out.println(this.getName()+"ÕıÔÚ±íÑİ....");
+				System.out.println(this.getName()+"æ­£åœ¨è¡¨æ¼”....");
 			}
 		});
 		

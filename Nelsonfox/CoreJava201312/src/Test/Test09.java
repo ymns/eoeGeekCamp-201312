@@ -13,8 +13,8 @@ public class Test09 {
 		// TODO Auto-generated method stub
 int i=-2;
 long l=i;
-System.out.println("intÀàĞÍµÄ-2"+Integer.toBinaryString(i));
-System.out.println("longÀàĞÍµÄ-2"+Long.toBinaryString(l));
+System.out.println("intç±»å‹çš„-2"+Integer.toBinaryString(i));
+System.out.println("longç±»å‹çš„-2"+Long.toBinaryString(l));
 	}
 
 }

@@ -8,16 +8,16 @@ public class Test06 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-//		Person p=new Student("ÕÅĞ¡·É", 'ÄĞ', 23, 1.89, "¿ìÀÖµÄ", "eoe", "1312°à");
+//		Person p=new Student("å¼ å°é£", 'ç”·', 23, 1.89, "å¿«ä¹çš„", "eoe", "1312ç­");
 //		p.say();
-//		Person p2=new Teacher("ÕÅ´ó·É", 'ÄĞ', 33, 1.89, "¿ìÀÖµÄ", "eoe", "½²Ê¦");
+//		Person p2=new Teacher("å¼ å¤§é£", 'ç”·', 33, 1.89, "å¿«ä¹çš„", "eoe", "è®²å¸ˆ");
 //		p2.say();
-		//´úÂëµÄ¼ò½àĞÔ¡¢Ò»ÖÂĞÔ£¬¹¦ÄÜµÄ¶àÑùĞÔ¡£
+		//ä»£ç çš„ç®€æ´æ€§ã€ä¸€è‡´æ€§ï¼ŒåŠŸèƒ½çš„å¤šæ ·æ€§ã€‚
 		Person_[] people=new Person_[4];
-		people[0]=new Student_("ÕÅĞ¡·É", 'ÄĞ', 23, 1.89, "¿ìÀÖµÄ", "eoe", "1312°à");
-		people[1]=new Teacher_("ÕÅ´ó·É", 'ÄĞ', 33, 1.89, "¿ìÀÖµÄ", "eoe", "½²Ê¦");
-		people[2]=new Student_("ÍõĞ¡·É", 'ÄĞ', 23, 1.89, "¿ìÀÖµÄ", "eoe", "1312°à");
-		people[3]=new Teacher_("Íõ´ó·É", 'ÄĞ', 33, 1.89, "¿ìÀÖµÄ", "eoe", "°àÖ÷ÈÎ");
+		people[0]=new Student_("å¼ å°é£", 'ç”·', 23, 1.89, "å¿«ä¹çš„", "eoe", "1312ç­");
+		people[1]=new Teacher_("å¼ å¤§é£", 'ç”·', 33, 1.89, "å¿«ä¹çš„", "eoe", "è®²å¸ˆ");
+		people[2]=new Student_("ç‹å°é£", 'ç”·', 23, 1.89, "å¿«ä¹çš„", "eoe", "1312ç­");
+		people[3]=new Teacher_("ç‹å¤§é£", 'ç”·', 33, 1.89, "å¿«ä¹çš„", "eoe", "ç­ä¸»ä»»");
 		for(Person_ person:people){
 			person.say();
 		}

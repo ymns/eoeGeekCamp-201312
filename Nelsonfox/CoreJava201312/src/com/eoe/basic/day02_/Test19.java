@@ -1,5 +1,5 @@
 package com.eoe.basic.day02_;
-//²»½èÖúµÚÈı¸ö±äÁ¿£¬Á½¸ö±äÁ¿Öµ»¥»».
+//ä¸å€ŸåŠ©ç¬¬ä¸‰ä¸ªå˜é‡ï¼Œä¸¤ä¸ªå˜é‡å€¼äº’æ¢.
 public class Test19 {
 	public static void main(String[] args) {
 		int a=5;
@@ -9,7 +9,7 @@ public class Test19 {
 		b=a-b;//a=55   b=5
 		a-=b;
 		System.out.println("a="+a+"  b="+b);
-		//ctrl+d:¿ìËÙÉ¾³ıÒ»ĞĞ´úÂë
+		//ctrl+d:å¿«é€Ÿåˆ é™¤ä¸€è¡Œä»£ç 
 		System.out.println(~(4)+1);
 		
 //		a=528;

@@ -8,7 +8,7 @@ public class Student_ extends Person_ {
 	}
 	//alt+sift+s
 	/**
-	 * @param name:ĞÕÃû
+	 * @param name:å§“å
 	 * @param sex
 	 * @param age
 	 * @param height
@@ -19,20 +19,20 @@ public class Student_ extends Person_ {
 	public Student_(String name, char sex, int age,
 			double height, String type,
 			String inSchool, String inClass) {
-		//PersonÀàµÄ´ø5¸ö²ÎÊıµÄ¹¹ÔìÆ÷
+		//Personç±»çš„å¸¦5ä¸ªå‚æ•°çš„æ„é€ å™¨
 		super(name, sex, age, height, type);
 		this.inSchool = inSchool;
 		this.inClass = inClass;
 	}
 	@Override 
-	//¸²Ğ´»ò³ÆÖØĞ´
+	//è¦†å†™æˆ–ç§°é‡å†™
 	public void say() {
 		// TODO Auto-generated method stub
 		super.say();
-		System.out.println("°³ÔÚ"+inSchool+inClass+"Ñ§Ï°");
+		System.out.println("ä¿ºåœ¨"+inSchool+inClass+"å­¦ä¹ ");
 	}
 
-	// ¼ÆËãn£¡
+	// è®¡ç®—nï¼
 	public double fact(int n) {
 		double result = 1;
 		for (int i = 1; i <= n; i++) {
@@ -41,15 +41,15 @@ public class Student_ extends Person_ {
 		return result;
 	}
 	public static void main(String[] args) {
-		Student_ s = new Student_("ÕÅĞ¡·É",'ÄĞ',
-			23,1.89,"¿ñ·ÅµÄ","eoe¼«¿Í¹¤×÷·»","eoe20131205°à");
+		Student_ s = new Student_("å¼ å°é£",'ç”·',
+			23,1.89,"ç‹‚æ”¾çš„","eoeæå®¢å·¥ä½œåŠ","eoe20131205ç­");
 		s.say();
-		s.feeling("°³Ê§ÁµÀ²", "ÍÛÍÛ...");
-		System.out.println("ÏÂÃæ¸ø´ó¼ÒÑİÊ¾¼ÆËã5£¡");
+		s.feeling("ä¿ºå¤±æ‹å•¦", "å“‡å“‡...");
+		System.out.println("ä¸‹é¢ç»™å¤§å®¶æ¼”ç¤ºè®¡ç®—5ï¼");
 		System.out.println("5!="+s.fact(5));
 	}
 	@Override
 	public void doing() {
-		System.out.println(this.getName()+"ÕıÔÚĞ´×÷Òµ...");
+		System.out.println(this.getName()+"æ­£åœ¨å†™ä½œä¸š...");
 	}
 }

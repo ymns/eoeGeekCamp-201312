@@ -2,10 +2,10 @@ package com.eoe.basic.day01.exercise;
 
 public class Exercise05 {
 	/**
-	 * ±àĞ´Test10Àà£¬¼ÆËã46ÌìÊÇ¼¸ÖÜÁã¼¸Ìì¡£
+	 * ç¼–å†™Test10ç±»ï¼Œè®¡ç®—46å¤©æ˜¯å‡ å‘¨é›¶å‡ å¤©ã€‚
 	 */
 	public static void main(String[] args) {
-		System.out.println("46ÌìÊÇ"+46/7+"ÖÜ"+46%7+"Ìì");
+		System.out.println("46å¤©æ˜¯"+46/7+"å‘¨"+46%7+"å¤©");
 	}
 
 }

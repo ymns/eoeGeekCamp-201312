@@ -3,7 +3,7 @@ package com.eoe.pre.day02;
 public class Test01 {
 
 	/**
-	 * null:µØÖ·Îª¿Õ
+	 * 
 	 */
 	public static void main(String[] args) {
 		int[] scores=new int[5];

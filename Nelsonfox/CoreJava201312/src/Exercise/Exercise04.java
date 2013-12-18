@@ -6,7 +6,7 @@ public class Exercise04 {
 		// TODO Auto-generated constructor stub
 	}
 
-	/**±àĞ´³ÌĞò£¬²»ÓÃµÚÈı¸ö±äÁ¿£¬ÊµÏÖÁ½¸ö×Ö·ûÀàĞÍ±äÁ¿Öµ»¥»»¡£
+	/**ä¸ç”¨ç¬¬ä¸‰ä¸ªå˜é‡ï¼Œç”¨å‡æ³•å®ç°ä¸¤ä¸ªå˜é‡å€¼äº’æ¢ã€‚
 	 * @param args
 	 */
 	public static void main(String[] args) {

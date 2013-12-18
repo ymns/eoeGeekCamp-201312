@@ -2,12 +2,12 @@ package com.eoe.basic.day02;
 
 public class Test21 {
 	/**
-	 * Í¨¹ıargsÊı×é£¬´Ó¿ØÖÆÌ¨»ñÈ¡Êı¾İ
+	 * é€šè¿‡argsæ•°ç»„ï¼Œä»æ§åˆ¶å°è·å–æ•°æ®
 	 */
 	public static void main(String[] args) {
-		//½«µÚÒ»¸öÊäÈëµÄÊı¾İ×ª»»ÎªintÀàĞÍ
+		//å°†ç¬¬ä¸€ä¸ªè¾“å…¥çš„æ•°æ®è½¬æ¢ä¸ºintç±»å‹
 		int a=Integer.parseInt(args[0]);
-		//½«µÚ¶ş¸öÊäÈëµÄÊı¾İ×ª»»ÎªintÀàĞÍ
+		//å°†ç¬¬äºŒä¸ªè¾“å…¥çš„æ•°æ®è½¬æ¢ä¸ºintç±»å‹
 		int b=Integer.parseInt(args[1]);
 		System.out.print("a+b="+(a+b));
 		System.out.print("\ta-b="+(a-b));

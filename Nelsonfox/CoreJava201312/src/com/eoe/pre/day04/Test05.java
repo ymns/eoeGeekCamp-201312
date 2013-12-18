@@ -6,9 +6,9 @@ public class Test05 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		//´´½¨Ïß³ÌÖ´ĞĞµÄÈÎÎñ¶ÔÏó
+		//åˆ›å»ºçº¿ç¨‹æ‰§è¡Œçš„ä»»åŠ¡å¯¹è±¡
 		DonwloadTask task=new DonwloadTask();
-		Thread t=new Thread(task, "ÏÂÔØÏß³Ì");
+		Thread t=new Thread(task, "ä¸‹è½½çº¿ç¨‹");
 		t.start();
 
 	}

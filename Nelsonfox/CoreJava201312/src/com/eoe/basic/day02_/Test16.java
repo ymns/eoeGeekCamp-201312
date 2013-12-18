@@ -1,20 +1,20 @@
 package com.eoe.basic.day02_;
 
 import java.util.Scanner;
-//ÕÅ·É ÄĞ
+//å¼ é£ ç”·
 public class Test16 {
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
-		System.out.print("ÊäÈëĞÕÃû£º");
+		System.out.print("è¾“å…¥å§“åï¼š");
 		String name=scanner.next();
-		System.out.print("ĞÔ±ğ:");
+		System.out.print("æ€§åˆ«:");
 		char sex=scanner.next().charAt(0);
-		System.out.print("ÄêÁä:");
+		System.out.print("å¹´é¾„:");
 		int age=scanner.nextInt();
-		System.out.print("Éí¸ß£º");
+		System.out.print("èº«é«˜ï¼š");
 		float height=scanner.nextFloat();
-		System.out.println("àË£¬´ó¼ÒºÃ£¬°³½Ğ"+name+
-			"£¬½ñÄê"+age+"Ëê,Éí¸ß:"+height+
-			"Ã×,°³ÊÇÒ»¸ö"+sex+"Ê¿");
+		System.out.println("å—¨ï¼Œå¤§å®¶å¥½ï¼Œä¿ºå«"+name+
+			"ï¼Œä»Šå¹´"+age+"å²,èº«é«˜:"+height+
+			"ç±³,ä¿ºæ˜¯ä¸€ä¸ª"+sex+"å£«");
 	}
 }

@@ -6,28 +6,28 @@ import java.util.Scanner;
 public class Test06 {
 
 	/**
-	 * ctlr+/:¿ìËÙ×¢ÊÍËùÑ¡´úÂë
+	 * ctlr+/:å¿«é€Ÿæ³¨é‡Šæ‰€é€‰ä»£ç 
 	 */
 	public static void main(String[] args) {
-		//¼üÅÌÊäÈëÓï¾ä
+		//é”®ç›˜è¾“å…¥è¯­å¥
 //		int score=60;
 //		System.out.println("score="+score);
-		//´´½¨Ò»¸öÓÃÓÚ¼üÅÌÊäÈëµÄ¶ÔÏó
+		//åˆ›å»ºä¸€ä¸ªç”¨äºŽé”®ç›˜è¾“å…¥çš„å¯¹è±¡
 		Scanner scanner=new Scanner(System.in);
-		System.out.println("ÇëÊäÈë·ÖÊý:");
+		System.out.println("è¯·è¾“å…¥åˆ†æ•°:");
 		int score=scanner.nextInt();
 		if(score>=60){
-			System.out.println("¼°¸ñ");
+			System.out.println("åŠæ ¼");
 		}else{
-			System.out.println("²»¼°¸ñ");
+			System.out.println("ä¸åŠæ ¼");
 		}
 		/*
-		 *   ±í´ïÊ½1 < ±í´ïÊ½2   :Ð¡ÓÚÔËËã
-		 *   ±í´ïÊ½1 > ±í´ïÊ½2   :´óÓÚÔËËã
-		 *   ±í´ïÊ½1 <= ±í´ïÊ½2   :Ð¡ÓÚµÈÓÚÔËËã
-		 *   ±í´ïÊ½1 >= ±í´ïÊ½2   :´óÓÚµÈÓÚÔËËã
-		 *   ±í´ïÊ½1 == ±í´ïÊ½2   :µÈÓÚÔËËã
-		 *   ±í´ïÊ½1 != ±í´ïÊ½2   :²»µÈÓÚÔËËã
+		 *   è¡¨è¾¾å¼1 < è¡¨è¾¾å¼2   :å°äºŽè¿ç®—
+		 *   è¡¨è¾¾å¼1 > è¡¨è¾¾å¼2   :å¤§äºŽè¿ç®—
+		 *   è¡¨è¾¾å¼1 <= è¡¨è¾¾å¼2   :å°äºŽç­‰äºŽè¿ç®—
+		 *   è¡¨è¾¾å¼1 >= è¡¨è¾¾å¼2   :å¤§äºŽç­‰äºŽè¿ç®—
+		 *   è¡¨è¾¾å¼1 == è¡¨è¾¾å¼2   :ç­‰äºŽè¿ç®—
+		 *   è¡¨è¾¾å¼1 != è¡¨è¾¾å¼2   :ä¸ç­‰äºŽè¿ç®—
 		 */
 	}
 

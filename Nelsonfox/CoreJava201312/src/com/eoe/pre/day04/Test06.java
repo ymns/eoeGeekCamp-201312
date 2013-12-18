@@ -6,9 +6,9 @@ public class Test06 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Song song=new Song();//´´½¨ÈÎÎñ¶ÔÏó
-		Thread wangfei=new Thread(song, "Íõ·Æ");
-		Thread zhangfei=new Thread(song, "ÕÅ·É");
+		Song song=new Song();//åˆ›å»ºä»»åŠ¡å¯¹è±¡
+		Thread wangfei=new Thread(song, "ç‹è²");
+		Thread zhangfei=new Thread(song, "å¼ é£");
 		wangfei.start();
 		try {
 			Thread.sleep(800);
@@ -19,15 +19,15 @@ public class Test06 {
 		}
 		
 	}
-	//´´½¨ÈÎÎñÀà
+	//åˆ›å»ºä»»åŠ¡ç±»
 	static class Song implements Runnable{
 		String[] songs={
-			"ÎÒÊÇÒ»Ö§Ğ¡Ğ¡Ğ¡Äñ",
-			"ÏëÒª·ÉÒ²·É²»¸ß",
-			"ÎÒÑ°Ñ°ÃÙÃÙ£¬Ñ°Ñ°ÃÙÃÙÒ»¸öÎÂÅ¯µÄ»³±§",
-			"ÕâÑùµÄÒªÇó»á²»»áÌ«¸ß"
+			"æˆ‘æ˜¯ä¸€æ”¯å°å°å°é¸Ÿ",
+			"æƒ³è¦é£ä¹Ÿé£ä¸é«˜",
+			"æˆ‘å¯»å¯»è§…è§…ï¼Œå¯»å¯»è§…è§…ä¸€ä¸ªæ¸©æš–çš„æ€€æŠ±",
+			"è¿™æ ·çš„è¦æ±‚ä¼šä¸ä¼šå¤ªé«˜"
 		};
-		int index=0;//Ö¸Ïòµ±Ç°Êı×éÔªËØ
+		int index=0;//æŒ‡å‘å½“å‰æ•°ç»„å…ƒç´ 
 		@Override
 		public void run() {
 			while(true){
@@ -39,7 +39,7 @@ public class Test06 {
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
-				}//ĞİÃß1000ºÁÃë
+				}//ä¼‘çœ 1000æ¯«ç§’
 //				if(index<3){
 //					index++;
 //				}else{

@@ -2,12 +2,12 @@ package com.eoe.basic.day02;
 
 public class Test20 {
 	/**
-	 * Ê¾Àı£º×ªÒå·ûºÅ
+	 * ç¤ºä¾‹ï¼šè½¬ä¹‰ç¬¦å·
 	 */
 	public static void main(String[] args) {
-		System.out.println("\t°³ÔÚµÚ11¸öÎ»ÖÃ¿ªÊ¼ÏÔÊ¾µÄÓ´£¡");
-		System.out.print("ÏÂÒ»¸öÊä³öºÍÎÒ²»ÔÚÍ¬Ò»ĞĞ\n");
-		System.out.println("\"Ë«ÒıºÅºÍ°³Ò»ÆğÊä³öÀ²£¡\"");
-		System.out.println("ÏÔÊ¾Ò»¸öÂ·¾¶£ºd:\\java\\basic\\day01");
+		System.out.println("\tä¿ºåœ¨ç¬¬11ä¸ªä½ç½®å¼€å§‹æ˜¾ç¤ºçš„å“Ÿï¼");
+		System.out.print("ä¸‹ä¸€ä¸ªè¾“å‡ºå’Œæˆ‘ä¸åœ¨åŒä¸€è¡Œ\n");
+		System.out.println("\"åŒå¼•å·å’Œä¿ºä¸€èµ·è¾“å‡ºå•¦ï¼\"");
+		System.out.println("æ˜¾ç¤ºä¸€ä¸ªè·¯å¾„ï¼šd:\\java\\basic\\day01");
 	}
 }

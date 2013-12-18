@@ -1,14 +1,14 @@
 package com.eoe.basic.day02;
 
 public class Test13 {
-	/** Ê¾Àı£ºlongÀàĞÍ×ª»»ÎªdoubleÀàĞÍµÄ¾«¶È¶ªÊ§ÏÖÏó¡£*/
+	/** ç¤ºä¾‹ï¼šlongç±»å‹è½¬æ¢ä¸ºdoubleç±»å‹çš„ç²¾åº¦ä¸¢å¤±ç°è±¡ã€‚*/
 	public static void main(String[] args) {
 		long l=0x20000000000001L;
 		double d=l;
-		/*ÒÔÏÂÊÇ¸ÃÊıµÄ¶ş½øÖÆĞÎÊ½£¬×Ü¹²54Î»
+		/*ä»¥ä¸‹æ˜¯è¯¥æ•°çš„äºŒè¿›åˆ¶å½¢å¼ï¼Œæ€»å…±54ä½
 		  100000,00000000,00000000,00000000,00000000,00000000,00000001 long
 		  10000,00000000,00000000,00000000,00000000,00000000,000100000 double
-		 *  ´æ·ÅÖÁdouble±äÁ¿ÖĞ½«¶ªÊ§×îºó1Î»Êı¾İ¡£
+		 *  å­˜æ”¾è‡³doubleå˜é‡ä¸­å°†ä¸¢å¤±æœ€å1ä½æ•°æ®ã€‚
 		 */
 		System.out.println("long:  "+Long.toBinaryString(l)+"  "+l);
 		System.out.println("double:"+Long.toBinaryString((long)d)+"  "+d);

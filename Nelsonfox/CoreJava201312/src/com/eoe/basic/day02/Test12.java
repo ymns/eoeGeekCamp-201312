@@ -2,7 +2,7 @@ package com.eoe.basic.day02;
 
 public class Test12 {
 	/**
-	 * ¡¾Ê¾Àı¡¿intÀàĞÍ×ª»»ÎªfloatÀàĞÍ¶ªÊ§¾«¶È°¸Àı¡£
+	 * ã€ç¤ºä¾‹ã€‘intç±»å‹è½¬æ¢ä¸ºfloatç±»å‹ä¸¢å¤±ç²¾åº¦æ¡ˆä¾‹ã€‚
 	 */
 	public static void main(String[] args) {
 		int i = 0x1000001;

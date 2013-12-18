@@ -3,12 +3,12 @@ package com.eoe.basic.day01.exercise;
 public class Exercise06 {
 
 	/**
-	 * ±àĞ´Test11Àà£¬¼ÆËã3712ÃëÊÇ¼¸Ğ¡Êı¡¢¼¸·Ö¡¢¼¸Ãë¡£
+	 * ç¼–å†™Test11ç±»ï¼Œè®¡ç®—3712ç§’æ˜¯å‡ å°æ•°ã€å‡ åˆ†ã€å‡ ç§’ã€‚
 	 */
 	public static void main(String[] args) {
-		System.out.println("3712ÃëÊÇ"+3712/3600+"Ê±"
-					  				+3712%3600/60+"·Ö"
-					  				+3712%60+"Ãë");
+		System.out.println("3712ç§’æ˜¯"+3712/3600+"æ—¶"
+					  				+3712%3600/60+"åˆ†"
+					  				+3712%60+"ç§’");
 	}
 
 }

@@ -3,13 +3,13 @@ package com.eoe.basic.day02_;
 public class Test08 {
 	public static void main(String[] args) {
 		String path="d:/a/b/c";
-		// \n:»Ø³µ¡¢»»ĞĞ
+		// \n:å›è½¦ã€æ¢è¡Œ
 		/*
-		 * \t:ÏòÓÒÍË10¸ö¿Õ¸ñ
-		 * \':´ú±íµ¥ÒıºÅ
+		 * \t:å‘å³é€€10ä¸ªç©ºæ ¼
+		 * \':ä»£è¡¨å•å¼•å·
 		 * \"
 		 */
-		System.out.println("°³½Ğ³ØÈ«");
-		System.out.println("System.out.println(\"°³½Ğ³ØÈ«\");");
+		System.out.println("ä¿ºå«æ± å…¨");
+		System.out.println("System.out.println(\"ä¿ºå«æ± å…¨\");");
 	}
 }
