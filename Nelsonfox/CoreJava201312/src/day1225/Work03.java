@@ -1,15 +1,14 @@
-package Exercise03;
+package day1225;
 
 import java.util.Scanner;
 
-public class Exercise02 {
+public class Work03 {
 
-	public Exercise02() {
+	public Work03() {
 		// TODO Auto-generated constructor stub
 	}
 
-	/** 编写程序， 计算：1+1/2+1/3+..+1/n，要求：
-      键盘输入n的值，保留小数点后2位。
+	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -18,11 +17,10 @@ Scanner scanner=new Scanner(System.in);
 System.out.println("n=");
 int n=scanner.nextInt();
 double result=0;
-for(double i=1;i<=n;i++){
-	result+=(1.0/i);
-	 
+for(int i=1;i<=n;i+=2){
+	result+=1.0/i-1.0/(i+1);
 }
-System.out.println(result);
+System.out.println("1/1-1/2+1/3-1/4+...1/n="+Math.round(result*100.0)/100.0);
 	}
 
 }
