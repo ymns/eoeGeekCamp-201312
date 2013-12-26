@@ -1,2 +1,0 @@
-
-package Exerciseday04;
