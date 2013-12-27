@@ -17,7 +17,7 @@ public class Code11 {
 		String[] names = { "张飞", "王菲", "刘亦菲" };
 		String[] cards = { "红桃3", "红桃4", "红桃5", "红桃6", "红桃7", "红桃8", "红桃9",
 				"红桃10", "红桃J", "红桃Q", "红桃K", "红桃A", "红桃2" };
-		for (int i = cards.length - 1; i > 0; i--) {
+		for (int i = cards.length - 1; i > 0; i--) {//cards.length-1最大下标
 			// 随机产生一个0~i-1之间的整数->index
 			int index = random.nextInt(i);
 			// 以下三個命令交換cards[index]和cards[i]
