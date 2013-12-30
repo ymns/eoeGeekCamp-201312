@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Exercise09 {
 	/**
-	 * arraycopyÊ¾Àý
+	 * arraycopy
 	 */
 	public static void main(String[] args) {	
 	int[] src={20,3,8,6,3};
