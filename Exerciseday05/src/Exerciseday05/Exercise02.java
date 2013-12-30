@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Exercise02 {
 	/**
-	 * System.arraycopy()Ê¹ÓÃÊ¾Àý
+	 * System.arraycopy()
 	 */
 	public static void main(String[] args) {
 		int[] a={10,8,7,12,6};
