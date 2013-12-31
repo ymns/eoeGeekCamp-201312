@@ -8,11 +8,11 @@ import java.util.Random;
 public class Test25 {
 	public static void main(String[] args){
 		Random random=new Random();
-		int max=Integer.MAX_VALUE;
+		int max=Integer.MIN_VALUE;
 		for(int i=1;i<=10;i++){
 			int score=random.nextInt(41)+60;
 			System.out.print(score+" ");
-			if(max>score){
+			if(max<score){
 				max=score;
 			}
 		}

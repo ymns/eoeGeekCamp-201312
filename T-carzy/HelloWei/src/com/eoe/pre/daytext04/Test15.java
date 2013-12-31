@@ -7,7 +7,7 @@ public class Test15 {
 		do{
 			System.out.println("输入五分制分数 ：");
 			score=scanner.nextInt();
-		}while(!(score>0&&score<=5));
+		}while(!(score>=0&&score<=5));
 		System.out.println("输入正确");
 	}
 
