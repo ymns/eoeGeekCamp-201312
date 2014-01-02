@@ -1,17 +1,15 @@
-package com.eoe.basic.day01;
+package com.eoe.basic.day02;
 
 public class Test02 {
 
 	/**
-	 * 计算(sqrt(20)+sqrt(10)/sqrt(20)-sqrt(10))=
-	 * 结果保留小数点后一位
+	 * @param args
 	 */
 	public static void main(String[] args) {
-		       double sqrt20=Math.sqrt(20);
-		       double sqrt10=Math.sqrt(10);
-		       double result=(sqrt20+sqrt10)/(sqrt20-sqrt10);
-		       System.out.println(result);
-		       System.out.println(Math.round(result*10)/10d);
+			char c=65;   //  int自动转换为char
+			int i='B';      //  char自动转换为int
+			System.out.println(c);
+			System.out.println(i);
 
 	}
 
