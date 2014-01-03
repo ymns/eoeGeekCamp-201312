@@ -6,8 +6,8 @@ public class Test02 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-			char c=65;   //  int自动转换为char
-			int i='B';      //  char自动转换为int
+			char c=65;   //  int鑷姩杞寲鎴恈har
+			int i='B';      //  char鑷姩杞寲鎴恑nt
 			System.out.println(c);
 			System.out.println(i);
 
