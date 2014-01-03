@@ -3,7 +3,7 @@ package com.eoe.basic.day01;
 public class Test01 {
 
 	/**
-	 * 20131230第一个Java程序
+	 * 20131230杩欐槸鎴戠殑绗竴涓狫ava绋嬪簭
 	 */
 	public static void main(String[] args) {
 		       System.out.println("Hello Java");
