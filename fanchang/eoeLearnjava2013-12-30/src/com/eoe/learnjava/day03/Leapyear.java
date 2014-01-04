@@ -13,7 +13,7 @@ public class Leapyear {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("输入年份：");
 		int year = scanner.nextInt();
-		if((year%400==0||year%4==0)&&year%100!=0){
+		if((year%400==0||year%4==0)&&year%100!=0){  /*判断是否是闰年*/
 			System.out.println("今年是闰年");
 		}else{
 			System.out.println("今年是平年");

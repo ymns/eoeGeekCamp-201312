@@ -24,6 +24,7 @@ public class Score {
 //		}
 		
 		//选择法
+		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("java、android、sql的成绩：");
 		int java = scanner.nextInt();
