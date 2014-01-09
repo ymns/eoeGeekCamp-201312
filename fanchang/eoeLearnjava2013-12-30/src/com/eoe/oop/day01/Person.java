@@ -31,9 +31,9 @@ public class Person {
 
 
 	public void say() {
-		System.out.println("嗨,大家好我叫: " + name + 
+		System.out.println("嗨,大家好我叫:" + name + 
 				", 今年 " + age + ", 身高"+ height + 
-				", 我是一个" + type + sex + "生");
+				", 我是一个" + type + sex + "士");
 	}
 
 	public void feeling(String cause, String content) {

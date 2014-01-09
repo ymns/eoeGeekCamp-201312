@@ -10,13 +10,13 @@ public class Student {
 	 */
 	
 	//定义五个变量
-	String name;
-	char sex;
-	int age;
-	double height;
-	String type;
-	String inSchool;
-	String inClass;
+	public String name;
+	public char sex;
+	public int age;
+	public double height;
+	public String type;
+	public String inSchool;
+	public String inClass;
 	
 	//构造参数方法
 	public Student(String name,int age,double height,String type,
