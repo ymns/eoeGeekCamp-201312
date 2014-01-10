@@ -42,7 +42,14 @@ public class Person {
 		this.height = height;
 		this.type = type;
 	}
-//重写toString
+
+
+	public Person(String name2, String string, String string2, String string3,
+			String type2) {
+		// TODO Auto-generated constructor stub
+	}
+
+	//重写toString
 	@Override
 	public String toString() {
 		return this.name;//返回人名

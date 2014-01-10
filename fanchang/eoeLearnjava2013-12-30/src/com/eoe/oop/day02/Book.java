@@ -18,20 +18,24 @@ public class Book {
 	 * @param args
 	 */
 //定义了4个参数
-	public int id;
-	public String names;
-	public String isbn;
-	public double price;
+	public int id;        	//编号
+	public String names;    //书名
+	public String isbn;     //书号
+	public double price;    //价格
+	public Person author;   //作者
 
 	
 //构造有参方法	
-	public Book(int id, String names, String isbn, double price) {
+		
+		public Book(int id, String names, String isbn, double price, Person author) {
 		super();
 		this.id = id;
 		this.names = names;
 		this.isbn = isbn;
 		this.price = price;
+		this.author = author;
 	}
+
 	
 //重写toString
 	@Override
@@ -39,37 +43,40 @@ public class Book {
 		
 		return this.names;
 	}
-	
+
 //重写equals
 	@Override
-	public boolean equals(Object obj) {
+	public boolean equals(Object obj) {    //obj目标地址
 		if (obj==null) {               //obj为空,则返回false
 			return false;
 		}
-		Person other=null;
+		Book other=null;
 		if (obj instanceof Person) {   //判断能否转换
-			other=(Person) obj;        //强制转换并赋值给other
+			other=(Book) obj;        //强制转换并赋值给other
 		}else {
 			return false;
 		}if (obj==this) {          		//obj的地址和这个对象的地址相等,
 			return true;
 		}
-		return this.isbn==obj;
+		return this.isbn.equals(other.isbn);
 	}
-	public String details(){
+	public void details(){
 		System.out.println("编号:"+id+",书名"+names+
-				"书号:"+isbn+"价格:"+price);
-		Person.say();
+				"书号:"+isbn+"价格:"+price+"作者:"+author);
 	}
 
 	public static void main(String[] args) {
-		Author author = new Author("李刚", '男', 33, 1.67, "快乐的");
-		Book book1=new Book(1, "《疯狂Java》", "ISBN18005", 85);
-		Book book2=new Book(1, "《疯狂Java》", "ISBN18005", 85);
-		System.out.println(book1.equals(book2));
 		String strPerson="李刚:男:33:1.67:快乐的";
 		String strBook="1:《疯狂Java》:ISBN18005:85";
+		String[] data=strPerson.split(":");             //同":"分隔开存入数组
+		Person author=new Person(data[0],data[1],data[2],data[3],data[4]);
+		Book book1=new Book(1, "《疯狂Java》",anthor, "ISBN18005", 85);
 		
+//		Book book2=new Book(1, "《疯狂Java》", "ISBN18005", 85);
+//		System.out.println(book1.equals(book2));
+//		String strPerson="李刚:男:33:1.67:快乐的";
+//		String strBook="1:《疯狂Java》:ISBN18005:85";
+
 	}
 
 }
