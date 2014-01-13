@@ -7,11 +7,11 @@ public class Number {
 	 */
 	int a;
 	int b;
-	
+//无参的
 	public Number() {
 		super();
 	}
-
+//有2个参数的构造方法
 	public Number(int a, int b) {
 		super();
 		this.a = a;

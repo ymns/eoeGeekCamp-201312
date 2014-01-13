@@ -10,6 +10,7 @@ public class Test_array02 {
 	 * father mother we are family
 	 * @param args
 	 */
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		String text="father mother we are family";

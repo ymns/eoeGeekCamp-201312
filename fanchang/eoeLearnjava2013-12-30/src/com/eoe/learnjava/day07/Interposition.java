@@ -1,6 +1,6 @@
 package com.eoe.learnjava.day07;
 
-import java.lang.reflect.Array;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -10,6 +10,7 @@ public class Interposition {
 	 * 向数组插入元素
 	 * @param args
 	 */
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 				
 		String[] names={"赵飞","王菲","刘亦菲","吗啡"};

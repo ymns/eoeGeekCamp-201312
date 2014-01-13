@@ -8,6 +8,7 @@ public class Look_up {
 	 * 输入姓名,查找在数组中对应的位置
 	 * @param args
 	 */
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		String[] name={"张飞","马飞","刘亦菲","王菲","阿飞"};
 		Scanner scanner = new Scanner(System.in);

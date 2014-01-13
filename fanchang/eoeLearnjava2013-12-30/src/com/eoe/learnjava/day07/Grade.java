@@ -8,6 +8,7 @@ public class Grade {
 	 * 不用判断语句给五分制的分数评定成绩等级
 	 * @param args
 	 */
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 //		int score;
 //		Scanner scanner = new Scanner(System.in);

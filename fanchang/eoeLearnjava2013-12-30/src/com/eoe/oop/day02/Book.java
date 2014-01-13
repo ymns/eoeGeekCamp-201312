@@ -1,5 +1,8 @@
 package com.eoe.oop.day02;
 
+
+
+
 public class Book {
 
 	/**
@@ -27,13 +30,19 @@ public class Book {
 	
 //构造有参方法	
 		
-		public Book(int id, String names, String isbn, double price, Person author) {
+	public Book() {
+		super();
+	}
+
+
+	public Book(int id, String names,Person anthor
+				,String isbn, double price) {
 		super();
 		this.id = id;
 		this.names = names;
+		this.author=anthor;
 		this.isbn = isbn;
 		this.price = price;
-		this.author = author;
 	}
 
 	
@@ -60,22 +69,15 @@ public class Book {
 		}
 		return this.isbn.equals(other.isbn);
 	}
-	public void details(){
-		System.out.println("编号:"+id+",书名"+names+
-				"书号:"+isbn+"价格:"+price+"作者:"+author);
+	public String details(){
+		return "书名:"+names+
+				   "\n作者:"+author+   
+				   "\n书号:"+isbn+
+				   "\n书价:"+price+"元";
 	}
 
 	public static void main(String[] args) {
-		String strPerson="李刚:男:33:1.67:快乐的";
-		String strBook="1:《疯狂Java》:ISBN18005:85";
-		String[] data=strPerson.split(":");             //同":"分隔开存入数组
-		Person author=new Person(data[0],data[1],data[2],data[3],data[4]);
-		Book book1=new Book(1, "《疯狂Java》",anthor, "ISBN18005", 85);
-		
-//		Book book2=new Book(1, "《疯狂Java》", "ISBN18005", 85);
-//		System.out.println(book1.equals(book2));
-//		String strPerson="李刚:男:33:1.67:快乐的";
-//		String strBook="1:《疯狂Java》:ISBN18005:85";
+
 
 	}
 

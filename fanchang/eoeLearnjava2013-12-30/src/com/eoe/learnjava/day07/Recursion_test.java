@@ -8,6 +8,7 @@ public class Recursion_test {
 	 * 1+3+5+...+n=?
 	 * @param args
 	 */
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("n=");

@@ -1,4 +1,4 @@
-package com.eoe.oop.day02;
+package com.eoe.oop.day03.entity;
 
 public class Person {
 
@@ -6,11 +6,61 @@ public class Person {
 	 * @param args
 	 */
 	//定义五个共有的变量
-	public String name;
-	public char sex;
-	public int age;
-	public double height;
-	public String type;
+	protected String name;
+	protected char sex;
+	protected int age;
+	protected double height;
+	protected String type;
+//name赋值
+	public String getName(){
+		return name;
+	}
+	public void setName(String name){
+		this.name=name;
+	}
+//sex赋值判断
+	public char getSex(){
+		return sex;
+	}
+	public void setSex(char sex){
+		if (sex=='男'||sex=='女') {
+			this.sex=sex;
+		}else {
+			this.sex='女';
+		}
+	}
+//age赋值判断
+	public int getAge(){
+		return  age;
+	}
+	public void setAge(int age){
+		if (age>0&&age<200) {
+			this.age=age;
+		}
+		else {
+			this.age=18;
+		}
+	}
+//hegiht赋值判断
+	public double getHeghit(){
+		return  height;
+	}
+	public void setHeight(double height){
+		if (height>0&&height<3) {
+			this.height=height;
+		}
+		else {
+			this.height=1.8;
+		}
+	}
+//type赋值
+	public String getType(){
+		return type;
+	}
+	public void setType(String type){
+		this.type=type;
+	}
+	
 
 	// 说话，打招呼,say方法是非静态方法
 	public void say() {
@@ -32,6 +82,7 @@ public class Person {
 //		height = 1.7;
 //		type = "活泼的";
 //	}
+	
 
 //带参构造方法
 	public Person(String name, char sex, int age, double height, String type) {
@@ -44,6 +95,9 @@ public class Person {
 	}
 
 
+	public Person() {
+		super();
+	}
 	//重写toString
 	@Override
 	public String toString() {
@@ -69,15 +123,11 @@ public class Person {
 				((Math.abs(this.height-other.height))<0.0000001)&&
 				this.type.equals(other.type);
 	}
+	public void doing(){
+	}
 
 	public static void main(String[] args) {
-		Person p1=new Person("张飞",'男',21,1.84,"豪放的");
-		Person p2=new Person("张飞",'男',21,1.85,"豪放的");
-		if (p1.equals(p2)) {       //比较p1 和 p2 的属性是否完全相等
-			System.out.println("是一个人!");
-		}else{
-			System.out.println("不是一个人!");
-		}
+
 	}
 
 }

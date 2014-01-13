@@ -8,6 +8,7 @@ public class Test_work {
 	 *访问修饰符引入案例
 	 * @param args
 	 */
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Scanner scanner =new Scanner(System.in);
 		System.out.println("1---");
