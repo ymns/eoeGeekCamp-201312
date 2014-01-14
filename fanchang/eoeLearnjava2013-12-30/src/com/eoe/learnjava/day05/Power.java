@@ -5,32 +5,32 @@ import java.util.Scanner;
 public class Power {
 
 	/**
-	 * ÓÃÑ­»·Óï¾ä¼ÆËã2µÄn´Î·½,nÓÉ¼üÅÌÊäÈë
+	 * ç”¨å¾ªç¯è¯­å¥è®¡ç®—2çš„næ¬¡æ–¹,nç”±é”®ç›˜è¾“å…¥
 	 * @param args
 	 */
 	
-	//2µÄn´Î·½
+	//2çš„næ¬¡æ–¹
 	public static void main(String[] args) {
 //		Scanner scanner = new Scanner(System.in);
-//		System.out.println("ÇëÊäÈën:");
+//		System.out.println("è¯·è¾“å…¥n:");
 //		int n = scanner.nextInt();
 //		int result=1;
 //		for(int i=1;i<=n;i++){
 //			result*=2;
 //		}
-//		System.out.println("2µÄn´Î·½ÊÇ:"+result);
+//		System.out.println("2çš„næ¬¡æ–¹æ˜¯:"+result);
 //	}
 	
-	//mµÄn´Î·½
+	//mçš„næ¬¡æ–¹
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÇëÊäÈëm:");
+		System.out.println("è¯·è¾“å…¥m:");
 		int m = scanner.nextInt();
-		System.out.println("ÇëÊäÈën:");
+		System.out.println("è¯·è¾“å…¥n:");
 		int n = scanner.nextInt();
 		int result = 1;
 		for(int i=1;i<=n;i++){
 			result*=m;
 		}
-		System.out.println("mµÄn´Î·½ÊÇ:"+result);
+		System.out.println("mçš„næ¬¡æ–¹æ˜¯:"+result);
 	}
 }

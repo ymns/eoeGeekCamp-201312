@@ -4,29 +4,29 @@ import java.util.Scanner;
 
 public class Score {
 
-	/**¼üÅÌÊäÈëjava¡¢android¡¢sqlÈı¿Æ·ÖÊı
-	 * ÕÒ³ö×î¸ß·Ö
+	/**é”®ç›˜è¾“å…¥javaã€androidã€sqlä¸‰ç§‘åˆ†æ•°
+	 * æ‰¾å‡ºæœ€é«˜åˆ†
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		//ÅÅ³ı·¨
+		//æ’é™¤æ³•
 //		Scanner scanner = new Scanner(System.in);
-//		System.out.println("java¡¢android¡¢sqlµÄ³É¼¨£º");
+//		System.out.println("javaã€androidã€sqlçš„æˆç»©ï¼š");
 //		int java = scanner.nextInt();
 //		int android = scanner.nextInt();
 //		int sql = scanner.nextInt();
 //		if(java>=android&&java>=sql){
-//			System.out.println("×î¸ß·Ö£º"+java);
+//			System.out.println("æœ€é«˜åˆ†ï¼š"+java);
 //		}else if(android>=sql){
-//			System.out.println("×î¸ß·Ö£º"+android);
+//			System.out.println("æœ€é«˜åˆ†ï¼š"+android);
 //		}else{
-//			System.out.println("×î¸ß·Ö£º"+sql);
+//			System.out.println("æœ€é«˜åˆ†ï¼š"+sql);
 //		}
 		
-		//Ñ¡Ôñ·¨
+		//é€‰æ‹©æ³•
 		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("java¡¢android¡¢sqlµÄ³É¼¨£º");
+		System.out.println("javaã€androidã€sqlçš„æˆç»©ï¼š");
 		int java = scanner.nextInt();
 		int android = scanner.nextInt();
 		int sql = scanner.nextInt();
@@ -37,7 +37,7 @@ public class Score {
 		if(max<sql){
 			max = sql;
 		}
-			System.out.println("×î¸ß·Ö£º"+max);
+			System.out.println("æœ€é«˜åˆ†ï¼š"+max);
 	}
 
 }

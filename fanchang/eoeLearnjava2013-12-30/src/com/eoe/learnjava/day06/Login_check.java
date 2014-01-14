@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class Login_check {
 
 	/**
-	 * ÒÑÖª×¢²áÓÃ»§Ãû:ZhangFei,ÃÜÂëzf007ZF
-	 * ±àĞ´Ò»¸öµÇÂ½³ÌĞò,ÊäÈëÓÃ»§ÃûºÍÃÜÂë
-	 * ÒªÇó:
-	 * 1.ÓÃ»§Ãû²»¼Æ´óĞ¡Ğ´
-	 * 2.ÃÜÂëµÄ´óĞ¡Ğ´ÒªÒ»ÖÂ
-	 * 3.¶¼ÕıÈ·Ôò³É¹¦
-	 * 4.´íÎóÊ±ÌáÊ¾"²éÎŞ´ËÈË",ÃÜÂë´íÎóÌáÊ¾"ÃÜÂë´íÎó",
-	 * ÑéÖ¤³É¹¦ÌáÊ¾"µÇÂ½³É¹¦"
+	 * å·²çŸ¥æ³¨å†Œç”¨æˆ·å:ZhangFei,å¯†ç zf007ZF
+	 * ç¼–å†™ä¸€ä¸ªç™»é™†ç¨‹åº,è¾“å…¥ç”¨æˆ·åå’Œå¯†ç 
+	 * è¦æ±‚:
+	 * 1.ç”¨æˆ·åä¸è®¡å¤§å°å†™
+	 * 2.å¯†ç çš„å¤§å°å†™è¦ä¸€è‡´
+	 * 3.éƒ½æ­£ç¡®åˆ™æˆåŠŸ
+	 * 4.é”™è¯¯æ—¶æç¤º"æŸ¥æ— æ­¤äºº",å¯†ç é”™è¯¯æç¤º"å¯†ç é”™è¯¯",
+	 * éªŒè¯æˆåŠŸæç¤º"ç™»é™†æˆåŠŸ"
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -20,18 +20,18 @@ public class Login_check {
 		String password="zf007ZF";
 		Scanner scanner = new Scanner(System.in);
 		do {
-			System.out.println("ÇëÊäÈëÓÃ»§Ãû:");
+			System.out.println("è¯·è¾“å…¥ç”¨æˆ·å:");
 			String usered=scanner.next();
-			System.out.println("ÇëÊäÈëÃÜÂë:");	
+			System.out.println("è¯·è¾“å…¥å¯†ç :");	
 			String passworded=scanner.next();
 			if (!usered.equalsIgnoreCase(user)) {
-				System.out.println("²éÎŞ´ËÈË!");
+				System.out.println("æŸ¥æ— æ­¤äºº!");
 				break;
 			} else if (!password.equals(passworded)) {
-				System.out.println("ÃÜÂë´íÎó!");
+				System.out.println("å¯†ç é”™è¯¯!");
 				break;
 			} else {
-				System.out.println("µÇÂ½³É¹¦!");
+				System.out.println("ç™»é™†æˆåŠŸ!");
 				break;
 			}
 		} while (true);

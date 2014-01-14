@@ -4,19 +4,19 @@ import java.util.Scanner;
 
 public class Leapyear {
 
-	/**ÒÑÖªÈòÄêµÄÌõ¼ş
-	 * ÊÇ400µÄ±¶Êı»òÕßÊÇ4µÄ±¶Êıµ«²»ÊÇ100µÄ±¶Êı
-	 * ¼üÅÌÊäÈëÄê·İ£¬ÏÔÊ¾ÊÇÈòÄê»¹ÊÇÆ½Äê
+	/**å·²çŸ¥é—°å¹´çš„æ¡ä»¶
+	 * æ˜¯400çš„å€æ•°æˆ–è€…æ˜¯4çš„å€æ•°ä½†ä¸æ˜¯100çš„å€æ•°
+	 * é”®ç›˜è¾“å…¥å¹´ä»½ï¼Œæ˜¾ç¤ºæ˜¯é—°å¹´è¿˜æ˜¯å¹³å¹´
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÊäÈëÄê·İ£º");
+		System.out.println("è¾“å…¥å¹´ä»½ï¼š");
 		int year = scanner.nextInt();
-		if((year%400==0||year%4==0)&&year%100!=0){  /*ÅĞ¶ÏÊÇ·ñÊÇÈòÄê*/
-			System.out.println("½ñÄêÊÇÈòÄê");
+		if((year%400==0||year%4==0)&&year%100!=0){  /*åˆ¤æ–­æ˜¯å¦æ˜¯é—°å¹´*/
+			System.out.println("ä»Šå¹´æ˜¯é—°å¹´");
 		}else{
-			System.out.println("½ñÄêÊÇÆ½Äê");
+			System.out.println("ä»Šå¹´æ˜¯å¹³å¹´");
 		}
 		
 		

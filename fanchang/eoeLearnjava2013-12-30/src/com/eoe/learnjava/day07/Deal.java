@@ -5,17 +5,17 @@ import java.util.Random;
 public class Deal {
 
 	/**
-	 * ¸øÈıÃ÷ÅÆÊÖË³Ğò·¢ÅÆ
+	 * ç»™ä¸‰æ˜ç‰Œæ‰‹é¡ºåºå‘ç‰Œ
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String[] player={"ÕÅ·É","Íõ·Æ","ÁõÒà·Æ"};
-		String[] cards={"ºìÌÒ3","ºìÌÒ4","ºìÌÒ5","ºìÌÒ6",
-				"ºìÌÒ7","ºìÌÒ8","ºìÌÒ9","ºìÌÒ10","ºìÌÒJ",
-				"ºìÌÒQ","ºìÌÒK","ºìÌÒA"};
+		String[] player={"å¼ é£","ç‹è²","åˆ˜äº¦è²"};
+		String[] cards={"çº¢æ¡ƒ3","çº¢æ¡ƒ4","çº¢æ¡ƒ5","çº¢æ¡ƒ6",
+				"çº¢æ¡ƒ7","çº¢æ¡ƒ8","çº¢æ¡ƒ9","çº¢æ¡ƒ10","çº¢æ¡ƒJ",
+				"çº¢æ¡ƒQ","çº¢æ¡ƒK","çº¢æ¡ƒA"};
 		Random random = new Random();
 		for (int i = cards.length-1; i >= 0; i--) {
-			int j=random.nextInt(i+1);//Ëæ»ú²úÉúi¸öÊı
+			int j=random.nextInt(i+1);//éšæœºäº§ç”Ÿiä¸ªæ•°
 			swap(cards,i,j);
 			System.out.println(player[i%3]+":"+cards[i]);
 		}

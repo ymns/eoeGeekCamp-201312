@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Bubble_sort01 {
 
 	/**
-	 * Ã°ÅİÅÅĞò
+	 * å†’æ³¡æ’åº
 	 * 
 	 * @param args
 	 */

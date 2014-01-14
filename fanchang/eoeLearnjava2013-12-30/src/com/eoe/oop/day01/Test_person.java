@@ -2,13 +2,13 @@ package com.eoe.oop.day01;
 
 public class Test_person {
 
-	/**²âÊÔPersonÀàµÄÊ¹ÓÃ
+	/**æµ‹è¯•Personç±»çš„ä½¿ç”¨
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Person p = new Person("ÁõÒà·Æ",21,1.86,'Å®',"ÎÂÈáµÄ");    //ÄÚ²¿²âÊÔ
+		Person p = new Person("åˆ˜äº¦è²",21,1.86,'å¥³',"æ¸©æŸ”çš„");    //å†…éƒ¨æµ‹è¯•
 		p.say();
-		p.feeling("°³¼ñÇ®ÁË","   ¹ş¹ş");
+		p.feeling("ä¿ºæ¡é’±äº†","   å“ˆå“ˆ");
 
 	}
 

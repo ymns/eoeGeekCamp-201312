@@ -5,7 +5,7 @@ import java.util.Random;
 public class Random_array {
 
 	/**
-	 * Ëæ»ú²úÉú10¸ö[60-100]µÄ·ÖÊı,ÏÔÊ¾ËùÓĞ³¬¹ıÆ½¾ù·ÖµÄ·ÖÊıºÍÏÂ±ê
+	 * éšæœºäº§ç”Ÿ10ä¸ª[60-100]çš„åˆ†æ•°,æ˜¾ç¤ºæ‰€æœ‰è¶…è¿‡å¹³å‡åˆ†çš„åˆ†æ•°å’Œä¸‹æ ‡
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -15,9 +15,9 @@ public class Random_array {
 		for (int i = 0; i < score.length; i++) {
 			score[i]=random.nextInt(41)+60;
 			System.out.print(score[i]+"  ");
-			total+=score[i];     //Çó×Ü·Ö
+			total+=score[i];     //æ±‚æ€»åˆ†
 		}
-		System.out.println("Æ½¾ù·Ö:"+(total/10));
+		System.out.println("å¹³å‡åˆ†:"+(total/10));
 		for (int i = 0; i < score.length; i++) {	
 			if (score[i]>total/10) {
 				System.out.print(score[i]+":"+(i+1)+" ");

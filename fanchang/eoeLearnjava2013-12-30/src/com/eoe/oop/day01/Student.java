@@ -3,11 +3,11 @@ package com.eoe.oop.day01;
 public class Student {
 
 	/**
-	 * ´ÓÁ½¸öÑ§ÉúµÄÏà¹ØĞÅÏ¢ÖĞ³éÈ¡³öÊôĞÔºÍ·½·¨,·â×°ÔÚStudentÀà
+	 * ä»ä¸¤ä¸ªå­¦ç”Ÿçš„ç›¸å…³ä¿¡æ¯ä¸­æŠ½å–å‡ºå±æ€§å’Œæ–¹æ³•,å°è£…åœ¨Studentç±»
 	 * @param args
 	 */
 	
-	//¶¨ÒåÎå¸ö±äÁ¿
+	//å®šä¹‰äº”ä¸ªå˜é‡
 	public String name;
 	public char sex;
 	public int age;
@@ -15,13 +15,13 @@ public class Student {
 	public String type;
 	public String inSchool;
 	public String inClass;
-	//ÎŞ²ÎµÄ
+	//æ— å‚çš„
 	public Student() {
 		super();
 	}
 
 
-	//¹¹Ôì5¸ö²ÎÊıµÄ·½·¨
+	//æ„é€ 5ä¸ªå‚æ•°çš„æ–¹æ³•
 	public Student(String name,int age,double height,String type,
 			char sex,String inSchool,String inClass){
 		this.name=name;
@@ -34,22 +34,22 @@ public class Student {
 	}
 	
 
-	//´´½¨Ò»¸ösay·½·¨±íÊ¾ÒªËµµÄ»°
+	//åˆ›å»ºä¸€ä¸ªsayæ–¹æ³•è¡¨ç¤ºè¦è¯´çš„è¯
 	public void say(){
-		System.out.println("àË£¬´ó¼ÒºÃ£¬°³½Ğ"+name+",½ñÄê"
-				+age+"Ëê,Éí¸ß"+height+"Ã×,°³ÊÇÒ»¸ö"
-				+type+sex+"Ê¿");
-		System.out.println("°³ÔÚ"+inSchool+inClass+"Ñ§Ï°");
-		System.out.println("°³¸ø´ó¼Ò±íÑİÁ½¸ö±äÁ¿Ïà½»»»µÄËã·¨");				
+		System.out.println("å—¨ï¼Œå¤§å®¶å¥½ï¼Œä¿ºå«"+name+",ä»Šå¹´"
+				+age+"å²,èº«é«˜"+height+"ç±³,ä¿ºæ˜¯ä¸€ä¸ª"
+				+type+sex+"å£«");
+		System.out.println("ä¿ºåœ¨"+inSchool+inClass+"å­¦ä¹ ");
+		System.out.println("ä¿ºç»™å¤§å®¶è¡¨æ¼”ä¸¤ä¸ªå˜é‡ç›¸äº¤æ¢çš„ç®—æ³•");				
 	}
 	
-	//´´½¨Ò»¸öfeeling·½·¨±í´ïÇé¸Ğ
+	//åˆ›å»ºä¸€ä¸ªfeelingæ–¹æ³•è¡¨è¾¾æƒ…æ„Ÿ
 	public void feeling(){
-		System.out.println("°³ÕÒµ½ºÃ¹¤×÷À²!,ÔÂĞÂ8k");
-		System.out.println("ÎûÎû...");
+		System.out.println("ä¿ºæ‰¾åˆ°å¥½å·¥ä½œå•¦!,æœˆæ–°8k");
+		System.out.println("å˜»å˜»...");
 	}
 	
-	//´´½¨Ò»¸ö½»»»±äÁ¿µÄ·½·¨
+	//åˆ›å»ºä¸€ä¸ªäº¤æ¢å˜é‡çš„æ–¹æ³•
 	public void swap(int[] a,int i,int j){
 		int c=a[j];
 		a[j]=a[i];

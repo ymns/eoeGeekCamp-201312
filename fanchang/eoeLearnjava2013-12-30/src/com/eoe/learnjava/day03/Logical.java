@@ -4,21 +4,21 @@ import java.util.Scanner;
 
 public class Logical {
 
-	/**¼üÅÌÊäÈëÒ»¸öÎå·ÖÖÆ·ÖÊı£¬ÓÃÓëÔËËã¼ÆËã²¢ÏÔÊ¾¸ÃÊıÊÇ·ñÊôÓÚÎå·ÖÖÆ·ÖÊı
+	/**é”®ç›˜è¾“å…¥ä¸€ä¸ªäº”åˆ†åˆ¶åˆ†æ•°ï¼Œç”¨ä¸è¿ç®—è®¡ç®—å¹¶æ˜¾ç¤ºè¯¥æ•°æ˜¯å¦å±äºäº”åˆ†åˆ¶åˆ†æ•°
 	 * @param args
 	 */
 	public static void main(String[] args) {
 //		Scanner scanner = new Scanner(System.in);
-//		System.out.println("ÇëÊäÈëÒ»¸öÎå·ÖÖÆµÄ·ÖÊı£º");
+//		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªäº”åˆ†åˆ¶çš„åˆ†æ•°ï¼š");
 //		int score = scanner.nextInt();
 //		boolean isScore=score>=0 && score <=5;
-//		System.out.println("Îå·ÖÖÆ·ÖÊı£º"+isScore);
-		//ÁíÒ»ÖÖÂß¼­
+//		System.out.println("äº”åˆ†åˆ¶åˆ†æ•°ï¼š"+isScore);
+		//å¦ä¸€ç§é€»è¾‘
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÇëÊäÈëÒ»¸öÎå·ÖÖÆµÄ·ÖÊı£º");
+		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªäº”åˆ†åˆ¶çš„åˆ†æ•°ï¼š");
 		int score = scanner.nextInt();
 		boolean isnotScore=!(score<0 || score>5);
-		System.out.println("Îå·ÖÖÆ·ÖÊı£º"+isnotScore);
+		System.out.println("äº”åˆ†åˆ¶åˆ†æ•°ï¼š"+isnotScore);
 	}
 
 }

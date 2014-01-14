@@ -3,7 +3,7 @@ package com.eoe.learnjava.day05;
 public class Wuxianxunhuan {
 
 	/**
-	 * ÎŞÏŞÑ­»·ÖĞ,´òÓ¡0-5µÄÊı
+	 * æ— é™å¾ªç¯ä¸­,æ‰“å°0-5çš„æ•°
 	 * @param args
 	 */
 	

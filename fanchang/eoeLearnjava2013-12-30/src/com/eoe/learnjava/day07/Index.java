@@ -2,17 +2,17 @@ package com.eoe.learnjava.day07;
 
 public class Index {
 
-	/**»ñÈ¡×Ö·û»ò×Ö·û´®µÚÒ»´Î»ò×îºóÒ»´Î³öÏÖµÄÏÂ±í
+	/**è·å–å­—ç¬¦æˆ–å­—ç¬¦ä¸²ç¬¬ä¸€æ¬¡æˆ–æœ€åä¸€æ¬¡å‡ºç°çš„ä¸‹è¡¨
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		String url="http://www.eoe.com/logo.gif";
 		int pos=url.indexOf("://");
 		System.out.println(pos);
-		String protocol=url.substring(0, pos); //»ñÈ¡Ğ­ÒéÃû³Æ
+		String protocol=url.substring(0, pos); //è·å–åè®®åç§°
 		System.out.println(protocol);
 		pos=url.lastIndexOf("/");
-		String filename=url.substring(pos+1); //»ñÈ¡Í¼Æ¬ÎÄ¼şÃû
+		String filename=url.substring(pos+1); //è·å–å›¾ç‰‡æ–‡ä»¶å
 		System.out.println(filename);
 	}
 

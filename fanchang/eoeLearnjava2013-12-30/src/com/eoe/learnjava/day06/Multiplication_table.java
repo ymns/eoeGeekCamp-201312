@@ -3,12 +3,12 @@ package com.eoe.learnjava.day06;
 public class Multiplication_table {
 
 	/**
-	 * ´òÓ¡¾Å¾Å±í
-	 * È¥µôÖØ¸´µÄ
+	 * æ‰“å°ä¹ä¹è¡¨
+	 * å»æ‰é‡å¤çš„
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		//ÏÂÈı½Ç
+		//ä¸‹ä¸‰è§’
 //		String space = " ";
 //		for (int i = 1; i <= 9; i++) {
 //			for (int j = 1; j <= i; j++) {
@@ -20,7 +20,7 @@ public class Multiplication_table {
 //			}
 //			System.out.println();
 //		}
-		//ÉÏÈı½Ç
+		//ä¸Šä¸‰è§’
 		String space = " ";
 		for (int i = 1; i <= 9; i++) {
 			for (int j = i; j <= 9; j++) {

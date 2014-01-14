@@ -3,12 +3,12 @@ package com.eoe.learnjava.day04;
 public class Exercise05 {
 
 	/**
-	 * ¼ÆËã46ÌìÊÇ¼¸ÖÜÁã¼¸Ìì
+	 * è®¡ç®—46å¤©æ˜¯å‡ å‘¨é›¶å‡ å¤©
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		int day = 46;
-		System.out.println("46ÌìÊÇ"+(46/7)+"ÖÜÁã"+(46%7));
+		System.out.println("46å¤©æ˜¯"+(46/7)+"å‘¨é›¶"+(46%7));
 
 	}
 

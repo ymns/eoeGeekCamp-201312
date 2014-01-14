@@ -5,34 +5,34 @@ import java.util.Scanner;
 public class Monkey_guess {
 
 	/**
-	 * ²ÂÊı×ÖµÄÓÎÏ·,µçÄÔËæ»ú²úÉúÒ»¸ö0-99Ö®¼äµÄÕûÊıÊı
+	 * çŒœæ•°å­—çš„æ¸¸æˆ,ç”µè„‘éšæœºäº§ç”Ÿä¸€ä¸ª0-99ä¹‹é—´çš„æ•´æ•°æ•°
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		//ÉùÃ÷±äÁ¿
+		//å£°æ˜å˜é‡
 		int guessed=(int) (Math.random()*100);
 		int guess=0;
 		int count=0;
 		
 		Scanner scanner = new Scanner(System.in);
 		do{
-			System.out.println("ÇëÊäÈëÒ»¸ö0-99Ö®¼äµÄÕûÊı:");
+			System.out.println("è¯·è¾“å…¥ä¸€ä¸ª0-99ä¹‹é—´çš„æ•´æ•°:");
 			guess = scanner.nextInt();
 			if(guess>guessed){
-				System.out.println("²Â´óÁË°É!");
+				System.out.println("çŒœå¤§äº†å§!");
 			}else if(guess<guessed){
-				System.out.println("²ÂĞ¡ÁË°É");
+				System.out.println("çŒœå°äº†å§");
 			}
-			count++;    //¼Æ²ÂÁËµÄ´ÎÊı
+			count++;    //è®¡çŒœäº†çš„æ¬¡æ•°
 		}while (guess!=guessed);
 		if(count==1){
-			System.out.println("Ì«À÷º¦ÁË,Å¼Ïñ°¡~~");
+			System.out.println("å¤ªå‰å®³äº†,å¶åƒå•Š~~");
 		}else if(count==2){
-			System.out.println("ÃÉµÄ°É!");
+			System.out.println("è’™çš„å§!");
 		}else if(count>=3&&count<=7){
-			System.out.println("ÄãºÜ¶®²ÂÊıµÄ²ßÂÔ!");
+			System.out.println("ä½ å¾ˆæ‡‚çŒœæ•°çš„ç­–ç•¥!");
 		}else{
-			System.out.println("ÄÔ»ıË®ÁË°É");
+			System.out.println("è„‘ç§¯æ°´äº†å§");
 		}
 
 	}

@@ -3,13 +3,13 @@ package com.eoe.learnjava.day04;
 public class Exercise06 {
 
 	/**
-	 * ¼ÆËã3712ÃëÊÇ¼¸Ğ¡Ê±¡¢¼¸·Ö¡¢¼¸Ãë
+	 * è®¡ç®—3712ç§’æ˜¯å‡ å°æ—¶ã€å‡ åˆ†ã€å‡ ç§’
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		int time = 3712;	
-		System.out.println("¼ÆËã3712ÊÇ"+(3712/3600)+"Ê±"
-							+(3712%3600)/60+"·Ö"+((3712%60)%60)+"Ãë");
+		System.out.println("è®¡ç®—3712æ˜¯"+(3712/3600)+"æ—¶"
+							+(3712%3600)/60+"åˆ†"+((3712%60)%60)+"ç§’");
 
 	}
 

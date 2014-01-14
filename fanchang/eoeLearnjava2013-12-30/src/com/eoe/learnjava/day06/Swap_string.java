@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Swap_string {
 
 	/**
-	 * ²»ÓÃµÚÈı·½±äÁ¿½»»»Á½¸öStringÀàĞÍµÄÖµ
+	 * ä¸ç”¨ç¬¬ä¸‰æ–¹å˜é‡äº¤æ¢ä¸¤ä¸ªStringç±»å‹çš„å€¼
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÇëÊäÈëÁ½¸öStringÀàĞÍµÄÖµ:");
+		System.out.println("è¯·è¾“å…¥ä¸¤ä¸ªStringç±»å‹çš„å€¼:");
 		String a=scanner.next();
 		String b=scanner.next();
 		System.out.println(a+"     "+b);

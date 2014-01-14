@@ -1,27 +1,92 @@
 package com.eoe.oop.day03.entity;
 
-public abstract class Person_ {
+public  class Person_ {
 
 	/**
-	 * ³éÏóÀàÊ¾Àı
-	 * 
 	 * @param args
 	 */
-	protected int id;
+	//å®šä¹‰äº”ä¸ªå…±æœ‰çš„å˜é‡
 	protected String name;
 	protected char sex;
 	protected int age;
 	protected double height;
 	protected String type;
+//nameèµ‹å€¼
+	public String getName(){
+		return name;
+	}
+	public void setName(String name){
+		this.name=name;
+	}
+//sexèµ‹å€¼åˆ¤æ–­
+	public char getSex(){
+		return sex;
+	}
+	public void setSex(char sex){
+		if (sex=='ç”·'||sex=='å¥³') {
+			this.sex=sex;
+		}else {
+			this.sex='å¥³';
+		}
+	}
+//ageèµ‹å€¼åˆ¤æ–­
+	public int getAge(){
+		return  age;
+	}
+	public void setAge(int age){
+		if (age>0&&age<200) {
+			this.age=age;
+		}
+		else {
+			this.age=18;
+		}
+	}
+//hegihtèµ‹å€¼åˆ¤æ–­
+	public double getHeghit(){
+		return  height;
+	}
+	public void setHeight(double height){
+		if (height>0&&height<3) {
+			this.height=height;
+		}
+		else {
+			this.height=1.8;
+		}
+	}
+//typeèµ‹å€¼
+	public String getType(){
+		return type;
+	}
+	public void setType(String type){
+		this.type=type;
+	}
+	
 
-	public Person_() {
-		super();
+	// è¯´è¯ï¼Œæ‰“æ‹›å‘¼,sayæ–¹æ³•æ˜¯éé™æ€æ–¹æ³•
+	public void say() {
+		System.out.println("å—¨ï¼Œå¤§å®¶å¥½ï¼Œä¿ºå«" + name + "ï¼Œä»Šå¹´" + age + "å²,èº«é«˜" + height
+				+ "ç±³,ä¿ºæ˜¯ä¸€ä¸ª" + type + sex + "å£«");
 	}
 
-	public Person_(int id, String name, char sex, int age, double height,
-			String type) {
+	// feelingæ–¹æ³•æ˜¯éé™æ€æ–¹æ³•
+	public void feeling(String cause, String content) {
+		System.out.println(cause);
+		System.out.println(content);
+	}
+
+	// æ— å‚æ„é€ (å™¨)æ–¹æ³•,JVMé»˜è®¤æä¾›ä¸€ä¸ªæ„é€ æ–¹æ³•
+//	public Person() {
+//		name = "å¼ ä¸‰";
+//		sex = 'ç”·';
+//		age = 18;
+//		height = 1.7;
+//		type = "æ´»æ³¼çš„";
+//	}
+	
+
+//å¸¦å‚æ„é€ æ–¹æ³•
+	public Person_(String name, char sex, int age, double height, String type) {
 		super();
-		this.id = id;
 		this.name = name;
 		this.sex = sex;
 		this.age = age;
@@ -29,86 +94,40 @@ public abstract class Person_ {
 		this.type = type;
 	}
 
-	// name¸³Öµ
-	public String getName (){
-		return name;
-	}
 
-	public void setName(String name) {
-		this.name = name;
+	public Person_() {
+		super();
 	}
-
-	// sex¸³ÖµÅĞ¶Ï
-	public char getSex() {
-		return sex;
+	//é‡å†™toString
+	@Override
+	public String toString() {
+		return this.name;//è¿”å›äººå
 	}
-
-	public void setSex(char sex) {
-		if (sex == 'ÄĞ' || sex == 'Å®') {
-			this.sex = sex;
-		} else {
-			this.sex = 'Å®';
+//é‡å†™equals
+	@Override
+	public boolean equals(Object obj) {
+		if (obj==null) {               //objä¸ºç©º,åˆ™è¿”å›false
+			return false;
 		}
-	}
-
-	// age¸³ÖµÅĞ¶Ï
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		if (age > 0 && age < 200) {
-			this.age = age;
-		} else {
-			this.age = 18;
+		Person other=null;
+		if (obj instanceof Person) {   //åˆ¤æ–­èƒ½å¦è½¬æ¢
+			other=(Person) obj;        //å¼ºåˆ¶è½¬æ¢å¹¶èµ‹å€¼ç»™other
+		}else {
+			return false;
+		}if (obj==this) {          		//objçš„åœ°å€å’Œè¿™ä¸ªå¯¹è±¡çš„åœ°å€ç›¸ç­‰,
+			return true;
 		}
+		return this.name.equals(other.name)    //è¿”å›å¹¶æ¯”è¾ƒ
+				&&this.sex==other.sex&&
+				this.age==other.age&&
+				((Math.abs(this.height-other.height))<0.0000001)&&
+				this.type.equals(other.type);
 	}
-
-	// hegiht¸³ÖµÅĞ¶Ï
-	public double getHeghit() {
-		return height;
+	public  void doing(){
+		
 	}
-
-	public void setHeight(double height) {
-		if (height > 0 && height < 3) {
-			this.height = height;
-		} else {
-			this.height = 1.8;
-		}
-	}
-
-	// type¸³Öµ
-	public String getType() {
-		return type;
-	}
-
-	public void setType(String type) {
-		this.type = type;
-	}
-
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
-
-	// Ëµ»°£¬´òÕĞºô,say·½·¨ÊÇ·Ç¾²Ì¬·½·¨
-	public void say() {
-		System.out.println("àË£¬´ó¼ÒºÃ£¬°³½Ğ" + name + "£¬½ñÄê" + age + "Ëê,Éí¸ß" + height
-				+ "Ã×,°³ÊÇÒ»¸ö" + type + sex + "Ê¿");
-	}
-
-	// feeling·½·¨ÊÇ·Ç¾²Ì¬·½·¨
-	public void feeling(String cause, String content) {
-		System.out.println(cause);
-		System.out.println(content);
-	}
-	//³éÏó·½·¨
-	public abstract void doing();
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Put_String2 {
 
-	/**ÊäÈë×Ö·û´®1-9,ÀıÈç12345,´òÓ¡³öÏÂÁĞ×Ö·ûÍ¼ĞÎ:
+	/**è¾“å…¥å­—ç¬¦ä¸²1-9,ä¾‹å¦‚12345,æ‰“å°å‡ºä¸‹åˆ—å­—ç¬¦å›¾å½¢:
 	 * 12345
 	 *  234
 	 *   3
@@ -12,7 +12,7 @@ public class Put_String2 {
 	 */
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÇëÊäÈëÒ»¸ö×Ö·û´®:");
+		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªå­—ç¬¦ä¸²:");
 		String space="";
 		String s;
 		do {

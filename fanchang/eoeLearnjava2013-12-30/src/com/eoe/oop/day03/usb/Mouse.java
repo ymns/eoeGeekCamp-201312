@@ -5,14 +5,14 @@ public class Mouse implements USB {
 	@Override
 	public void read() {
 		// TODO Auto-generated method stub
-		System.out.println(USB.MOUSE+"Êó±ê½ÓÊÜÓÃ»§µÄÒÆ¶¯,µã»÷²Ù×÷");
+		System.out.println(USB.MOUSE+"é¼ æ ‡æ¥å—ç”¨æˆ·çš„ç§»åŠ¨,ç‚¹å‡»æ“ä½œ");
 
 	}
 
 	@Override
 	public void write() {
 		// TODO Auto-generated method stub
-		System.out.println(USB.MOUSE+"Êó±ê½«ÓÃ»§µÄÒÆ¶¯,µã»÷²Ù×÷·¢ËÍÖÁÖ÷»ú");
+		System.out.println(USB.MOUSE+"é¼ æ ‡å°†ç”¨æˆ·çš„ç§»åŠ¨,ç‚¹å‡»æ“ä½œå‘é€è‡³ä¸»æœº");
 
 	}
 

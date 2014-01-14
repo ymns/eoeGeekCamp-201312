@@ -5,14 +5,14 @@ public class Printer implements USB {
 	@Override
 	public void read() {
 		// TODO Auto-generated method stub
-		System.out.println(USB.PRINTER+"»ñÈ¡Ö÷»ú·¢ËÍµÄ´òÓ¡ÄÚÈİ");
+		System.out.println(USB.PRINTER+"è·å–ä¸»æœºå‘é€çš„æ‰“å°å†…å®¹");
 
 	}
 
 	@Override
 	public void write() {
 		// TODO Auto-generated method stub
-		System.out.println(USB.PRINTER+"ÔÚ´òÓ¡Ö½ÉÏ´òÓ¡");
+		System.out.println(USB.PRINTER+"åœ¨æ‰“å°çº¸ä¸Šæ‰“å°");
 
 	}
 

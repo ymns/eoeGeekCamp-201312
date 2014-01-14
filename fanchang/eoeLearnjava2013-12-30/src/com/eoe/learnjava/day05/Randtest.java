@@ -4,14 +4,14 @@ import java.util.Random;
 
 public class Randtest {
 
-	/**´´½¨randomÀàµÄÒ»¸ö¶ÔÏó,ÓÃÓÚ²úÉúËæ»úÊı
+	/**åˆ›å»ºrandomç±»çš„ä¸€ä¸ªå¯¹è±¡,ç”¨äºäº§ç”Ÿéšæœºæ•°
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		Random rand = new Random();
 		for(int i=0;i<10;i++){
-			System.out.println(rand.nextDouble());//²úÉú0-1µÄĞ¡Êı
-			System.out.println(rand.nextInt(100));//²úÉú0-100µÄËæ»úÊı
+			System.out.println(rand.nextDouble());//äº§ç”Ÿ0-1çš„å°æ•°
+			System.out.println(rand.nextInt(100));//äº§ç”Ÿ0-100çš„éšæœºæ•°
 		}
 
 	}

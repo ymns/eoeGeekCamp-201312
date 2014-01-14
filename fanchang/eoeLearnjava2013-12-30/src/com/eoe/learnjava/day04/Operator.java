@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Operator {
 
 	/**
-	 * 用三目运算判断奇偶数
+	 * 鐢ㄤ笁鐩繍绠楀垽鏂鍋舵暟
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int num = input.nextInt();
-		String result = num % 2==0?"偶数":"奇数";
+		String result = num % 2==0?"鍋舵暟":"濂囨暟";
 		System.out.println(result);		
 	}
 

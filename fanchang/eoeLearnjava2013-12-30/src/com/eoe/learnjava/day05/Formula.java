@@ -2,18 +2,18 @@ package com.eoe.learnjava.day05;
 public class Formula {
 
 	/**
-	 * ±à³Ì¼ÆËãÒ»ÏÂ¹«Ê½: (¡Æ10+¡Æ5)*(¡Æ8+¡Æ4)/(pow(2,8)-5!)+4!-pow(3,4)
-	 * ÒªÇó:¶ÔÒÔÉÏ½á¹û±£ÁôĞ¡ÊıµãºóÈıÎ»
+	 * ç¼–ç¨‹è®¡ç®—ä¸€ä¸‹å…¬å¼: (âˆ‘10+âˆ‘5)*(âˆ‘8+âˆ‘4)/(pow(2,8)-5!)+4!-pow(3,4)
+	 * è¦æ±‚:å¯¹ä»¥ä¸Šç»“æœä¿ç•™å°æ•°ç‚¹åä¸‰ä½
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		double result = (addn(10)+addn(5))*(addn(8)+addn(4))/(pow(2,8)-
 						fact(5))+fact(4)-pow(3,4);
-		System.out.println("(¡Æ10+¡Æ5)*(¡Æ8+¡Æ4)/(pow(2,8)-5!)+4!-pow(3,4)=");
+		System.out.println("(âˆ‘10+âˆ‘5)*(âˆ‘8+âˆ‘4)/(pow(2,8)-5!)+4!-pow(3,4)=");
 		System.out.println(pround(result, 3));
 	}
 
-	// ÇóºÍ·½·¨
+	// æ±‚å’Œæ–¹æ³•
 	static int addn(int n){
 		int a=0;
 		for(int i=1;i<=n;i++){
@@ -22,7 +22,7 @@ public class Formula {
 		return a;
 	}
 	
-	//Çó½×³Ë
+	//æ±‚é˜¶ä¹˜
 	static double fact(int n){
 		int a=1;
 		for(int i=1;i<=n;i++){
@@ -31,7 +31,7 @@ public class Formula {
 		return a;
 	}
 	
-	//ÇóÆ½·½
+	//æ±‚å¹³æ–¹
 	static int 	pow(int m,int n){
 		int a=1;
 		for(int i=1;i<=n;i++){
@@ -40,7 +40,7 @@ public class Formula {
 		return a;
 	}
 	
-	//±£ÁôĞ¡ÊıµãºóÈıÎ»
+	//ä¿ç•™å°æ•°ç‚¹åä¸‰ä½
 	static double pround(double x, int n){
 		return Math.round(Math.pow(10, n)*x)*1.0/Math.pow(10, n);
 	}

@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class Month {
 
-	/**ÊäÈëÔÂ·İ£¬ÏÔÊ¾¸ÃÔÂÌìÊı
-	 * ÒªÇó£º²»¿¼ÂÇ¶şÔÂ·İÈòÄêµÄÇé¿ö
+	/**è¾“å…¥æœˆä»½ï¼Œæ˜¾ç¤ºè¯¥æœˆå¤©æ•°
+	 * è¦æ±‚ï¼šä¸è€ƒè™‘äºŒæœˆä»½é—°å¹´çš„æƒ…å†µ
 	 * @param args
 	 */
 	public static void main(String[] args) {	
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÊäÈëÄê·İ£º");
+		System.out.println("è¾“å…¥å¹´ä»½ï¼š");
 		int year = scanner.nextInt();
-		System.out.println("ÔÂ·İ: ");
+		System.out.println("æœˆä»½: ");
 		int m = scanner.nextInt();
 		switch (m){
 		case 1:
@@ -22,22 +22,22 @@ public class Month {
 		case 8:
 		case 10:
 		case 12:
-			System.out.println("¸ÃÔÂÊÇ31Ìì");
+			System.out.println("è¯¥æœˆæ˜¯31å¤©");
 			break;
 		case 4:
 		case 6:
 		case 9:
 		case 11:
-			System.out.println("¸ÃÔÂÊÇ30Ìì");
+			System.out.println("è¯¥æœˆæ˜¯30å¤©");
 			break;
 		case 2:
-			if((year%400==0||year%4==0)&&year%100!=0){ /*ÅĞ¶ÏÊÇ·ñÊÇÈòÄê*/
-				System.out.println("¸ÃÔÂ28Ìì");
+			if((year%400==0||year%4==0)&&year%100!=0){ /*åˆ¤æ–­æ˜¯å¦æ˜¯é—°å¹´*/
+				System.out.println("è¯¥æœˆ28å¤©");
 			}else
-			System.out.println("¸ÃÔÂ29Ìì");
+			System.out.println("è¯¥æœˆ29å¤©");
 			break;
 		default:
-			System.out.println("ÔÂ·İÊäÈë´íÎó");
+			System.out.println("æœˆä»½è¾“å…¥é”™è¯¯");
 			break;
 		}
 

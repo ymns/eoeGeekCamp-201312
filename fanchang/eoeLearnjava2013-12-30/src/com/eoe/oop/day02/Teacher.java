@@ -11,36 +11,36 @@ public class Teacher extends Person {
 	 */
 	public String inClass;
 	public String inWork;
-	//ÎŞ²Î¹¹Ôì·½·¨,µ÷ÓÃ¸¸ÀàµÄÎŞ²Î¹¹Ôì·½·¨
+	//æ— å‚æ„é€ æ–¹æ³•,è°ƒç”¨çˆ¶ç±»çš„æ— å‚æ„é€ æ–¹æ³•
 	public Teacher(String name, char sex, double height, String inClass,
 			String inWork) {
 		super(name, sex, height);
 		this.inClass = inClass;
 		this.inWork = inWork;
 	}
-	//½»»»Öµ
+	//äº¤æ¢å€¼
 	public void swap(int[] a, int i, int j) {
 		int c = a[i];
 		a[i] = a[j];
 		a[j] = c;
 	}
-	//Ëµ»°µÄ·½·¨,¼Ì³ĞPerson say()
+	//è¯´è¯çš„æ–¹æ³•,ç»§æ‰¿Person say()
 	public void say() {
 		super.say();
-		System.out.println("°³ÔÚ" + inClass + inWork + "ÈÎ½Ì");
+		System.out.println("ä¿ºåœ¨" + inClass + inWork + "ä»»æ•™");
 	}
 
 	public static void main(String[] args) {
-		Teacher t1 = new Teacher("ÀîÃ÷", 'ÄĞ', 1.78, "¼«¿ÍÑ§Ôº", "eoeSchool");
+		Teacher t1 = new Teacher("ææ˜", 'ç”·', 1.78, "æå®¢å­¦é™¢", "eoeSchool");
 		t1.age = 24;
-		t1.type = "ºÍ°ªµÄ";
+		t1.type = "å’Œè”¼çš„";
 		t1.say();
-		t1.feeling("°³ÕÒµ½ºÃ¹¤×÷À²", "  ¹ş¹ş");
-		System.out.println("°³¸ø´ó¼Ò±íÑİÁ½¸ö±äÁ¿Öµ»¥»»µÄËã·¨");
+		t1.feeling("ä¿ºæ‰¾åˆ°å¥½å·¥ä½œå•¦", "  å“ˆå“ˆ");
+		System.out.println("ä¿ºç»™å¤§å®¶è¡¨æ¼”ä¸¤ä¸ªå˜é‡å€¼äº’æ¢çš„ç®—æ³•");
 		int[] a = { 155, 100 };
 		System.out.println(Arrays.toString(a));
 		t1.swap(a, 0, 1);
-		System.out.println("±ä" + Arrays.toString(a));
+		System.out.println("å˜" + Arrays.toString(a));
 	}
 
 }

@@ -2,13 +2,12 @@ package com.eoe.learnjava.day07;
 
 import java.util.Arrays;
 import java.util.Random;
-import java.util.Scanner;
 
 public class Select_sort {
 
 	/**
-	 * Ñ¡ÔñÅÅĞò
-	 * °´½µĞò
+	 * é€‰æ‹©æ’åº
+	 * æŒ‰é™åº
 	 * @param args
 	 */
 	public static void main(String[] args) {

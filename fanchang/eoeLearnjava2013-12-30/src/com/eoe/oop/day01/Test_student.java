@@ -5,36 +5,36 @@ import java.util.Arrays;
 public class Test_student {
 
 	/**
-	 * ²âÊÔStudentÀà
+	 * æµ‹è¯•Studentç±»
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		//µÚÒ»¸öÑ§Ô±
-				Student student1 = new Student("ÁºÎÄ·å",25,1.7,"ºÀ·ÅµÄ",'ÄĞ',
-						"eoe¼«¿ÍÑ§Ôº","Android1205°à");
+		//ç¬¬ä¸€ä¸ªå­¦å‘˜
+				Student student1 = new Student("æ¢æ–‡å³°",25,1.7,"è±ªæ”¾çš„",'ç”·',
+						"eoeæå®¢å­¦é™¢","Android1205ç­");
 				student1.say();
 				int[] a1={10,5};
 				System.out.println(Arrays.toString(a1));
 				student1.swap(a1,0,1);
-				System.out.println("±ä");
+				System.out.println("å˜");
 				System.out.println(Arrays.toString(a1));
 				student1.feeling();
 				
 				
-				//µÚ¶ş¸öÑ§Ô±
+				//ç¬¬äºŒä¸ªå­¦å‘˜
 				Student student2 = new Student();
-				student2.name="¸ßÉº";
-				student2.sex='Å®';
+				student2.name="é«˜çŠ";
+				student2.sex='å¥³';
 				student2.height=1.69;
 				student2.age=24;
-				student2.type="»îÆÃµÄ";
-				student2.inSchool="eoe¼«¿ÍÑ§Ôº";
-				student2.inClass="Android1205°à";
+				student2.type="æ´»æ³¼çš„";
+				student2.inSchool="eoeæå®¢å­¦é™¢";
+				student2.inClass="Android1205ç­";
 				student2.say();
 				int[] a2={100,1000};
 				System.out.println(Arrays.toString(a2));
 				student2.swap(a2,0,1);
-				System.out.println("±ä");
+				System.out.println("å˜");
 				System.out.println(Arrays.toString(a2));
 				student2.feeling();
 

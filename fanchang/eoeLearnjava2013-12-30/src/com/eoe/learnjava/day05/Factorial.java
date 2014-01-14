@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Factorial {
 
 	/**
-	 * ¼ÆËãn!,nÓÉ¼üÅÌÊäÈë
+	 * è®¡ç®—n!,nç”±é”®ç›˜è¾“å…¥
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÇëÊäÈën=");
+		System.out.println("è¯·è¾“å…¥n=");
 		int n = scanner.nextInt();
 		long result = 1;
 		for(int i=1;i<=n;i++){

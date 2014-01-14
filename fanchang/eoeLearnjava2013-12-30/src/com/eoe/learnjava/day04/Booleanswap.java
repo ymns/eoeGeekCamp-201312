@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class Booleanswap {
 
 	/**
-	 * ÊµÏÖÁ½¸ö²¼¶û±äÁ¿ÖµµÄ»¥»»
+	 * å®ç°ä¸¤ä¸ªå¸ƒå°”å˜é‡å€¼çš„äº’æ¢
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÊäÈëµÚÒ»¸öÂß¼­Öµ£¨true»òfalse£©:");
+		System.out.println("è¾“å…¥ç¬¬ä¸€ä¸ªé€»è¾‘å€¼ï¼ˆtrueæˆ–falseï¼‰:");
 		boolean a = scanner.nextBoolean();
-		System.out.println("ÊäÈëµÚ¶ş¸öÂß¼­Öµ£¨true»òfalse£©:");
+		System.out.println("è¾“å…¥ç¬¬äºŒä¸ªé€»è¾‘å€¼ï¼ˆtrueæˆ–falseï¼‰:");
 		boolean b = scanner.nextBoolean();
 		System.out.println("a="+a+"\tb="+b);
 		a = a!=b?!(b=a):a;

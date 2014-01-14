@@ -8,29 +8,29 @@ import com.eoe.oop.day03.car.Motion;
 public class Test_car {
 
 	/**
-	 * ²âÊÔcar
+	 * æµ‹è¯•car
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Car c1=new Car("±¦Âí",500000);
-		System.out.println("¼Û¸ñ:"+c1.getPrice());
+		Car c1=new Car("å®é©¬",500000);
+		System.out.println("ä»·æ ¼:"+c1.getPrice());
 		c1.run();
 		c1.stop();
-		Car c2=new Car("±¼³Û",250000);
-		System.out.println("¼Û¸ñ:"+c2.getPrice());
+		Car c2=new Car("å¥”é©°",250000);
+		System.out.println("ä»·æ ¼:"+c2.getPrice());
 		c2.run();
 		c2.stop();
-		Motion motion=new Car("·¨À­Àû",8000000);
+		Motion motion=new Car("æ³•æ‹‰åˆ©",8000000);
 		motion.run();
 		motion.stop();
 		if (motion instanceof Car) {
-			System.out.println("¼Û¸ñ:"+((Car)motion).getPrice());
+			System.out.println("ä»·æ ¼:"+((Car)motion).getPrice());
 		}
-		Action action=new Car("ÏÖ´ú",130000);
+		Action action=new Car("ç°ä»£",130000);
 		action.run();
-		if (action instanceof Car) {   //ĞèÒª½øĞĞÇ¿×ª
+		if (action instanceof Car) {   //éœ€è¦è¿›è¡Œå¼ºè½¬
 			((Car)action).stop();
-			System.out.println("¼Û¸ñ:"+((Car)action).getPrice());
+			System.out.println("ä»·æ ¼:"+((Car)action).getPrice());
 		}				
 	}
 

@@ -3,7 +3,7 @@ package com.eoe.oop.day01;
 public class Test_point {
 
 	/**
-	 * ²âÊÔPointÀà,´´½¨Á½¸öµãµÄ¶ÔÏó
+	 * æµ‹è¯•Pointç±»,åˆ›å»ºä¸¤ä¸ªç‚¹çš„å¯¹è±¡
 	 * @param args
 	 */
 	public static void main(String[] args) {

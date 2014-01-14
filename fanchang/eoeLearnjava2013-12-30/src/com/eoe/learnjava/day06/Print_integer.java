@@ -3,13 +3,13 @@ package com.eoe.learnjava.day06;
 public class Print_integer {
 
 	/**
-	 * ÓÃÈıÖØÑ­»·´òÓ¡0-999
+	 * ç”¨ä¸‰é‡å¾ªç¯æ‰“å°0-999
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		for (int i = 0; i <= 9; i++) {         //Íâ²ãÑ­»·´ú±í°ÙÎ»
-			for (int j = 0; j <= 9; j++) {     //ÖĞ²ãÑ­»·´ú±íÊ®Î»
-				for (int g = 0; g <= 9; g++) { //ÄÚ²ãÑ­»·´ú±í¸öÎ»
+		for (int i = 0; i <= 9; i++) {         //å¤–å±‚å¾ªç¯ä»£è¡¨ç™¾ä½
+			for (int j = 0; j <= 9; j++) {     //ä¸­å±‚å¾ªç¯ä»£è¡¨åä½
+				for (int g = 0; g <= 9; g++) { //å†…å±‚å¾ªç¯ä»£è¡¨ä¸ªä½
 					System.out.print(i*100+j*10+g+"  ");
 				}
 			    System.out.println();

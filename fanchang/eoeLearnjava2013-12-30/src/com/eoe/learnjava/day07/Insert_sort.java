@@ -6,8 +6,8 @@ import java.util.Random;
 public class Insert_sort {
 
 	/**
-	 * ²åÈëÅÅĞò
-	 *	½µĞò
+	 * æ’å…¥æ’åº
+	 *	é™åº
 	 * @param args
 	 */
 	public static void main(String[] args) {

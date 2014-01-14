@@ -5,20 +5,20 @@ import java.util.Scanner;
 public class Mediant {
 
 	/**
-	 * ÊäÈëÈı¸öÊı£¬ÕÒµ½ÖĞ¼äÖµ
-	 * ²»ÓÃÅĞ¶ÏÓï¾ä
+	 * è¾“å…¥ä¸‰ä¸ªæ•°ï¼Œæ‰¾åˆ°ä¸­é—´å€¼
+	 * ä¸ç”¨åˆ¤æ–­è¯­å¥
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.println("ÇëÊäÈëÈı¸öÊıa b c :");
+		System.out.println("è¯·è¾“å…¥ä¸‰ä¸ªæ•°a b c :");
 		int a = input.nextInt();
 		int b = input.nextInt();
 		int c = input.nextInt();
 		int max=Math.max(a, Math.max(b, c));
 		int min=Math.min(a, Math.min(b, c));
-		System.out.println("×î´óÖµÊÇ£º"+max+"  ÖĞ¼äÖµÊÇ£º"+(a+b+c-max-min)+"  ×îĞ¡ÖµÊÇ£º"+min);
-        /*ÓÃ a+b+c ¼õÈ¥×î´óÖµºÍ×îĞ¡ÖµµÄ½á¹û ¾ÍÊÇÖĞ¼äÖµ*/
+		System.out.println("æœ€å¤§å€¼æ˜¯ï¼š"+max+"  ä¸­é—´å€¼æ˜¯ï¼š"+(a+b+c-max-min)+"  æœ€å°å€¼æ˜¯ï¼š"+min);
+        /*ç”¨ a+b+c å‡å»æœ€å¤§å€¼å’Œæœ€å°å€¼çš„ç»“æœ å°±æ˜¯ä¸­é—´å€¼*/
 	}
 
 }

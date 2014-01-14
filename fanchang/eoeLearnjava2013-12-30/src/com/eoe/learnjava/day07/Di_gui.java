@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Di_gui {
 
-	/**¼ÆËãnµÄ½×³Ë
+	/**è®¡ç®—nçš„é˜¶ä¹˜
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("nµÄ½×³Ë:");
+		System.out.println("nçš„é˜¶ä¹˜:");
 		int n=scanner.nextInt();
 		double result =fact(n);
 		System.out.println(result);

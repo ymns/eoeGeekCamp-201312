@@ -4,7 +4,7 @@ public class Player implements Action {
 
 	@Override
 	public void run() {
-		System.out.println(Action.PLAYER+"ÔÚ³å´Ì~~");
+		System.out.println(Action.PLAYER+"åœ¨å†²åˆº~~");
 
 	}
 

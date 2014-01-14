@@ -7,26 +7,26 @@ public class Test_book {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String strPerson="Àî¸Õ:ÄĞ:33:1.67:¿ìÀÖµÄ";
-		String strBook="1:¡¶·è¿ñJava¡·:ISBN18005:85";
-		String[] data=strPerson.split(":");             //Í¬":"·Ö¸ô¿ª´æÈëÊı×é
+		String strPerson="æåˆš:ç”·:33:1.67:å¿«ä¹çš„";
+		String strBook="1:ã€Šç–¯ç‹‚Javaã€‹:ISBN18005:85";
+		String[] data=strPerson.split(":");             //åŒ":"åˆ†éš”å¼€å­˜å…¥æ•°ç»„
 		Person author=new Person(data[0],data[1].charAt(0)
 				,Integer.parseInt(data[2])
-				,Double.parseDouble(data[3]),data[4]);//´´½¨author¶ÔÏó
+				,Double.parseDouble(data[3]),data[4]);//åˆ›å»ºauthorå¯¹è±¡
 		data=strBook.split(":"); 
 		Book b1=new Book(Integer.parseInt(data[0]), data[1], author,data[2],
-				Double.parseDouble(data[3]));			//´´½¨b1¶ÔÏó
-		//´´½¨¶ÔÏób2
-		Book b2=new Book(2, "¡¶·è¿ñandroid¡·",author, "ISBN18003", 58.5);
-		String c=b1.toString();           //·µ»Øb1µÄÊéÃû
+				Double.parseDouble(data[3]));			//åˆ›å»ºb1å¯¹è±¡
+		//åˆ›å»ºå¯¹è±¡b2
+		Book b2=new Book(2, "ã€Šç–¯ç‹‚androidã€‹",author, "ISBN18003", 58.5);
+		String c=b1.toString();           //è¿”å›b1çš„ä¹¦å
 		System.out.println(c);			  
-		boolean d=b1.isbn.equals(b2.isbn);  //±È½Ïb1ºÍb2ÊÇ·ñÊÇÒ»±¾Êé
-		System.out.println("book1ºÍbook2ÊÇÒ»±¾Êé   !"+d);
+		boolean d=b1.isbn.equals(b2.isbn);  //æ¯”è¾ƒb1å’Œb2æ˜¯å¦æ˜¯ä¸€æœ¬ä¹¦
+		System.out.println("book1å’Œbook2æ˜¯ä¸€æœ¬ä¹¦   !"+d);
 		c=b1.details();
-		System.out.println("book1µÄÊôĞÔ:\n"+c);
+		System.out.println("book1çš„å±æ€§:\n"+c);
 		c=b2.details();
-		System.out.println("book2µÄÊôĞÔ:\n"+c);
-		System.out.println("×÷ÕßºÍ´ó¼Ò´òÕĞºôÁË~");
+		System.out.println("book2çš„å±æ€§:\n"+c);
+		System.out.println("ä½œè€…å’Œå¤§å®¶æ‰“æ‹›å‘¼äº†~");
 		author.say();
 		
 	}

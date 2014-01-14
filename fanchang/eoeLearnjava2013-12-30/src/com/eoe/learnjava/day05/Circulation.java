@@ -3,28 +3,28 @@ package com.eoe.learnjava.day05;
 public class Circulation {
 
 	/**
-	 * ÉÏ¿Î³Ùµ½,·£×ö¸©ÎÔ³Å
+	 * ä¸Šè¯¾è¿Ÿåˆ°,ç½šåšä¿¯å§æ’‘
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		
-		//ÓÃdo-whileÑ­»·
+		//ç”¨do-whileå¾ªç¯
 //		int a=1;
 //		do{
-//			System.out.println("ÉÏ¿Î³Ùµ½,·£×ö¸©ÎÔ³Å"+a+"´Î");
+//			System.out.println("ä¸Šè¯¾è¿Ÿåˆ°,ç½šåšä¿¯å§æ’‘"+a+"æ¬¡");
 //			a++;
 //		}while (a<=20);
 		
-        //ÓÃwhileÑ­»·
+        //ç”¨whileå¾ªç¯
 //		int b=1;
 //		while (b<=20){
-//			System.out.println("ÉÏ¿Î³Ùµ½,·£×ö¸©ÎÔ³Å"+b+"´Î");
+//			System.out.println("ä¸Šè¯¾è¿Ÿåˆ°,ç½šåšä¿¯å§æ’‘"+b+"æ¬¡");
 //			b++;
 //		}
 		
-		//ÓÃforÑ­»·×ö
+		//ç”¨forå¾ªç¯åš
 		for(int i=1;i<=20;i++){
-			System.out.println("ÉÏ¿Î³Ùµ½,·£×ö¸©ÎÔ³Å"+i);
+			System.out.println("ä¸Šè¯¾è¿Ÿåˆ°,ç½šåšä¿¯å§æ’‘"+i);
 		}
 		
 	}

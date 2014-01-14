@@ -5,19 +5,19 @@ import java.util.Random;
 public class Top_score {
 
 	/**
-	 * Ëæ»ú60-100µÄ10¸öÊı,ÕÒ³ö×î¸ß·Ö
+	 * éšæœº60-100çš„10ä¸ªæ•°,æ‰¾å‡ºæœ€é«˜åˆ†
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		Random random = new Random();
 		int[] score = new int[10];
-		//²úÉú10¸öËæ»úÊı,±£´æµ½Êı×éÖĞ
+		//äº§ç”Ÿ10ä¸ªéšæœºæ•°,ä¿å­˜åˆ°æ•°ç»„ä¸­
 		for (int i = 0; i < score.length; i++) {
 			score[i]=random.nextInt(40)+60;
 			System.out.print(score[i]+" ");
 		}
 		System.out.println();
-		//ÕÒ³ö×î¸ß·Ö
+		//æ‰¾å‡ºæœ€é«˜åˆ†
 		for (int i = 0; i < score.length-1; i++) {
 			if (score[0]<score[i+1]) {
 				swap(score,0,i+1);
@@ -25,7 +25,7 @@ public class Top_score {
 		}
 		System.out.println(score[0]);
 	}
-	//½»»»
+	//äº¤æ¢
 	static void swap(int[] a,int i,int j){
 		int c=a[i];
 		a[i]=a[j];

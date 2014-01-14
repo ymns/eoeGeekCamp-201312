@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Test_array02 {
 
 	/**
-	 * ÊäÈëÒ»¸ö×ÖÄ¸,Í³¼Æ¸Ã×ÖÄ¸ÔÚÓ¢ÎÄÖĞ³öÏÖµÄÎ»ÖÃ
+	 * è¾“å…¥ä¸€ä¸ªå­—æ¯,ç»Ÿè®¡è¯¥å­—æ¯åœ¨è‹±æ–‡ä¸­å‡ºç°çš„ä½ç½®
 	 * father mother we are family
 	 * @param args
 	 */
@@ -14,18 +14,18 @@ public class Test_array02 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		String text="father mother we are family";
-		System.out.println("ÇëÊäÈëÒ»¸ö×Ö·û:");
+		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªå­—ç¬¦:");
 		char c=scanner.next().charAt(0);
 		int[] position={};
 		for (int i = 0; i < text.length(); i++) {
 			if (c==text.charAt(i)) {
-				//Êı×épositionÈİÁ¿¼Ó1
+				//æ•°ç»„positionå®¹é‡åŠ 1
 				position=Arrays.copyOf(position, position.length+1);
-				//ÔÚÊı×éµÄĞÂÔöÔªËØÖĞ¼ÇÂ¼×Ö·ûcÔÚ×Ö·û´®textÖĞ³öÏÖµÄÎ»ÖÃ
+				//åœ¨æ•°ç»„çš„æ–°å¢å…ƒç´ ä¸­è®°å½•å­—ç¬¦cåœ¨å­—ç¬¦ä¸²textä¸­å‡ºç°çš„ä½ç½®
 				position[position.length-1]=i;
 			}
 		}
-		//ÏÔÊ¾Êı×épositionµÄËùÓĞÔªËØÖµ
+		//æ˜¾ç¤ºæ•°ç»„positionçš„æ‰€æœ‰å…ƒç´ å€¼
 		System.out.println(Arrays.toString(position));
 	}
 

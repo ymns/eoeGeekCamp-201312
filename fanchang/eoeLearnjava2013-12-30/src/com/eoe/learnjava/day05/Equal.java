@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Equal {
 
 	/**
-	 * ¼üÅÌÊäÈëÁ½¸öintÀàĞÍµÄÊı£¬´òÓ¡ÕâÁ½¸öÊıÊÇ·ñÏàµÈ
-	 * ÒªÇó£ºÓÃtrueºÍfalse±íÊ¾Á½¸öÊıÊÇ·ñÏàµÈ
+	 * é”®ç›˜è¾“å…¥ä¸¤ä¸ªintç±»å‹çš„æ•°ï¼Œæ‰“å°è¿™ä¸¤ä¸ªæ•°æ˜¯å¦ç›¸ç­‰
+	 * è¦æ±‚ï¼šç”¨trueå’Œfalseè¡¨ç¤ºä¸¤ä¸ªæ•°æ˜¯å¦ç›¸ç­‰
 	 * @param args
 	 */
 	public static void main(String[] args) {
 //		Scanner scanner = new Scanner(System.in);
-//		System.out.println("ÊäÈëÁ½¸öÊı£º");
+//		System.out.println("è¾“å…¥ä¸¤ä¸ªæ•°ï¼š");
 //		int a = scanner.nextInt();
 //		int b = scanner.nextInt();
 //		boolean result = true ;
@@ -20,12 +20,12 @@ public class Equal {
 //		}else{
 //			System.out.println(!result);
 //		}
-        /*°´Î»Òì»ò½âÌâ*/
+        /*æŒ‰ä½å¼‚æˆ–è§£é¢˜*/
 		Scanner scanner=new Scanner(System.in);
 		System.out.println("a b=");
 		int a=scanner.nextInt();
 		int b=scanner.nextInt();
-		System.out.println("aµÈÓÚb:"+((a^b)==0));
+		System.out.println("aç­‰äºb:"+((a^b)==0));
 	}
 
 }

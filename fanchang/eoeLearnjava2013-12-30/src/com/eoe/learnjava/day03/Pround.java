@@ -2,8 +2,8 @@ package com.eoe.learnjava.day03;
 
 public class Pround {
 
-	/**¶¨ÒåÒ»¸öÄÜ±£ÁôĞ¡ÊıµãºóÈÎÒâÎ»µÄ·½·¨pround£¬ÔÚmain·½·¨ÖĞµ÷ÓÃ¸Ã·½·¨£¬
-	 * ±£ÁôĞ¡ÊıµãºóÈÎÒâÎ»
+	/**å®šä¹‰ä¸€ä¸ªèƒ½ä¿ç•™å°æ•°ç‚¹åä»»æ„ä½çš„æ–¹æ³•proundï¼Œåœ¨mainæ–¹æ³•ä¸­è°ƒç”¨è¯¥æ–¹æ³•ï¼Œ
+	 * ä¿ç•™å°æ•°ç‚¹åä»»æ„ä½
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class Pround {
 	}
 
 	private static double pround(double value,int n) {
-		double pow10 = Math.pow(10, n);//¼ÆËã10µÄn´Î·½
+		double pow10 = Math.pow(10, n);//è®¡ç®—10çš„næ¬¡æ–¹
 		double result = Math.round(value*pow10);
 		result = result*1.0/pow10;
 		return result;

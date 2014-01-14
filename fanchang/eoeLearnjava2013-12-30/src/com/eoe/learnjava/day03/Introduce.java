@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Introduce {
 
 	/**
-	 * ÓÃ×Ô¶¨Òå·½·¨ºÍµ÷ÓÃ×Ô¶¨ÒåµÄ·½·¨£¬·Ö±ğÊäÈëÁ½¸öÈËµÄĞÕÃû£¬ÄêÁä£¬ Éí¸ß£¬ĞÔ¸ñµÄĞÅÏ¢
+	 * ç”¨è‡ªå®šä¹‰æ–¹æ³•å’Œè°ƒç”¨è‡ªå®šä¹‰çš„æ–¹æ³•ï¼Œåˆ†åˆ«è¾“å…¥ä¸¤ä¸ªäººçš„å§“åï¼Œå¹´é¾„ï¼Œ èº«é«˜ï¼Œæ€§æ ¼çš„ä¿¡æ¯
 	 * 
 	 * @param args
 	 */
 
-	static String name;// ¶¨ÒåÎå¸öĞÅÏ¢±äÁ¿
+	static String name;// å®šä¹‰äº”ä¸ªä¿¡æ¯å˜é‡
 	static char sex;
 	static int age;
 	static double height;
@@ -18,10 +18,10 @@ public class Introduce {
 
 	public static void main(String[] args) {
 
-		input();// ÊäÈëÊı¾İ·½·¨
+		input();// è¾“å…¥æ•°æ®æ–¹æ³•
 		say();
-		feeling("ÎÒÊ§ÁµÁË", ",ÎØÎØ~");
-		feeling("ºÜ¸ßĞËÅ¶~~~", ",¹ş¹ş");
+		feeling("æˆ‘å¤±æ‹äº†", ",å‘œå‘œ~");
+		feeling("å¾ˆé«˜å…´å“¦~~~", ",å“ˆå“ˆ");
 	}
 
 	private static void feeling(String cause, String content) {
@@ -29,21 +29,21 @@ public class Introduce {
 	}
 
 	private static void say() {
-		System.out.println("àË£¡´ó¼ÒºÃ£¬ÎÒ½Ğ" + name + "£¬½ñÄê" + age + ",Éí¸ß" + height
-				+ ",ÎÒÊÇÒ»¸öĞÔ¸ñ" + type + "µÄ" + sex + "Éú.");
+		System.out.println("å—¨ï¼å¤§å®¶å¥½ï¼Œæˆ‘å«" + name + "ï¼Œä»Šå¹´" + age + ",èº«é«˜" + height
+				+ ",æˆ‘æ˜¯ä¸€ä¸ªæ€§æ ¼" + type + "çš„" + sex + "ç”Ÿ.");
 	}
 
 	private static void input() {
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("ĞÕÃû£º");
+		System.out.print("å§“åï¼š");
 		name = scanner.next();
-		System.out.print("ĞÔ±ğ£º");
+		System.out.print("æ€§åˆ«ï¼š");
 		sex = scanner.next().charAt(0);
-		System.out.print("ÄêÁä£º");
+		System.out.print("å¹´é¾„ï¼š");
 		age = scanner.nextInt();
-		System.out.print("Éí¸ß£º");
+		System.out.print("èº«é«˜ï¼š");
 		height = scanner.nextDouble();
-		System.out.print("ĞÔ¸ñ£º");
+		System.out.print("æ€§æ ¼ï¼š");
 		type = scanner.next();
 	}
 

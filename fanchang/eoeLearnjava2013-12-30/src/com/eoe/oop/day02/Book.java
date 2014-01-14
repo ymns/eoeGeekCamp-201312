@@ -6,29 +6,29 @@ package com.eoe.oop.day02;
 public class Book {
 
 	/**
-	 * 4¡¢ÒÑÖªÒÔÏÂÊı¾İ
-	String strPerson="Àî¸Õ:ÄĞ:33:1.67:¿ìÀÖµÄ";
-	String strBook="1:¡¶·è¿ñJava¡·:ISBN18005:85";
-	(1)ÔÚcom.eoe.oop.day02°üÏÂ´´½¨Book¶ÔÏó£¬¸Ã¶ÔÏó°üº¬ÒÔÏÂÊôĞÔ£º
-		id£º´ú±íÊéµÄ±àºÅ£»
-		name£º´ú±íÊéÃû£»
-		author:´ú±í×÷Õß£¬¸ÃÊôĞÔµÄÀàĞÍÊÇPerson£»
-		isbn:´ú±íÊéºÅ£»
-		price:´ú±íÊé¼Û¡£
-	(2)ÖØĞ´toString()£¬·µ»ØÊéÃû¡£
-	(3)ÖØĞ´equals(),Á½±¾ÊéÏàµÈµÄÌõ¼şÊÇÊéºÅÏàµÈ¡£
-	(4)±àĞ´public String details()£¬¸Ã·½·¨ÏÔÊ¾ÊéµÄËùÓĞÊôĞÔÖµ¡£
+	 * 4ã€å·²çŸ¥ä»¥ä¸‹æ•°æ®
+	String strPerson="æåˆš:ç”·:33:1.67:å¿«ä¹çš„";
+	String strBook="1:ã€Šç–¯ç‹‚Javaã€‹:ISBN18005:85";
+	(1)åœ¨com.eoe.oop.day02åŒ…ä¸‹åˆ›å»ºBookå¯¹è±¡ï¼Œè¯¥å¯¹è±¡åŒ…å«ä»¥ä¸‹å±æ€§ï¼š
+		idï¼šä»£è¡¨ä¹¦çš„ç¼–å·ï¼›
+		nameï¼šä»£è¡¨ä¹¦åï¼›
+		author:ä»£è¡¨ä½œè€…ï¼Œè¯¥å±æ€§çš„ç±»å‹æ˜¯Personï¼›
+		isbn:ä»£è¡¨ä¹¦å·ï¼›
+		price:ä»£è¡¨ä¹¦ä»·ã€‚
+	(2)é‡å†™toString()ï¼Œè¿”å›ä¹¦åã€‚
+	(3)é‡å†™equals(),ä¸¤æœ¬ä¹¦ç›¸ç­‰çš„æ¡ä»¶æ˜¯ä¹¦å·ç›¸ç­‰ã€‚
+	(4)ç¼–å†™public String details()ï¼Œè¯¥æ–¹æ³•æ˜¾ç¤ºä¹¦çš„æ‰€æœ‰å±æ€§å€¼ã€‚
 	 * @param args
 	 */
-//¶¨ÒåÁË4¸ö²ÎÊı
-	public int id;        	//±àºÅ
-	public String names;    //ÊéÃû
-	public String isbn;     //ÊéºÅ
-	public double price;    //¼Û¸ñ
-	public Person author;   //×÷Õß
+//å®šä¹‰äº†4ä¸ªå‚æ•°
+	public int id;        	//ç¼–å·
+	public String names;    //ä¹¦å
+	public String isbn;     //ä¹¦å·
+	public double price;    //ä»·æ ¼
+	public Person author;   //ä½œè€…
 
 	
-//¹¹ÔìÓĞ²Î·½·¨	
+//æ„é€ æœ‰å‚æ–¹æ³•	
 		
 	public Book() {
 		super();
@@ -46,34 +46,34 @@ public class Book {
 	}
 
 	
-//ÖØĞ´toString
+//é‡å†™toString
 	@Override
 	public String toString() {
 		
 		return this.names;
 	}
 
-//ÖØĞ´equals
+//é‡å†™equals
 	@Override
-	public boolean equals(Object obj) {    //objÄ¿±êµØÖ·
-		if (obj==null) {               //objÎª¿Õ,Ôò·µ»Øfalse
+	public boolean equals(Object obj) {    //objç›®æ ‡åœ°å€
+		if (obj==null) {               //objä¸ºç©º,åˆ™è¿”å›false
 			return false;
 		}
 		Book other=null;
-		if (obj instanceof Person) {   //ÅĞ¶ÏÄÜ·ñ×ª»»
-			other=(Book) obj;        //Ç¿ÖÆ×ª»»²¢¸³Öµ¸øother
+		if (obj instanceof Person) {   //åˆ¤æ–­èƒ½å¦è½¬æ¢
+			other=(Book) obj;        //å¼ºåˆ¶è½¬æ¢å¹¶èµ‹å€¼ç»™other
 		}else {
 			return false;
-		}if (obj==this) {          		//objµÄµØÖ·ºÍÕâ¸ö¶ÔÏóµÄµØÖ·ÏàµÈ,
+		}if (obj==this) {          		//objçš„åœ°å€å’Œè¿™ä¸ªå¯¹è±¡çš„åœ°å€ç›¸ç­‰,
 			return true;
 		}
 		return this.isbn.equals(other.isbn);
 	}
 	public String details(){
-		return "ÊéÃû:"+names+
-				   "\n×÷Õß:"+author+   
-				   "\nÊéºÅ:"+isbn+
-				   "\nÊé¼Û:"+price+"Ôª";
+		return "ä¹¦å:"+names+
+				   "\nä½œè€…:"+author+   
+				   "\nä¹¦å·:"+isbn+
+				   "\nä¹¦ä»·:"+price+"å…ƒ";
 	}
 
 	public static void main(String[] args) {

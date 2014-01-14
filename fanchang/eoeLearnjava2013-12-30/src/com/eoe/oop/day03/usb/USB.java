@@ -1,11 +1,11 @@
 package com.eoe.oop.day03.usb;
 
 public interface USB {
-	public static final String UDISK="UÅÌ";
-	public static final String MOUSE="Êó±ê";
-	public static final String KEYBOARD="¼üÅÌ";
-	public static final String PRINTER="´òÓ¡»ú";
-	void read();        //¶Á
-	void write();       //Ğ´
+	public static final String UDISK="Uç›˜";
+	public static final String MOUSE="é¼ æ ‡";
+	public static final String KEYBOARD="é”®ç›˜";
+	public static final String PRINTER="æ‰“å°æœº";
+	void read();        //è¯»
+	void write();       //å†™
 	
 }

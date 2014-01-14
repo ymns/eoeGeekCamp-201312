@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Print_test02 {
 
-	/**´òÓ¡Ò»ÏÂÍ¼ĞÎ,nÓÉ¼üÅÌÊäÈë
+	/**æ‰“å°ä¸€ä¸‹å›¾å½¢,nç”±é”®ç›˜è¾“å…¥
 	 *    *
 	 *    **
 	 *    ***
@@ -14,7 +14,7 @@ public class Print_test02 {
 	 */
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÇëÊäÈën:");
+		System.out.println("è¯·è¾“å…¥n:");
 		int n = scanner.nextInt();
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j <= i; j++) {

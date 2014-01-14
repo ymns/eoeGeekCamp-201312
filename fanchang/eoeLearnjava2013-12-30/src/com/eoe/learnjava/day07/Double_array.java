@@ -5,7 +5,7 @@ package com.eoe.learnjava.day07;
 public class Double_array {
 
 	/**
-	 * ¶şÎ¬Êı×é´òÓ¡99±í
+	 * äºŒç»´æ•°ç»„æ‰“å°99è¡¨
 	 * @param args
 	 */
 	public static void main(String[] args) {

@@ -5,14 +5,14 @@ public class Udisk implements USB {
 	@Override
 	public void read() {
 		// TODO Auto-generated method stub
-		System.out.println(USB.UDISK+"¶ÁÈ¡Ö÷»ú·¢ËÍµÄÊı¾İ");
+		System.out.println(USB.UDISK+"è¯»å–ä¸»æœºå‘é€çš„æ•°æ®");
 
 	}
 
 	@Override
 	public void write() {
 		// TODO Auto-generated method stub
-		System.out.println(USB.UDISK+"ÏòÖ÷»ú·¢ËÍÊı¾İ");
+		System.out.println(USB.UDISK+"å‘ä¸»æœºå‘é€æ•°æ®");
 
 	}
 

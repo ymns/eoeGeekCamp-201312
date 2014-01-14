@@ -3,12 +3,12 @@ package com.eoe.learnjava.day05;
 public class Narcissus {
 
 	/**
-	 * Çó100-9999Ö®¼äµÄË®ÏÉ»¨¸öÊı
+	 * æ±‚100-9999ä¹‹é—´çš„æ°´ä»™èŠ±ä¸ªæ•°
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		for(int i=100;i<10000;i++){
-			int g=i%10;           //Çó¸öÎ»,Ê®Î»ºÍ°ÙÎ»
+			int g=i%10;           //æ±‚ä¸ªä½,åä½å’Œç™¾ä½
 			int s=i/10%10;
 			int b=i/100;
 			int q=i/1000;

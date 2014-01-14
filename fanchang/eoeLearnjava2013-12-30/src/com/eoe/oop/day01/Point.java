@@ -3,17 +3,17 @@ package com.eoe.oop.day01;
 public class Point {
 
 	/**
-	 * PointÀà´ú±íÆÁÄ»ÉÏµÄÒ»¸öµã,ÓĞÁ½¸öÊôĞÔ´ú±íºá×İ×ø±êxy
+	 * Pointç±»ä»£è¡¨å±å¹•ä¸Šçš„ä¸€ä¸ªç‚¹,æœ‰ä¸¤ä¸ªå±æ€§ä»£è¡¨æ¨ªçºµåæ ‡xy
 	 * @param args
 	 */
 	int x;
 	int y;
-	//ÎŞ²ÎÊı		
+	//æ— å‚æ•°		
 	public Point() {
 		super();
 	}
 
-    //ÓĞ2¸ö²ÎÊı
+    //æœ‰2ä¸ªå‚æ•°
 	public Point(int x, int y) {
 		super();
 		this.x = x;

@@ -11,19 +11,19 @@ public class Test_people {
 	 */
 	public static void main(String[] args) {
 		Person p1=new Person();
-		p1.setName("ÁõÒà·Æ");
+		p1.setName("åˆ˜äº¦è²");
 		p1.setAge(300);
 		p1.setSex('b');
 		p1.setHeight(3.1);
-		p1.setType("ÎÂÈáµÄ");
+		p1.setType("æ¸©æŸ”çš„");
 		p1.say();
-		p1.feeling("ÎÒÕÒµ½ºÃ¹¤×÷ÁË","¹ş¹ş!");
+		p1.feeling("æˆ‘æ‰¾åˆ°å¥½å·¥ä½œäº†","å“ˆå“ˆ!");
 		
-		Student s1=new Student("Íõ·Æ",'Å®',21,1.75,"ÎÂÈáµÄ","¼«¿ÍÑ§Ôº","1205");
+		Student s1=new Student("ç‹è²",'å¥³',21,1.75,"æ¸©æŸ”çš„","æå®¢å­¦é™¢","1205");
 		s1.say();
 		s1.doing();
 		
-		Teacher t1=new Teacher("ÕÅ·É",'ÄĞ',28,1.99,"±©ÔêµÄ","¼«¿ÍÑ§Ôº","1205");
+		Teacher t1=new Teacher("å¼ é£",'ç”·',28,1.99,"æš´èºçš„","æå®¢å­¦é™¢","è®²å¸ˆ");
 		t1.say();
 		t1.doing();
 		

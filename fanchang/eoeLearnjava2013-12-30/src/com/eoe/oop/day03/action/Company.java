@@ -4,7 +4,7 @@ public class Company implements Action {
 
 	@Override
 	public void run() {
-		System.out.println(Action.COMPANY+"ÔÚÔËÓª~~");
+		System.out.println(Action.COMPANY+"åœ¨è¿è¥~~");
 
 	}
 

@@ -1,8 +1,8 @@
 package com.eoe.oop.day03.car;
 
 public class Car implements Motion, Product {
-	private String name;     //声明车名
-	private double price;		//声明价格
+	private String name;     //澹版槑杞﹀悕
+	private double price;		//澹版槑浠锋牸
 	
 	public String getName(){
 		return name;
@@ -28,13 +28,13 @@ public class Car implements Motion, Product {
 	}
 	@Override
 	public void run(){
-		System.out.println(this.name+"正在行驶~~");
+		System.out.println(this.name+"姝ｅ湪琛岄┒~~");
 	}
 
 
 	@Override
 	public void stop() {
-		System.out.println(this.name+"刹车");
+		System.out.println(this.name+"鍒硅溅");
 		
 	}
 }

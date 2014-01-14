@@ -4,27 +4,27 @@ import java.util.Scanner;
 
 public class Prime_number {
 
-	/**¼üÅÌÊäÈëÒ»¸öÕûÊı,ÅĞ¶Ï¸ÃÊıÊÇ·ñÊÇÖÊÊı
-	 * ÖÊÊıÓÖ³ÆËØÊı.Ö¸ÔÚÒ»¸ö´óÓÚ1µÄ×ÔÈ»ÊıÖĞ£¬
-	 * ³ıÁË1ºÍ´ËÕûÊı×ÔÉíÍâ£¬ÎŞ·¨±»ÆäËû×ÔÈ»ÊıÕû³ıµÄÊı
+	/**é”®ç›˜è¾“å…¥ä¸€ä¸ªæ•´æ•°,åˆ¤æ–­è¯¥æ•°æ˜¯å¦æ˜¯è´¨æ•°
+	 * è´¨æ•°åˆç§°ç´ æ•°.æŒ‡åœ¨ä¸€ä¸ªå¤§äº1çš„è‡ªç„¶æ•°ä¸­ï¼Œ
+	 * é™¤äº†1å’Œæ­¤æ•´æ•°è‡ªèº«å¤–ï¼Œæ— æ³•è¢«å…¶ä»–è‡ªç„¶æ•°æ•´é™¤çš„æ•°
 	 * @param args
 	 */
 	public static void main(String[] args) {
 //		Scanner scanner = new Scanner(System.in);
-//		System.out.println("ÇëÊäÈëÒ»¸öÕûÊı:");
+//		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªæ•´æ•°:");
 //		int n = scanner.nextInt();
 //		for(int i=2;i<n;i++){
 //			if(n%i!=0){
-//				System.out.println(n+"ÊÇÖÊÊı");
+//				System.out.println(n+"æ˜¯è´¨æ•°");
 //				break;
 //			}else{
-//				System.out.println(n+"²»ÊÇÖÊÊı");
+//				System.out.println(n+"ä¸æ˜¯è´¨æ•°");
 //				break;
 //			
 //			}
 //		}
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÇëÊäÈëÒ»¸öÕûÊı:");
+		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªæ•´æ•°:");
 		int n = scanner.nextInt();
 		int k = (int) Math.sqrt(n);
 		boolean isPrime=true;
@@ -35,9 +35,9 @@ public class Prime_number {
 			}
 		}
 		if(isPrime==true){
-			System.out.println(n+"ÊÇÖÊÊı");
+			System.out.println(n+"æ˜¯è´¨æ•°");
 		}else{
-			System.out.println(n+"²»ÊÇÖÊÊı");
+			System.out.println(n+"ä¸æ˜¯è´¨æ•°");
 		}
 	}
 

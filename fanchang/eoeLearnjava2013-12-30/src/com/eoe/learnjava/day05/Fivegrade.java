@@ -5,37 +5,37 @@ import java.util.Scanner;
 public class Fivegrade {
 
 	/**
-	 * ¼üÅÌÊäÈëÎå·ÖÖÆ,Èô²»ÊÇÎå·ÖÖÆ,ÔòÖØĞÂÊäÈë
-	 * ÖªµÀÊäÈëÕıÈ·
+	 * é”®ç›˜è¾“å…¥äº”åˆ†åˆ¶,è‹¥ä¸æ˜¯äº”åˆ†åˆ¶,åˆ™é‡æ–°è¾“å…¥
+	 * çŸ¥é“è¾“å…¥æ­£ç¡®
 	 * @param args
 	 */
 	
 	public static void main(String[] args) {
-	    //do--whileÑ­»·Ğ´
+	    //do--whileå¾ªç¯å†™
 //		Scanner scanner = new Scanner(System.in);
-//		System.out.println("ÇëÊäÈëÒ»¸öÎå·ÖÖÆµÄÊı:");
+//		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªäº”åˆ†åˆ¶çš„æ•°:");
 //		int score;
 //		do{
 //			score= scanner.nextInt();	
 //		}while(score<0||score>5);
-//		System.out.println("ÊÇÎå·ÖÖÆµÄÊı");
+//		System.out.println("æ˜¯äº”åˆ†åˆ¶çš„æ•°");
 		
-	    //ÓÃwhileÑ­»·×ö
+	    //ç”¨whileå¾ªç¯åš
 //		Scanner scanner = new Scanner(System.in);
-//		System.out.println("ÇëÊäÈëÒ»¸öÎå·ÖÖÆµÄÊı:");
+//		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªäº”åˆ†åˆ¶çš„æ•°:");
 //		int score=-1;
 //		while(score<0||score>5){
 //			score= scanner.nextInt();	
 //		}
-//		System.out.println("ÊÇÎå·ÖÖÆµÄÊı");
+//		System.out.println("æ˜¯äº”åˆ†åˆ¶çš„æ•°");
 
-		//ÓÃforÑ­»·×ö
+		//ç”¨forå¾ªç¯åš
 		Scanner scanner = new Scanner(System.in);
-			System.out.println("ÇëÊäÈëÒ»¸öÎå·ÖÖÆµÄÊı:");
+			System.out.println("è¯·è¾“å…¥ä¸€ä¸ªäº”åˆ†åˆ¶çš„æ•°:");
 		int score=-1;
 		for(;score<0||score>5;){
 			score= scanner.nextInt();	
 		}
-		System.out.println("ÊÇÎå·ÖÖÆµÄÊı");
+		System.out.println("æ˜¯äº”åˆ†åˆ¶çš„æ•°");
 	}
 }

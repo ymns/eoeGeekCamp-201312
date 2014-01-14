@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class Look_up {
 
-	/**Í¨¹ıÊı×éÔªËØÕÒÏÂ±ê
-	 * ÊäÈëĞÕÃû,²éÕÒÔÚÊı×éÖĞ¶ÔÓ¦µÄÎ»ÖÃ
+	/**é€šè¿‡æ•°ç»„å…ƒç´ æ‰¾ä¸‹æ ‡
+	 * è¾“å…¥å§“å,æŸ¥æ‰¾åœ¨æ•°ç»„ä¸­å¯¹åº”çš„ä½ç½®
 	 * @param args
 	 */
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
-		String[] name={"ÕÅ·É","Âí·É","ÁõÒà·Æ","Íõ·Æ","°¢·É"};
+		String[] name={"å¼ é£","é©¬é£","åˆ˜äº¦è²","ç‹è²","é˜¿é£"};
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÇëÊäÈëĞÕÃû:");
+		System.out.println("è¯·è¾“å…¥å§“å:");
 		String named=scanner.next();
 		for (int i = 0; i < name.length; i++) {
 			if (named.equals(name[i])) {

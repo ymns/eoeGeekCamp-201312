@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Test_work {
 
 	/**
-	 *·ÃÎÊĞŞÊÎ·ûÒıÈë°¸Àı
+	 *è®¿é—®ä¿®é¥°ç¬¦å¼•å…¥æ¡ˆä¾‹
 	 * @param args
 	 */
 	@SuppressWarnings("resource")
@@ -29,7 +29,7 @@ public class Test_work {
 		case 4:com.eoe.learnjava.day05.Factorial.main(null);
 			break;
 		default:
-			System.out.println("ÊäÈë´íÎó!");
+			System.out.println("è¾“å…¥é”™è¯¯!");
 			break;
 		}
 	}

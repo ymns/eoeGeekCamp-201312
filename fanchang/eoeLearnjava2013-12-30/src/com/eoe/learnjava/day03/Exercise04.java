@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class Exercise04 {
 
 	/**
-	 * ±àĞ´³ÌĞò£¬ÊµÏÖÁ½¸ö×Ö·ûÀàĞÍ±äÁ¿Öµ»¥»»
+	 * ç¼–å†™ç¨‹åºï¼Œå®ç°ä¸¤ä¸ªå­—ç¬¦ç±»å‹å˜é‡å€¼äº’æ¢
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÊäÈëÁ½¸ö×Ö·ûĞÍ±äÁ¿a=");
+		System.out.println("è¾“å…¥ä¸¤ä¸ªå­—ç¬¦å‹å˜é‡a=");
 		char a=scanner.next().charAt(0);
-		System.out.println("ÊäÈëÁ½¸ö×Ö·ûĞÍ±äÁ¿b=");
+		System.out.println("è¾“å…¥ä¸¤ä¸ªå­—ç¬¦å‹å˜é‡b=");
 		char b=scanner.next().charAt(0);
 		a=(char) (a+b);
 		b=(char) (a-b);

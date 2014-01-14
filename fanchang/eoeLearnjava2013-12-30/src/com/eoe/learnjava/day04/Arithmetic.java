@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class Arithmetic {
 
-	/**ËÄÔòÔËËã
-	 * ¼üÅÌÊäÈëÒ»¸öÕûÊı£¬ÔÚÊäÈëÒ»¸ö×Ö·û£¬¸Ã×Ö·ûÊÇ+¡¢-¡¢*¡¢/¡¢%ÖĞµÄÈÎÒâÒ»¸ö
-	 * ×Ö·û£¬ÔÚÊäÈëÒ»¸öÕûÊı¡£³ÌĞò¶Ô×ÅÁ½¸öÊı½øĞĞ¼ÆËã
+	/**å››åˆ™è¿ç®—
+	 * é”®ç›˜è¾“å…¥ä¸€ä¸ªæ•´æ•°ï¼Œåœ¨è¾“å…¥ä¸€ä¸ªå­—ç¬¦ï¼Œè¯¥å­—ç¬¦æ˜¯+ã€-ã€*ã€/ã€%ä¸­çš„ä»»æ„ä¸€ä¸ª
+	 * å­—ç¬¦ï¼Œåœ¨è¾“å…¥ä¸€ä¸ªæ•´æ•°ã€‚ç¨‹åºå¯¹ç€ä¸¤ä¸ªæ•°è¿›è¡Œè®¡ç®—
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("a [+¡¢-¡¢*¡¢/¡¢%] b");
+		System.out.println("a [+ã€-ã€*ã€/ã€%] b");
 		int a = scanner.nextInt();
 		char c = scanner.next().charAt(0);
 		int b = scanner.nextInt();
@@ -32,7 +32,7 @@ public class Arithmetic {
 			System.out.println(a % b);
 			break;
 		default :
-			System.out.println("ÊäÈë´íÎó£¡£¡");
+			System.out.println("è¾“å…¥é”™è¯¯ï¼ï¼");
 			break;
 		}
  	}

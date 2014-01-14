@@ -7,33 +7,33 @@ import java.util.Scanner;
 public class Interposition {
 
 	/**
-	 * ÏòÊı×é²åÈëÔªËØ
+	 * å‘æ•°ç»„æ’å…¥å…ƒç´ 
 	 * @param args
 	 */
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 				
-		String[] names={"ÕÔ·É","Íõ·Æ","ÁõÒà·Æ","Âğ·È"};
+		String[] names={"èµµé£","ç‹è²","åˆ˜äº¦è²","å—å•¡"};
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÇëÊäÈë1-4µÄÊı:");
+		System.out.println("è¯·è¾“å…¥1-4çš„æ•°:");
 		int index;
 		do {
 			index=scanner.nextInt();			
 		} while (index<1||index>5);
-		//Êı×éÀ©Èİ
+		//æ•°ç»„æ‰©å®¹
 		names=Arrays.copyOf(names, names.length+1);
 		for (int i = names.length-1; i > index-1; i--) {
 			swap(names,i-1,i);
 		}
-		names[index-1]="¿§·È";
+		names[index-1]="å’–å•¡";
 		System.out.println(Arrays.toString(names));
 	}
 		
 
-//    //É¾³ıÊı×éÔªËØ
-//	String[] names={"ÕÔ·É","Íõ·Æ","ÁõÒà·Æ","Âğ·È"};
+//    //åˆ é™¤æ•°ç»„å…ƒç´ 
+//	String[] names={"èµµé£","ç‹è²","åˆ˜äº¦è²","å—å•¡"};
 //	Scanner scanner = new Scanner(System.in);
-//	System.out.println("ÇëÊäÈë1-4µÄÊı:");
+//	System.out.println("è¯·è¾“å…¥1-4çš„æ•°:");
 //	int index;
 //	do {
 //		index=scanner.nextInt();			
@@ -41,12 +41,12 @@ public class Interposition {
 //	for (int i = index-1; i < names.length-1; i++) {
 //		swap(names,i,i+1);
 //	}
-//	//Êı×é¼õÈİ
+//	//æ•°ç»„å‡å®¹
 //	names=Arrays.copyOf(names, names.length-1);
 //	System.out.println(Arrays.toString(names));
 //	}
 	
-	//½»»»Êı×éÖµ
+	//äº¤æ¢æ•°ç»„å€¼
 	static void swap(String[] a,int i,int j){
 		String c=a[i];
 		a[i]=a[j];

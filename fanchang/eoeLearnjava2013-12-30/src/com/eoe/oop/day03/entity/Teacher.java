@@ -37,11 +37,11 @@ public class Teacher extends Person {
 	public void say() {
 		// TODO Auto-generated method stub
 		super.say();
-		System.out.println("ÎÒÔÚ"+inSchool+" "+inWork+"ÈÎ½Ì");
+		System.out.println("æˆ‘åœ¨"+inSchool+"å½“"+inWork);
 	}
 	
 	public void doing(){
-		System.out.println(this.name+"ÕıÔÚÅú¸Ä×÷Òµ");
+		System.out.println(this.name+"æ­£åœ¨æ‰¹æ”¹ä½œä¸š");
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

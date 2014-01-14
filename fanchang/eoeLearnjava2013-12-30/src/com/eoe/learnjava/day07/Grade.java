@@ -5,31 +5,31 @@ import java.util.Scanner;
 public class Grade {
 
 	/**
-	 * ²»ÓÃÅĞ¶ÏÓï¾ä¸øÎå·ÖÖÆµÄ·ÖÊıÆÀ¶¨³É¼¨µÈ¼¶
+	 * ä¸ç”¨åˆ¤æ–­è¯­å¥ç»™äº”åˆ†åˆ¶çš„åˆ†æ•°è¯„å®šæˆç»©ç­‰çº§
 	 * @param args
 	 */
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 //		int score;
 //		Scanner scanner = new Scanner(System.in);
-//		System.out.println("ÇëÊäÈëÒ»¸öÎå·ÖÖÆµÄÊı:");
+//		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªäº”åˆ†åˆ¶çš„æ•°:");
 //		do {
 //			score = scanner.nextInt();
 //		} while (score<0||score>5);
-//		String[] grades={"²»¼°¸ñ","²»¼°¸ñ","²»¼°¸ñ","¼°¸ñ","Á¼ºÃ","ÓÅĞã"};
+//		String[] grades={"ä¸åŠæ ¼","ä¸åŠæ ¼","ä¸åŠæ ¼","åŠæ ¼","è‰¯å¥½","ä¼˜ç§€"};
 //		System.out.println(grades[score]);
 //	}
 
 		
-		//²»ÓÃÅĞ¶ÏÓï¾äÊäÈë0-100µÄÊı,ÅĞ¶Ï·ÖÊıµÈ¼¶
+		//ä¸ç”¨åˆ¤æ–­è¯­å¥è¾“å…¥0-100çš„æ•°,åˆ¤æ–­åˆ†æ•°ç­‰çº§
 		int score;
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÇëÊäÈëÒ»¸ö°Ù·ÖÖÆµÄÊı:");
+		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªç™¾åˆ†åˆ¶çš„æ•°:");
 		do {
 			score = scanner.nextInt();
 		} while (score<0||score>100);
-		String[] grades={"²»¼°¸ñ","²»¼°¸ñ","²»¼°¸ñ","²»¼°¸ñ","²»¼°¸ñ","²»¼°¸ñ",
-				"¼°¸ñ","ÖĞµÈ","Á¼ºÃ","ÓÅĞã"};
+		String[] grades={"ä¸åŠæ ¼","ä¸åŠæ ¼","ä¸åŠæ ¼","ä¸åŠæ ¼","ä¸åŠæ ¼","ä¸åŠæ ¼",
+				"åŠæ ¼","ä¸­ç­‰","è‰¯å¥½","ä¼˜ç§€"};
 		System.out.println(grades[score/10]);
 		}
 }

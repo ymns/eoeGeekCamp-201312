@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Print_test01 {
 
 	/**
-	 * ´òÓ¡Ò»ÏÂµÄnĞĞnÁĞµÄ×Ö·ûÍ¼ĞÎ,nÓÉ¼üÅÌÀ´ÊäÈë
-	 * ÒªÇó:Ò»´ÎÊäÈëÒ»¸ö*ºÅ
+	 * æ‰“å°ä¸€ä¸‹çš„nè¡Œnåˆ—çš„å­—ç¬¦å›¾å½¢,nç”±é”®ç›˜æ¥è¾“å…¥
+	 * è¦æ±‚:ä¸€æ¬¡è¾“å…¥ä¸€ä¸ª*å·
 	 *    *****
 	 *    *****
 	 *    *****
@@ -16,7 +16,7 @@ public class Print_test01 {
 	 */
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÇëÊäÈën:");
+		System.out.println("è¯·è¾“å…¥n:");
 		int n = scanner.nextInt();
 		for (int j = 0; j < n; j++) {
 			for (int i = 0; i < n; i++) {

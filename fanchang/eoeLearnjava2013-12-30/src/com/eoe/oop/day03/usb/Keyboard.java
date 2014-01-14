@@ -4,12 +4,12 @@ public class Keyboard implements USB {
 
 	@Override
 	public void read() {
-		System.out.println(USB.KEYBOARD+"½ÓÊÜÓÃ»§µÄÊäÈëÊı¾İ");
+		System.out.println(USB.KEYBOARD+"æ¥å—ç”¨æˆ·çš„è¾“å…¥æ•°æ®");
 	}
 
 	@Override
 	public void write() {
-		System.out.println(USB.KEYBOARD+"¼üÅÌ½ÓÊÜÓÃ»§µÄÊäÈëÊı¾İ");
+		System.out.println(USB.KEYBOARD+"é”®ç›˜æ¥å—ç”¨æˆ·çš„è¾“å…¥æ•°æ®");
 	}
 
 	/**

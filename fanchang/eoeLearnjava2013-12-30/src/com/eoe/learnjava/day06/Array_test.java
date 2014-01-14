@@ -6,22 +6,22 @@ import java.util.Scanner;
 public class Array_test {
 
 	/**
-	 * É¾³ı×Ö·û´®ÖĞµÄÒ»¸öÔªËØ,ºóÃæµÄÔªËØÌî²¹¿ÕÈ±,Êı×é¼õÈİ
+	 * åˆ é™¤å­—ç¬¦ä¸²ä¸­çš„ä¸€ä¸ªå…ƒç´ ,åé¢çš„å…ƒç´ å¡«è¡¥ç©ºç¼º,æ•°ç»„å‡å®¹
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String[] names={"ÕÅ·É","Íõ·Æ","ÁõÒà·É","Âğ·È"};
+		String[] names={"å¼ é£","ç‹è²","åˆ˜äº¦é£","å—å•¡"};
 		Scanner scanner=new Scanner(System.in);
-		int index;//±£´æÉ¾³ıµÄÎ»ÖÃ
+		int index;//ä¿å­˜åˆ é™¤çš„ä½ç½®
 		do{
-			System.out.println("ÊäÈëÉ¾³ıµÄÎ»ÖÃ(1-4)");
+			System.out.println("è¾“å…¥åˆ é™¤çš„ä½ç½®(1-4)");
 			index=scanner.nextInt();
 		}while(index<1 || index>4);
-		//ºóÒ»¸öÔªËØÏòÇ°¸´ÖÆ
+		//åä¸€ä¸ªå…ƒç´ å‘å‰å¤åˆ¶
 		for(int i=index;i<=names.length-1;i++){
 			names[i-1]=names[i];
 		}
-		//²½Öè1¡¢namesÊı×é¼õÈİ
+		//æ­¥éª¤1ã€namesæ•°ç»„å‡å®¹
 		names=Arrays.copyOf(names, names.length-1);
 		System.out.println(Arrays.toString(names));
 	}

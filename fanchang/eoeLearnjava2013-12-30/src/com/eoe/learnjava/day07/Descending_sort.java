@@ -6,19 +6,19 @@ import java.util.Random;
 public class Descending_sort {
 
 	/**
-	 * 降序排列
+	 * 闄嶅簭鎺掑垪
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		Random random = new Random();
 		int[] score = new int[10];
-		//产生10个随机数,保存到数组中
+		//浜х敓10涓殢鏈烘暟,淇濆瓨鍒版暟缁勪腑
 		for (int i = 0; i < score.length; i++) {
 			score[i]=random.nextInt(40)+60;
 			System.out.print(score[i]+" ");
 		}
 		System.out.println();
-		//降序排列
+		//闄嶅簭鎺掑垪
 		for (int j = 1; j < score.length; j++) {
 			for (int i = 0; i < score.length-j; i++) {
 				if (score[i]>score[i+1]) {
@@ -28,7 +28,7 @@ public class Descending_sort {
 		}
 		System.out.println(Arrays.toString(score));
 	}
-	//交换
+	//浜ゆ崲
 	static void swap(int[] a,int i,int j){
 		int c=a[i];
 		a[i]=a[j];

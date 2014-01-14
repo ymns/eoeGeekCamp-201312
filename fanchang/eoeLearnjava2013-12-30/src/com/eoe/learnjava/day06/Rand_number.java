@@ -5,12 +5,12 @@ import java.util.Random;
 public class Rand_number {
 
 	/**
-	 * Ëæ»ú²úÉú10¸ö·ÖÊı(ÔÚ60-100Ö®¼ä),ÕÒ³ö×î¸ßÊı
-	 * Ë¼Â·:
-	 * 1.ĞèÒªÑ­»·10´Î,ÓÃfor
-	 * 2.´´½¨max´æ·Å×î´óÊı
-	 * 3.²úÉúËæ»úÊı
-	 * 4.ÅĞ¶Ï
+	 * éšæœºäº§ç”Ÿ10ä¸ªåˆ†æ•°(åœ¨60-100ä¹‹é—´),æ‰¾å‡ºæœ€é«˜æ•°
+	 * æ€è·¯:
+	 * 1.éœ€è¦å¾ªç¯10æ¬¡,ç”¨for
+	 * 2.åˆ›å»ºmaxå­˜æ”¾æœ€å¤§æ•°
+	 * 3.äº§ç”Ÿéšæœºæ•°
+	 * 4.åˆ¤æ–­
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -24,7 +24,7 @@ public class Rand_number {
 				max=score;
 			}
 		}
-		System.out.println("×î´óÊı:"+max);
+		System.out.println("æœ€å¤§æ•°:"+max);
 
 	}
 

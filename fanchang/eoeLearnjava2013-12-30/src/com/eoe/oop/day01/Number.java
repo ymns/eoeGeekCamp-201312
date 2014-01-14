@@ -7,11 +7,11 @@ public class Number {
 	 */
 	int a;
 	int b;
-//ÎŞ²ÎµÄ
+//æ— å‚çš„
 	public Number() {
 		super();
 	}
-//ÓĞ2¸ö²ÎÊıµÄ¹¹Ôì·½·¨
+//æœ‰2ä¸ªå‚æ•°çš„æ„é€ æ–¹æ³•
 	public Number(int a, int b) {
 		super();
 		this.a = a;
@@ -25,7 +25,7 @@ public class Number {
 		
 	}
 	public static void main(String[] args) {
-		//²âÊÔ¶ÔÏó×÷Îª·½·¨µÄ²ÎÊıÊµÏÖÁ½¸ö±äÁ¿µÄ»¥»»
+		//æµ‹è¯•å¯¹è±¡ä½œä¸ºæ–¹æ³•çš„å‚æ•°å®ç°ä¸¤ä¸ªå˜é‡çš„äº’æ¢
 		Number num = new Number(10,5);
 		swap(num);
 		System.out.println(num.a+" "+num.b);

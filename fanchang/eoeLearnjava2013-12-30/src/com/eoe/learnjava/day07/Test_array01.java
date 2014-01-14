@@ -5,16 +5,16 @@ import java.util.Arrays;
 public class Test_array01 {
 
 	/**
-	 * 数组的扩容和减容
+	 * 鏁扮粍鐨勬墿瀹瑰拰鍑忓
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int[] a=new int [0];// 创建一个空数组
-		//扩容   +1
+		int[] a=new int [0];// 鍒涘缓涓�涓┖鏁扮粍
+		//鎵╁   +1
 		a=Arrays.copyOf(a, a.length+1);
 		a[0]=100;
 		System.out.println(Arrays.toString(a));
-		//减容   -1
+		//鍑忓   -1
 		a=Arrays.copyOf(a, a.length-1);
 		System.out.println(Arrays.toString(a));
 	}

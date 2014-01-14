@@ -5,8 +5,8 @@ import java.util.Random;
 
 public class Bubble_sort02 {
 
-	/**Ã°ÅİÅÅĞò
-	 * ÏÂ³Á,ÉıĞò
+	/**å†’æ³¡æ’åº
+	 * ä¸‹æ²‰,å‡åº
 	 * @param args
 	 */
 	public static void main(String[] args) {

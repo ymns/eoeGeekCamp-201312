@@ -5,35 +5,35 @@ public class Person {
 	/**
 	 * @param args
 	 */
-	//¶¨ÒåÎå¸ö¹²ÓĞµÄ±äÁ¿
+	//å®šä¹‰äº”ä¸ªå…±æœ‰çš„å˜é‡
 	public String name;
 	public char sex;
 	public int age;
 	public double height;
 	public String type;
 
-	// Ëµ»°£¬´òÕĞºô,say·½·¨ÊÇ·Ç¾²Ì¬·½·¨
+	// è¯´è¯ï¼Œæ‰“æ‹›å‘¼,sayæ–¹æ³•æ˜¯éé™æ€æ–¹æ³•
 	public void say() {
-		System.out.println("àË£¬´ó¼ÒºÃ£¬°³½Ğ" + name + "£¬½ñÄê" + age + "Ëê,Éí¸ß" + height
-				+ "Ã×,°³ÊÇÒ»¸ö" + type + sex + "Ê¿");
+		System.out.println("å—¨ï¼Œå¤§å®¶å¥½ï¼Œä¿ºå«" + name + "ï¼Œä»Šå¹´" + age + "å²,èº«é«˜" + height
+				+ "ç±³,ä¿ºæ˜¯ä¸€ä¸ª" + type + sex + "å£«");
 	}
 
-	// feeling·½·¨ÊÇ·Ç¾²Ì¬·½·¨
+	// feelingæ–¹æ³•æ˜¯éé™æ€æ–¹æ³•
 	public void feeling(String cause, String content) {
 		System.out.println(cause);
 		System.out.println(content);
 	}
 
-	// ÎŞ²Î¹¹Ôì(Æ÷)·½·¨,JVMÄ¬ÈÏÌá¹©Ò»¸ö¹¹Ôì·½·¨
+	// æ— å‚æ„é€ (å™¨)æ–¹æ³•,JVMé»˜è®¤æä¾›ä¸€ä¸ªæ„é€ æ–¹æ³•
 //	public Person() {
-//		name = "ÕÅÈı";
-//		sex = 'ÄĞ';
+//		name = "å¼ ä¸‰";
+//		sex = 'ç”·';
 //		age = 18;
 //		height = 1.7;
-//		type = "»îÆÃµÄ";
+//		type = "æ´»æ³¼çš„";
 //	}
 
-//´ø²Î¹¹Ôì·½·¨
+//å¸¦å‚æ„é€ æ–¹æ³•
 	public Person(String name, char sex, int age, double height, String type) {
 		super();
 		this.name = name;
@@ -44,26 +44,26 @@ public class Person {
 	}
 
 
-	//ÖØĞ´toString
+	//é‡å†™toString
 	@Override
 	public String toString() {
-		return this.name;//·µ»ØÈËÃû
+		return this.name;//è¿”å›äººå
 	}
-//ÖØĞ´equals
+//é‡å†™equals
 	@Override
 	public boolean equals(Object obj) {
-		if (obj==null) {               //objÎª¿Õ,Ôò·µ»Øfalse
+		if (obj==null) {               //objä¸ºç©º,åˆ™è¿”å›false
 			return false;
 		}
 		Person other=null;
-		if (obj instanceof Person) {   //ÅĞ¶ÏÄÜ·ñ×ª»»
-			other=(Person) obj;        //Ç¿ÖÆ×ª»»²¢¸³Öµ¸øother
+		if (obj instanceof Person) {   //åˆ¤æ–­èƒ½å¦è½¬æ¢
+			other=(Person) obj;        //å¼ºåˆ¶è½¬æ¢å¹¶èµ‹å€¼ç»™other
 		}else {
 			return false;
-		}if (obj==this) {          		//objµÄµØÖ·ºÍÕâ¸ö¶ÔÏóµÄµØÖ·ÏàµÈ,
+		}if (obj==this) {          		//objçš„åœ°å€å’Œè¿™ä¸ªå¯¹è±¡çš„åœ°å€ç›¸ç­‰,
 			return true;
 		}
-		return this.name.equals(other.name)    //·µ»Ø²¢±È½Ï
+		return this.name.equals(other.name)    //è¿”å›å¹¶æ¯”è¾ƒ
 				&&this.sex==other.sex&&
 				this.age==other.age&&
 				((Math.abs(this.height-other.height))<0.0000001)&&
@@ -71,12 +71,12 @@ public class Person {
 	}
 
 	public static void main(String[] args) {
-		Person p1=new Person("ÕÅ·É",'ÄĞ',21,1.84,"ºÀ·ÅµÄ");
-		Person p2=new Person("ÕÅ·É",'ÄĞ',21,1.85,"ºÀ·ÅµÄ");
-		if (p1.equals(p2)) {       //±È½Ïp1 ºÍ p2 µÄÊôĞÔÊÇ·ñÍêÈ«ÏàµÈ
-			System.out.println("ÊÇÒ»¸öÈË!");
+		Person p1=new Person("å¼ é£",'ç”·',21,1.84,"è±ªæ”¾çš„");
+		Person p2=new Person("å¼ é£",'ç”·',21,1.85,"è±ªæ”¾çš„");
+		if (p1.equals(p2)) {       //æ¯”è¾ƒp1 å’Œ p2 çš„å±æ€§æ˜¯å¦å®Œå…¨ç›¸ç­‰
+			System.out.println("æ˜¯ä¸€ä¸ªäºº!");
 		}else{
-			System.out.println("²»ÊÇÒ»¸öÈË!");
+			System.out.println("ä¸æ˜¯ä¸€ä¸ªäºº!");
 		}
 	}
 

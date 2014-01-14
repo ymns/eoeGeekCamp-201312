@@ -5,7 +5,7 @@ public class Student extends Person{
 	/**
 	 * @param args
 	 */
-	//¶¨ÒåÁ½¸ö±äÁ¿
+	//å®šä¹‰ä¸¤ä¸ªå˜é‡
 	private String inClass;
 	private String inSchool;
 	
@@ -24,11 +24,11 @@ public class Student extends Person{
 	}
 	public void say(){
 		super.say();
-		System.out.println("ÎÒÔÚ"+inSchool+" "+inClass+"Ñ§Ï°");
+		System.out.println("æˆ‘åœ¨"+inSchool+" "+inClass+"å­¦ä¹ ");
 	}
 	
 	public void doing(){
-		System.out.println(this.name+"ÕıÔÚĞ´×÷Òµ");
+		System.out.println(this.name+"æ­£åœ¨å†™ä½œä¸š");
 	}
 	public Student(String name, char sex, int age, double height, String type,
 			String inClass, String inSchool) {

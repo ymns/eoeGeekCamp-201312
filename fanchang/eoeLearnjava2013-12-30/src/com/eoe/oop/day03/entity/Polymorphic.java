@@ -7,16 +7,16 @@ public class Polymorphic {
 	 */
 	
 	public static void main(String[] args) {
-		//¶¨ÒåÒ»¸öÊı×é,PersonÀà
+		//å®šä¹‰ä¸€ä¸ªæ•°ç»„,Personç±»
 		Person[] people=new Person[4];
-		people[0]=new Student("ÕÅĞ¡·É",'ÄĞ',23,1.78,"¿ñ·ÅµÄ",
-				"eoe¼«¿ÍÑµÁ·Óª","1205"); 
-		people[1]=new Teacher("Íõ·Æ",'Å®',28,1.68,"ÎÂÈáµÄ",
-				"eoe¼«¿ÍÑµÁ·Óª","1205");
-		people[2]=new Student("ÀîÎ°",'ÄĞ',17,1.98,"·è¿ñµÄ",
-				"eoe¼«¿ÍÑµÁ·Óª","1205");
-		people[3]=new Teacher("Á»ÎÄ·è",'ÄĞ',55,1.68,"¿ñÍıµÄ",
-				"eoe¼«¿ÍÑµÁ·Óª","1205");
+		people[0]=new Student("å¼ å°é£",'ç”·',23,1.78,"ç‹‚æ”¾çš„",
+				"eoeæå®¢è®­ç»ƒè¥","1205"); 
+		people[1]=new Teacher("ç‹è²",'å¥³',28,1.68,"æ¸©æŸ”çš„",
+				"eoeæå®¢è®­ç»ƒè¥","1205");
+		people[2]=new Student("æä¼Ÿ",'ç”·',17,1.98,"ç–¯ç‹‚çš„",
+				"eoeæå®¢è®­ç»ƒè¥","1205");
+		people[3]=new Teacher("ç²±æ–‡ç–¯",'ç”·',55,1.68,"ç‹‚å¦„çš„",
+				"eoeæå®¢è®­ç»ƒè¥","1205");
 		for (int i = 0; i < people.length; i++) {
 			people[i].say();
 			people[i].doing();

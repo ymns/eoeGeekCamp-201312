@@ -1,35 +1,35 @@
 package com.eoe.oop.day03.entity;
 
-public class Person {
+public  class Person {
 
 	/**
 	 * @param args
 	 */
-	//¶¨ÒåÎå¸ö¹²ÓĞµÄ±äÁ¿
+	//å®šä¹‰äº”ä¸ªå…±æœ‰çš„å˜é‡
 	protected String name;
 	protected char sex;
 	protected int age;
 	protected double height;
 	protected String type;
-//name¸³Öµ
+//nameèµ‹å€¼
 	public String getName(){
 		return name;
 	}
 	public void setName(String name){
 		this.name=name;
 	}
-//sex¸³ÖµÅĞ¶Ï
+//sexèµ‹å€¼åˆ¤æ–­
 	public char getSex(){
 		return sex;
 	}
 	public void setSex(char sex){
-		if (sex=='ÄĞ'||sex=='Å®') {
+		if (sex=='ç”·'||sex=='å¥³') {
 			this.sex=sex;
 		}else {
-			this.sex='Å®';
+			this.sex='å¥³';
 		}
 	}
-//age¸³ÖµÅĞ¶Ï
+//ageèµ‹å€¼åˆ¤æ–­
 	public int getAge(){
 		return  age;
 	}
@@ -41,7 +41,7 @@ public class Person {
 			this.age=18;
 		}
 	}
-//hegiht¸³ÖµÅĞ¶Ï
+//hegihtèµ‹å€¼åˆ¤æ–­
 	public double getHeghit(){
 		return  height;
 	}
@@ -53,7 +53,7 @@ public class Person {
 			this.height=1.8;
 		}
 	}
-//type¸³Öµ
+//typeèµ‹å€¼
 	public String getType(){
 		return type;
 	}
@@ -62,29 +62,29 @@ public class Person {
 	}
 	
 
-	// Ëµ»°£¬´òÕĞºô,say·½·¨ÊÇ·Ç¾²Ì¬·½·¨
+	// è¯´è¯ï¼Œæ‰“æ‹›å‘¼,sayæ–¹æ³•æ˜¯éé™æ€æ–¹æ³•
 	public void say() {
-		System.out.println("àË£¬´ó¼ÒºÃ£¬°³½Ğ" + name + "£¬½ñÄê" + age + "Ëê,Éí¸ß" + height
-				+ "Ã×,°³ÊÇÒ»¸ö" + type + sex + "Ê¿");
+		System.out.println("å—¨ï¼Œå¤§å®¶å¥½ï¼Œä¿ºå«" + name + "ï¼Œä»Šå¹´" + age + "å²,èº«é«˜" + height
+				+ "ç±³,ä¿ºæ˜¯ä¸€ä¸ª" + type + sex + "å£«");
 	}
 
-	// feeling·½·¨ÊÇ·Ç¾²Ì¬·½·¨
+	// feelingæ–¹æ³•æ˜¯éé™æ€æ–¹æ³•
 	public void feeling(String cause, String content) {
 		System.out.println(cause);
 		System.out.println(content);
 	}
 
-	// ÎŞ²Î¹¹Ôì(Æ÷)·½·¨,JVMÄ¬ÈÏÌá¹©Ò»¸ö¹¹Ôì·½·¨
+	// æ— å‚æ„é€ (å™¨)æ–¹æ³•,JVMé»˜è®¤æä¾›ä¸€ä¸ªæ„é€ æ–¹æ³•
 //	public Person() {
-//		name = "ÕÅÈı";
-//		sex = 'ÄĞ';
+//		name = "å¼ ä¸‰";
+//		sex = 'ç”·';
 //		age = 18;
 //		height = 1.7;
-//		type = "»îÆÃµÄ";
+//		type = "æ´»æ³¼çš„";
 //	}
 	
 
-//´ø²Î¹¹Ôì·½·¨
+//å¸¦å‚æ„é€ æ–¹æ³•
 	public Person(String name, char sex, int age, double height, String type) {
 		super();
 		this.name = name;
@@ -98,32 +98,33 @@ public class Person {
 	public Person() {
 		super();
 	}
-	//ÖØĞ´toString
+	//é‡å†™toString
 	@Override
 	public String toString() {
-		return this.name;//·µ»ØÈËÃû
+		return this.name;//è¿”å›äººå
 	}
-//ÖØĞ´equals
+//é‡å†™equals
 	@Override
 	public boolean equals(Object obj) {
-		if (obj==null) {               //objÎª¿Õ,Ôò·µ»Øfalse
+		if (obj==null) {               //objä¸ºç©º,åˆ™è¿”å›false
 			return false;
 		}
 		Person other=null;
-		if (obj instanceof Person) {   //ÅĞ¶ÏÄÜ·ñ×ª»»
-			other=(Person) obj;        //Ç¿ÖÆ×ª»»²¢¸³Öµ¸øother
+		if (obj instanceof Person) {   //åˆ¤æ–­èƒ½å¦è½¬æ¢
+			other=(Person) obj;        //å¼ºåˆ¶è½¬æ¢å¹¶èµ‹å€¼ç»™other
 		}else {
 			return false;
-		}if (obj==this) {          		//objµÄµØÖ·ºÍÕâ¸ö¶ÔÏóµÄµØÖ·ÏàµÈ,
+		}if (obj==this) {          		//objçš„åœ°å€å’Œè¿™ä¸ªå¯¹è±¡çš„åœ°å€ç›¸ç­‰,
 			return true;
 		}
-		return this.name.equals(other.name)    //·µ»Ø²¢±È½Ï
+		return this.name.equals(other.name)    //è¿”å›å¹¶æ¯”è¾ƒ
 				&&this.sex==other.sex&&
 				this.age==other.age&&
 				((Math.abs(this.height-other.height))<0.0000001)&&
 				this.type.equals(other.type);
 	}
-	public void doing(){
+	public  void doing(){
+		
 	}
 
 	public static void main(String[] args) {

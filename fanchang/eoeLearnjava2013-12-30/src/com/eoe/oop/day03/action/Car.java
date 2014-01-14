@@ -4,7 +4,7 @@ public class Car implements Action {
 
 	@Override
 	public void run() {
-		System.out.println(Action.CAR+"ÔÚÐÐÊ»~~");
+		System.out.println(Action.CAR+"åœ¨è¡Œé©¶~~");
 	}
 
 	/**
