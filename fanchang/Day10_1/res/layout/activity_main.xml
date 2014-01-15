@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="5" >
+	<!--第一行，输入用户名-->
+    <TextView android:text="输入用户名" />
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_columnSpan="4"
+        android:hint="输入字符在2~10个之间" />
+	<!-- 第二行，输入密码 -->
+    <TextView android:text="输入密码" />
+
+    <EditText
+        android:id="@+id/etPwd"
+        android:layout_columnSpan="4"
+        android:hint="输入字符在2~10个之间"
+        android:password="true" />
+	<!-- 第三行，输入确认密码 -->
+    <TextView android:text="确认密码" />
+    <EditText
+        android:id="@+id/etFirmPwd"
+        android:layout_columnSpan="4"
+        android:hint="输入字符在2~10个之间"
+        android:password="true" />
+
+    <TextView android:text="选择性别" />
+	<!--  第四行选择性别-->
+    <RadioGroup
+        android:layout_columnSpan="4"
+        android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/rdMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="男" />
+        <RadioButton
+            android:id="@+id/rdFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女" />
+    </RadioGroup>
+	<!-- 第五行，选择所在地 -->
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="所在地" />
+    <Spinner
+        android:id="@+id/spinCity"
+        android:layout_columnSpan="4"
+        android:entries="@array/citys" />
+	<!-- 选择爱好 -->
+    <TextView
+        android:layout_marginTop="15dp"
+        android:text="爱好" />
+    <RadioGroup
+        android:layout_columnSpan="4"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+        <CheckBox
+            android:id="@+id/chkReadBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="读书" />
+        <CheckBox
+            android:id="@+id/chkTour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="旅游" />
+        <CheckBox
+            android:id="@+id/chkGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="玩游戏" />
+    </RadioGroup>
+	<!-- 第六行，注册和取消按钮 -->
+	<!-- 左边的第一列，用于填充 -->
+    <Button
+        android:enabled="false"
+        android:text="我"
+        android:visibility="invisible" />
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_bg"
+        android:drawableLeft="@drawable/login32x32"
+        android:padding="3dp"
+        android:text="注册"
+        android:textColor="#fff" 
+        android:onClick="onClick"/>
+	<!-- 第三列，两个按钮之间用于填充 -->
+    <Button
+        android:enabled="false"
+        android:text="我"
+        android:visibility="invisible" />
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_bg"
+        android:padding="3dp"
+        android:text="取消"
+        android:textColor="#fff" 
+        android:onClick="onClick"/>
+	<!-- 右边的按钮，用于填充 -->
+    <Button
+        android:enabled="false"
+        android:text="我"
+        android:visibility="invisible" 
+        />
+</GridLayout>
