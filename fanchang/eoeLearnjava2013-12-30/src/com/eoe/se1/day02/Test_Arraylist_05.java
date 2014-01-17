@@ -31,7 +31,19 @@ public class Test_Arraylist_05 {
 			break;
 		case VALUE_COPY:
 			list2 = new ArrayList<Integer_>();
-		default:
+			for (int i = 0; i < list.size(); i++) {
+				list2.add(list.get(i));
+			}
+			System.out.println("集合list与list2的内容相同:" + list.equals(list2));
+			System.out.println("集合list与list2是同一个集合对象:" + (list == list2));
+			list.set(0, new Integer_(150));
+			System.out.println("list="+list);
+			System.out.println("list2="+list2);
+			Integer_ i=list.get(1);
+			i.value=250;
+			list.set(1, i);
+			System.out.println("list="+list);
+			System.out.println("list2="+list2);
 			break;
 		}
 	}
@@ -46,19 +58,19 @@ public class Test_Arraylist_05 {
 
 	}
 
-	class Integer_ {
-		int value;
+}
 
-		public Integer_(int value) {
-			super();
-			this.value = value;
-		}
+class Integer_ {
+	int value;
 
-		@Override
-		public String toString() {
-			return " " + this.value;
-		}
+	public Integer_(int value) {
+		super();
+		this.value = value;
+	}
 
+	@Override
+	public String toString() {
+		return " " + this.value;
 	}
 
 }
