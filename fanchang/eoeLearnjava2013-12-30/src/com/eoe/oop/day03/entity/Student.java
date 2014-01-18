@@ -40,8 +40,6 @@ public class Student extends Person{
 	public Student() {
 		super();
 	}
-	public static void main(String[] args) {
 
-	}
 
 }

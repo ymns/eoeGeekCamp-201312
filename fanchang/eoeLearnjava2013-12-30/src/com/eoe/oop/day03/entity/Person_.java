@@ -1,6 +1,6 @@
 package com.eoe.oop.day03.entity;
 
-public  class Person_ {
+public abstract class  Person_ {
 
 	/**
 	 * @param args
@@ -123,9 +123,9 @@ public  class Person_ {
 				((Math.abs(this.height-other.height))<0.0000001)&&
 				this.type.equals(other.type);
 	}
-	public  void doing(){
+	public abstract  void doing();
 		
-	}
+
 
 	public static void main(String[] args) {
 
