@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout 
+    android:layout_width="match_parent" 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="亲,走吗~"
+        android:textSize="40sp"
+        />
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <View 
+            android:layout_height="30dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+        <Button 
+            android:id="@+id/btnOk"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="确定"/>
+        <View 
+            android:layout_height="30dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+        <Button 
+            android:id="@+id/btnCancel"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="取消"/>
+        <View 
+            android:layout_height="30dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    
+</LinearLayout>
