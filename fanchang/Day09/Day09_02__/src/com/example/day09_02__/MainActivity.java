@@ -15,8 +15,8 @@ implements OnClickListener{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		Button button=(Button) findViewById(R.id.btnClick);
-		button.setOnClickListener(new MyListener());
+		Button mbutton=(Button) findViewById(R.id.btnClick);
+		mbutton.setOnClickListener(new MyListener());
 		//button.setOnClickListener(this);
 		//mOnClickListener:按钮的成员变量
 	}
