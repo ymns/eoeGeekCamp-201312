@@ -11,12 +11,13 @@ public class MainActivity extends BaseActivity {
 	Button mbtnNum0, mbtnNum1, mbtnNum2, mbtnNum3, mbtnNum4, mbtnNum5,
 			mbtnNum6, mbtnNum7, mbtnNum8, mbtnNum9;
 	Button mbtnAdd, mbtnDiv, mbtnDot, mbtnSub, mbtnMult, mbtEqual, mbtnSquare,
-			mbtnSqrt, mbtnRightBrace, btnLeftBrace, mbtnDel, mbtnClear,
+			mbtnSqrt, mbtnFoct, mbtnSign, mbtnDel, mbtnClear,
 			mbtnMOD, mbtnEqual;
 	EditText metShow;
 	double num1;
 	double num2;
 	double temp;
+	double result;
 	char c;
 	static StringBuilder s = new StringBuilder();
 
@@ -52,6 +53,8 @@ public class MainActivity extends BaseActivity {
 		mbtnDot = findViewById_(R.id.btnDot);
 		mbtnSqrt = findViewById_(R.id.btnSqrt);
 		mbtnSquare = findViewById_(R.id.btnSquare);
+		mbtnFoct= findViewById_(R.id.btnFoct);
+		mbtnSign= findViewById_(R.id.btnSign);
 
 		mbtnNum0.setOnClickListener(new OnClickListener() {
 
@@ -178,7 +181,8 @@ public class MainActivity extends BaseActivity {
 			private void operation() {
 				switch (c) {
 				case '+':
-					metShow.setText(pround(num1 + num2) + "");
+					result=num1+num2;
+					metShow.setText(pround(result) + "");
 					break;
 				case '-':
 					metShow.setText(pround(num1 - num2) + "");
@@ -297,6 +301,41 @@ public class MainActivity extends BaseActivity {
 			public void onClick(View v) {
 				s.append(".");
 				metShow.setText(s.toString());
+			}
+		});
+		mbtnFoct.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				s.delete(0, s.length());
+				s.append(metShow.getText().toString());
+				temp = Double.parseDouble(s.toString());
+				temp=fact(temp);
+				metShow.setText(temp + "");
+				s.delete(0, s.length());
+				
+			}
+
+			private double fact(double  n) {
+				if (n==1) {
+					return 1;
+				}
+				return n*fact(n-1);
+			}
+		});
+		mbtnSign.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				s.delete(0, s.length());
+				s.append(metShow.getText().toString());
+				temp = Double.parseDouble(s.toString());
+				if (temp>0) {					
+					metShow.setText("-"+temp);
+				}else{
+					metShow.setText(Math.abs(temp)+"");
+				}
+				s.delete(0, s.length());
 			}
 		});
 

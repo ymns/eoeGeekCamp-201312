@@ -39,15 +39,15 @@
         android:textSize="30sp" />
 
     <Button
-        android:id="@+id/btnLeftBrace"
-        android:text="("
-        android:textColor="#FFA500"
+        android:id="@+id/btnSign"
+        android:text="±"
+        android:textColor="#DA70D6"
         android:textSize="30sp" />
 
     <Button
-        android:id="@+id/btnRightBrace"
-        android:text=")"
-        android:textColor="#FFA500"
+        android:id="@+id/btnFoct"
+        android:text="n!"
+        android:textColor="#DA70D6"
         android:textSize="30sp" />
 
     <Button
