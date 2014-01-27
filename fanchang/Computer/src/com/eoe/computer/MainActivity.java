@@ -191,7 +191,13 @@ public class MainActivity extends BaseActivity {
 					metShow.setText(pround(num1 * num2) + "");
 					break;
 				case '/':
-					metShow.setText(pround(num1 / num2) + "");
+					try {
+						temp=num1/num2;
+					} catch (Exception e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					metShow.setText(pround(temp) + "");
 					break;
 				case '%':
 					metShow.setText(num1 % num2 + "");

@@ -1,0 +1,126 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="5" >
+
+    <TextView android:text="输入用户名" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_columnSpan="4"
+        android:hint="输入字符在2-10之间" />
+
+    <TextView android:text="输入密码" />
+
+    <EditText
+        android:id="@+id/etPwd"
+        android:layout_columnSpan="4"
+        android:hint="输入字符在2-10之间"
+        android:password="true" />
+
+    <TextView android:text="确认密码" />
+
+    <EditText
+        android:id="@+id/etFirmPwd"
+        android:layout_columnSpan="4"
+        android:hint="输入字符在2-10之间"
+        android:password="true" />
+
+    <TextView android:text="选择性别" />
+
+    <RadioGroup
+        android:layout_columnSpan="4"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rdMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="男" />
+
+        <RadioButton
+            android:id="@+id/rdFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="所在地" />
+
+    <Spinner
+        android:id="@+id/spinCity"
+        android:layout_columnSpan="4"
+        android:entries="@array/citys" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:text="爱好" />
+
+    <RadioGroup
+        android:layout_columnSpan="4"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/chdReadBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="读书" 
+            android:checked="true"/>
+
+        <CheckBox
+            android:id="@+id/chkTour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="旅游" />
+
+        <CheckBox
+            android:id="@+id/chkGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="玩游戏" />
+    </RadioGroup>
+
+    <Button
+        android:enabled="false"
+        android:text="我"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_bg"
+        android:drawableLeft="@drawable/login32x32"
+        android:onClick="onClick"
+        android:padding="3dp"
+        android:text="注册"
+        android:textColor="#ccc" />
+
+    <Button
+        android:enabled="false"
+        android:text="我"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_bg"
+        android:onClick="onClick"
+        android:padding="3dp"
+        android:text="取消"
+        android:textColor="#fff" />
+
+    <Button
+        android:enabled="false"
+        android:text="我"
+        android:visibility="invisible" />
+
+</GridLayout>
