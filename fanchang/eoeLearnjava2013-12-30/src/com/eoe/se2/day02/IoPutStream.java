@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+//复制文件
 public class IoPutStream {
 	public static void main(String[] args) {
 		String path = "D:/";
@@ -36,7 +37,7 @@ public class IoPutStream {
 			byte[] buffer = new byte[1024]; // 一次存入一个字节
 			long startTime = System.currentTimeMillis(); // 获取系统时间
 			// 循环读写文件
-			while ((len = fis.read(buffer)) != -1) { // 读文件    =-1读取结束
+			while ((len = fis.read(buffer)) != -1) { // 读文件 =-1读取结束
 				fos.write(buffer, 0, len); // 写文件
 			}
 			long endTime = System.currentTimeMillis();

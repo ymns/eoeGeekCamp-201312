@@ -1,7 +1,13 @@
 package com.eoe.se1.day01;
 
-public class User {
+import java.io.Serializable;
 
+public class User implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	/**
 	 * User类代表注册用户类
 	 * 
