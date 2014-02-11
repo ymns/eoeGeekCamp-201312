@@ -98,7 +98,8 @@ public class MainActivity extends BaseActivity implements
 		}
 
 	}
-    //需要继承OnItemLongClickListener
+
+	// 需要继承OnItemLongClickListener
 	@Override
 	public boolean onItemLongClick(AdapterView<?> parent, View layout,
 			int position, long id) {
