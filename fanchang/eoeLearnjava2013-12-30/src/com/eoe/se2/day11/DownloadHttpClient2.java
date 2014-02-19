@@ -9,6 +9,9 @@ import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.RandomAccessFile;
+import java.util.Scanner;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
@@ -31,23 +34,48 @@ public class DownloadHttpClient2 {
 	static final String DEST_PATH = "d://java_test/se2_day11/";
 	static final String FILENAME = "eclipse.zip";
 	static final String RECORD_FILENAME = "record.dat";
-	static boolean isContiue = true;
+	static boolean isContinue = true;
 	static final int THREAD_COUNT = 3;
 	static Record[] records;
 
 	public static void main(String[] args) {
 
+		final ExecutorService pool = Executors
+				.newFixedThreadPool(THREAD_COUNT + 1);
+		pool.execute(new Runnable() {
+
+			@Override
+			public void run() {
+				System.out.println("按任意键停止下载");
+				new Scanner(System.in).next();
+				isContinue = false;
+				pool.shutdown();
+			}
+		});
+		if (!readRecord()) {
+			requestServer();
+		}
+
+		for (int i = 0; i < records.length; i++) {
+			pool.execute(new DownloadTask(i));
+		}
 	}
 
 	// 请求服务端返回下载文件长度，计算各块起始、结束位置
-	static void repuestServer() {
+	static void requestServer() {
 		HttpClient client = new DefaultHttpClient();
 		HttpGet get = new HttpGet(BASE_URL);
 		try {
 			HttpResponse response = client.execute(get);
 			if (response.getStatusLine().getStatusCode() == 200) {
 				long fileSize = response.getEntity().getContentLength();
-				
+				long blockSize = fileSize / THREAD_COUNT;
+				for (int i = 0; i < records.length; i++) {
+					records[i] = new Record();
+					records[i].setStartPos(i * blockSize);
+					records[i].setEndPos((i + 1) * blockSize - 1);
+				}
+				records[records.length - 1].setEndPos(fileSize - 1);
 			}
 		} catch (ClientProtocolException e) {
 			e.printStackTrace();
@@ -75,12 +103,12 @@ public class DownloadHttpClient2 {
 			RandomAccessFile raf = null;
 			post.addHeader(new BasicHeader("Range", "bytes=" + start + "-"
 					+ end));
-
+			long startTime = 0;
 			try {
 				HttpResponse response = client.execute(post);
 				InputStream in = response.getEntity().getContent();
 				int code = response.getStatusLine().getStatusCode();
-				if (code != 200) {
+				if (code != 200 && code != 206) {
 					System.out.println("下载失败");
 					return;
 				}
@@ -88,7 +116,8 @@ public class DownloadHttpClient2 {
 				raf.seek(start);
 				int len;
 				byte[] buffer = new byte[1024];
-				while (start > end && isContiue) {
+				startTime = System.currentTimeMillis();
+				while (start < end && isContinue) {
 					len = in.read(buffer);
 					raf.write(buffer, 0, len);
 					start += len;
@@ -121,7 +150,9 @@ public class DownloadHttpClient2 {
 					}
 				}
 				if (count == THREAD_COUNT) {
+					long endTime = System.currentTimeMillis();
 					System.out.println(FILENAME + "下载完成");
+					System.out.println(endTime - startTime + "ms");
 					File file = new File(DEST_PATH + RECORD_FILENAME);
 					if (file.exists()) {
 						file.delete();// 删除记录文件
