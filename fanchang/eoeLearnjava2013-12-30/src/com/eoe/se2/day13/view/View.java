@@ -58,7 +58,7 @@ public class View {
 		this.backgorund = backgorund;
 	}
 
-	private int getCount() {
+	static private int getCount() {
 		return 4;
 	}
 
